@@ -76,29 +76,29 @@ We’ll use regression-based machine learning models like linear regression or r
 <thead>
   <tr>
     <th class="tg-0lax">Teammate</th>
-    <th class="tg-0lax">TODOs</th>
+    <th class="tg-0lax">Tasks</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">Matea </td>
-    <td class="tg-0lax">  </td>
+    <td class="tg-0lax"> Loading and cleaning the data set <br> Write the README  <br> Q1 and Q5 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Stefan </td>
-    <td class="tg-0lax">  </td>
+    <td class="tg-0lax"> Loading and cleaning the data set <br> Develop the datastory webpage <br> Q1 and Q6 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Bojan </td>
-    <td class="tg-0lax">  </td>
+    <td class="tg-0lax"> Create meaningful visualizations <br> Develop the datastory webpage <br> Q3 and Q4 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Mikolaj </td>
-    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> Loading and cleaning the data set <br> Code and text revision <br> Q2 and Q5 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Wiam </td>
-    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> Develop the datastory webpage <br> Write the README  <br> Q2 and Q4 </td>
   </tr>
 </tbody>
 </table>
