@@ -16,7 +16,7 @@
 
 - **Loading Data**: The IMDB, TMDB, CPI, and GDP datasets are loaded using `pandas`. Relative paths and column structures for each dataset are predefined to facilitate the process.
 - **Data Merging**: Data is merged using common keys such as `imdb_id`, `movie title`, `runtime`, and `release year`. This is done to combine rating information, budget details, and other important metadata.
-- **Data Cleaning**: Duplicates are identified and removed. Missing values are appropriately handled, either by removing them or replacing them with meaningful values depending on the context.
+- **Data Cleaning**: Duplicates are identified and removed. Missing values are appropriately handled by removing them since we are doing our analysis mainly on these values we don't take risks by replacing by other values.
 
 ### Data Analysis
 - **Exploratory Data Analysis **: Exploratory analyses are conducted using `seaborn` and `matplotlib` to visualize data distributions and identify trends and outliers.
