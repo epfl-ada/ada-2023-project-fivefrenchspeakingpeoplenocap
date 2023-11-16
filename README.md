@@ -3,6 +3,19 @@
 ## Abstract
 
 ## 🔎Research Questions
+1. **Inflation and Trends in the Movie Industry**
+- When adjusted for inflation, how does the revenue of older movies compare to recent modern movies?
+- Is there a notable trend in the budget of movies over the years when considering inflation?
+2. **Global Economic Growth and its Influence on the Movie Industry**
+- What is the relationship between global economic indicators (like GDP) and movie's gross revenue? Are there regional differences?
+3. **Determinants of a Movie's Financial Success**
+- How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
+4. **Influence of Global Events on the Movie Industry**
+- How have significant global events, such as the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
+5. **Correlation Between Movie Content and Financial Success**
+- Does the frequency of money-related words in movie plot summaries correlate with box office success? Are they more frequent after the Global Financial Crisis?
+6. **Predictive Analysis of Movie Revenue**
+Can a regression model using variables like budget, GDP, country, runtime, and release year effectively predict a movie's revenue? 
 
 ## 📊Proposed additional datasets 
 - [**IMDB Datasets**](https://developer.imdb.com/non-commercial-datasets/): We utilized two specific datasets from IMDB: `title.basics.tsv` and `title.ratings.tsv`, which include data for 10 million movies. These were merged with the CMU Movies dataset, by using the movie title, runtime, and release year as a key. This will enrich our primary dataset with the ratings for the movies, which will later be used for exploring the correlation between movie ratings and revenue. 
@@ -19,7 +32,7 @@
 - **Data Cleaning**: Duplicates are identified and removed. Missing values are appropriately handled by removing them since we are doing our analysis mainly on these values we don't take risks by replacing by other values.
 
 ### Data Analysis
-- **Exploratory Data Analysis **: Exploratory analyses are conducted using `seaborn` and `matplotlib` to visualize data distributions and identify trends and outliers.
+- **Exploratory Data Analysis**: Exploratory analyses are conducted using `seaborn` and `matplotlib` to visualize data distributions and identify trends and outliers.
 - **Statistical Analysis**: Statistical analyses are performed to explore correlations between movie ratings, budgets, revenues, and economic trends. Statistical tests such as t-tests and regression analysis are used to study these relationships.
 - **Adjusting for Inflation**: The Consumer Price Index (CPI) is used to adjust film budget and revenue values for inflation, allowing for a fair comparison across movies from different years.
 
