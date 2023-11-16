@@ -20,17 +20,14 @@
 
 ### Data Loading and Preprocessing
 
-- **Loading Data**: The IMDB, TMDB, CPI, and GDP datasets are loaded using `pandas`. Relative paths and column structures for each dataset are predefined to facilitate the process.
-- **Data Merging**: Data is merged using common keys such as `imdb_id`, `movie title`, `runtime`, and `release year`. This is done to combine rating information, budget details, and other important metadata.
-- **Data Cleaning**: Duplicates are identified and removed. Missing values are appropriately handled by removing them since we are doing our analysis mainly on these values we don't take risks by replacing by other values.
+- **Loading Data**: The CMU, IMDB, TMDB, CPI, and GDP datasets are loaded using `pandas`. Relative paths and column structures for each dataset are predefined to facilitate the process.
+- **Data Merging**: Data is merged using common keys such as `imdb_id`, `movie title`, `runtime`, and `release year`. We are interested in adding information like the budget, ratings, cpi and gdp from the external datasets to enrich the CMU movies dataset.
+- **Data Cleaning**: This involved handling missing values, duplicates and irrelevant features.
 
 ### Data Analysis
-- **Exploratory Data Analysis**: Exploratory analyses are conducted using `seaborn` and `matplotlib` to visualize data distributions and identify trends and outliers.
 - **Statistical Analysis**: Statistical analyses are performed to explore correlations between movie ratings, budgets, revenues, and economic trends. Statistical tests such as t-tests and regression analysis are used to study these relationships.
 - **Adjusting for Inflation**: The Consumer Price Index (CPI) is used to adjust film budget and revenue values for inflation, allowing for a fair comparison across movies from different years.
 
-### Visualization and Insights
-- **Data Visualization**: Clear and informative visualizations are created to represent the trends and correlations discovered in the data.
 
 
 ## 🗓️Proposed timeline
