@@ -25,9 +25,13 @@
 - **Data Cleaning**: This involved handling missing values, duplicates and irrelevant features.
 
 ### Data Analysis
-- **Statistical Analysis**: Statistical analyses are performed to explore correlations between movie ratings, budgets, revenues, and economic trends. Statistical tests such as t-tests and regression analysis are used to study these relationships.
-- **Adjusting for Inflation**: The Consumer Price Index (CPI) is used to adjust film budget and revenue values for inflation, allowing for a fair comparison across movies from different years.
 
+- **Q1**: We will use the CPI to adjust film budget and revenue values for inflation, allowing for a fair comparison across movies from different years.
+- **Q2**: Mikolaj
+- **Q3**: Bojan
+- **Q4**: TODO Stef
+- **Q5**: TODO Stef
+- **Q6**: TODO
 
 
 ## 🗓️Proposed timeline
