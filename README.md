@@ -15,7 +15,7 @@
 5. **Correlation Between Movie Content and Financial Success**
 - Does the frequency of money-related words in movie plot summaries correlate with box office success? Are they more frequent after the Global Financial Crisis?
 6. **Predictive Analysis of Movie Revenue**
-Can a regression model using variables like budget, GDP, country, runtime, and release year effectively predict a movie's revenue? 
+- Can a regression model using variables like budget, GDP, country, runtime, and release year effectively predict a movie's revenue? 
 
 ## 📊Proposed additional datasets 
 - [**IMDB Datasets**](https://developer.imdb.com/non-commercial-datasets/): We utilized two specific datasets from IMDB: `title.basics.tsv` and `title.ratings.tsv`, which include data for 10 million movies. These were merged with the CMU Movies dataset, by using the movie title, runtime, and release year as a key. This will enrich our primary dataset with the ratings for the movies, which will later be used for exploring the correlation between movie ratings and revenue. 
