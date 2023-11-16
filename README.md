@@ -1,6 +1,7 @@
-# Title
+# Money Mov(i)es
 
-## Abstract
+## 💰Abstract
+Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its films will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
 
 ## 🔎Research Questions
 1. **Inflation and Trends in the Movie Industry**: When adjusted for inflation, how does the revenue of older movies compare to recent modern movies? Is there a notable trend in the budget of movies over the years when considering inflation?
@@ -75,29 +76,29 @@ We’ll use regression-based machine learning models like linear regression or r
 <thead>
   <tr>
     <th class="tg-0lax">Teammate</th>
-    <th class="tg-0lax">TODOs</th>
+    <th class="tg-0lax">Tasks</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">Matea </td>
-    <td class="tg-0lax">  </td>
+    <td class="tg-0lax"> Loading and cleaning the data set <br> Write the README  <br> Q1 and Q5 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Stefan </td>
-    <td class="tg-0lax">  </td>
+    <td class="tg-0lax"> Loading and cleaning the data set <br> Develop the datastory webpage <br> Q1 and Q6 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Bojan </td>
-    <td class="tg-0lax">  </td>
+    <td class="tg-0lax"> Create meaningful visualizations <br> Develop the datastory webpage <br> Q3 and Q4 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Mikolaj </td>
-    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> Loading and cleaning the data set <br> Code and text revision <br> Q2 and Q5 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Wiam </td>
-    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> Develop the datastory webpage <br> Write the README  <br> Q2 and Q4 </td>
   </tr>
 </tbody>
 </table>
