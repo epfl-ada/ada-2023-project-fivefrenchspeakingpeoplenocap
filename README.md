@@ -30,7 +30,7 @@
 First, we use the CPI to adjust movie budget and revenue values for inflation, allowing for a fair comparison across movies from different years. We then create line graphs to visually represent the trend of movie revenues and budgets over time. After splitting the movies into two groups, old and new, we test the normality in order to choose the right test for comparing the two groups. Since they do not follow a normal distribution, we perform a Mann–Whitney U test in order to see if there is a difference between the median values of the two groups.
 
 - **Q2: Global Economic Growth and its Influence on the Movie Industry**
-We’ll analyze the correlation between global economic indicators (like GDP) and movie gross revenues by calculating Pearson correlation coefficients. Additionally, we will compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
+We’ll analyze the correlation between global economic indicators (GDP) and movie gross revenues by calculating Pearson correlation coefficients. Additionally, we will compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
 
 - **Q3: Determinants of a Movie's Financial Success**
 Here we explore how different factors impact the movie’s financial success. First, we calculate the movie’s profit and return of investment as metrics of the success of a movie. We perform a Pearson and Spearman statistics test in order to quantify the relationship between budget and revenue. We use ANOVA to see if there are differences in the mean profit for the movies released in different years.
