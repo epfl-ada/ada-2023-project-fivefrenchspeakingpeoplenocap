@@ -25,7 +25,7 @@
 
 ### Visualization and Insights
 - **Data Visualization**: Clear and informative visualizations are created to represent the trends and correlations discovered in the data.
-- **Insights Generation**: Based on the a
+
 
 ## 🗓️Proposed timeline
 ```
