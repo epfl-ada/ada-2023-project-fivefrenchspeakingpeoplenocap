@@ -26,13 +26,24 @@
 
 ### Data Analysis
 
-- **Q1**: We will use the CPI to adjust film budget and revenue values for inflation, allowing for a fair comparison across movies from different years.
-- **Q2**: Mikolaj
-- **Q3**: Bojan
-- **Q4**: TODO Stef
-- **Q5**: TODO Stef
-- **Q6**: TODO
+- **Q1: Inflation and Trends in the Movie Industry**
+First, we use the CPI to adjust movie budget and revenue values for inflation, allowing for a fair comparison across movies from different years. We then create line graphs to visually represent the trend of movie revenues and budgets over time. After splitting the movies into two groups, old and new, we test the normality in order to choose the right test for comparing the two groups. Since they do not follow a normal distribution, we perform a Mann–Whitney U test in order to see if there is a difference between the median values of the two groups.
 
+- **Q2: Global Economic Growth and its Influence on the Movie Industry**
+We’ll analyze the correlation between global economic indicators (like GDP) and movie gross revenues by calculating Pearson correlation coefficients. Additionally, we will compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
+
+- **Q3: Determinants of a Movie's Financial Success**
+Here we explore how different factors impact the movie’s financial success. First, we calculate the movie’s profit and return of investment as metrics of the success of a movie. We perform a Pearson and Spearman statistics test in order to quantify the relationship between budget and revenue. We use ANOVA to see if there are differences in the mean profit for the movies released in different years.
+
+- **Q4: Influence of Global Events on the Movie Industry**
+In order to evaluate the impact of global events (like the 2007-2008 financial crisis) on movie budgets and revenues we will compare data before, during, and after the event.
+We’ll use statistical tests to determine if the differences (if any) pre- and post-event are significant.
+
+- **Q5: Correlation Between Movie Content and Financial Success**
+We’ll analyze the movie plot summaries for the frequency of money-related vocabulary using natural language processing (NLP) techniques in order to determine if there's a correlation between the frequency of certain words in movie plots and box office success. Additionally, we will compare the frequency of such words in movies made before and after the global financial crisis.
+
+- **Q6: Predictive Analysis of Movie Revenue**
+We’ll use regression-based machine learning models like linear regression or random forest, to predict movie revenues based on the movies’s features. To ensure the model's reliability, we can use cross-validation. Additionally, we can do feature importance analysis to determine which variables are the most important predictors of revenue.
 
 ## 🗓️Proposed timeline
 ```
@@ -41,17 +52,17 @@
 │  
 ├── 06.11.23 - 12.11.23 - Data handling and merging
 │  
-├── 13.11.23 - 17.11.23 - 
+├── 13.11.23 - 17.11.23 - Q1 & Q3
 │  
-├── 18.11.23 - 26.11.23 - Work on homework 2
+├── 18.11.23 - 26.11.23 - Work on Homework 2
 │  
-├── 27.11.23 - 03.12.23 - 
+├── 27.11.23 - 03.12.23 - Q2 & Q4 
 │    
-├── 04.12.23 - 10.12.23 - 
+├── 04.12.23 - 10.12.23 - Q5 & Q6
 │  
-├── 11.12.23 - 17.12.23 - 
+├── 11.12.23 - 17.12.23 -  Start datastory preparation and polish the code.
 │  
-├── 18.12.23 - 22.12.23 - 
+├── 18.12.23 - 22.12.23 - Final improvements and review on the datastory and code.
 
 ```
 
