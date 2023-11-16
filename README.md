@@ -56,13 +56,13 @@ We’ll use regression-based machine learning models like linear regression or r
 │  
 ├── 18.11.23 - 26.11.23 - Work on Homework 2
 │  
-├── 27.11.23 - 03.12.23 - Q2 & Q4 
+├── 27.11.23 - 03.12.23 - Q2 & Q4 and leftovers from P2 
 │    
 ├── 04.12.23 - 10.12.23 - Q5 & Q6
 │  
-├── 11.12.23 - 17.12.23 -  Start datastory preparation and polish the code.
+├── 11.12.23 - 17.12.23 - Start datastory preparation and polish the code
 │  
-├── 18.12.23 - 22.12.23 - Final improvements and review on the datastory and code.
+├── 18.12.23 - 22.12.23 - Final improvements and review on the datastory and code
 
 ```
 
