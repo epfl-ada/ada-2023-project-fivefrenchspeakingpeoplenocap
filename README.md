@@ -12,6 +12,12 @@
 
 ## 🧮Methods
 
+### Data Loading and Preprocessing
+- **Loading Data**: The IMDB, TMDB, CPI, and GDP datasets are loaded using `pandas`. Relative paths and column structures for each dataset are predefined to facilitate the process.
+- **Data Merging**: Data is merged using common keys such as `imdb_id`, `movie title`, `runtime`, and `release year`. This is done to combine rating information and budget details.
+- **Data Cleaning**: Duplicates are identified and removed. Missing values are appropriately handled, either by removing them or replacing them with meaningful values depending on the context.
+
+
 ## 🗓️Proposed timeline
 ```
 
