@@ -1,4 +1,4 @@
-import pandas as pdgit
+import pandas as pd
 
 def find_duplicates(df_or_list, subsets):
     """
