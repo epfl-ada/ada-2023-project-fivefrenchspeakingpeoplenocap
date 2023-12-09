@@ -1,19 +1,40 @@
 ---
 layout: default
-title: "The Impact of Climate Change"
+title: "I love Bojan"
 ---
+<div class="story-header">
+    <h1>The Impact of KURWA BOBER</h1>
+</div>
 
-# The Impact of Climate Change
+# I love Bojan
+PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO PIWO
 
-Your data story content goes here. You can format it with Markdown, including headings, paragraphs, and lists.
+## And Stefan 
 
-## Section Title
+[This song's mood slaps](https://youtu.be/AUHDbzCVK1E?si=9jNx17OTC5X39hu6)
+### And you girls
 
-Narrative content...
+<div id="myPlot" style="width:100%;height:400px;"></div>
+<script>
+    var trace1 = {
+        x: [1, 2, 3, 4],
+        y: [10, 15, 13, 17],
+        type: 'scatter'
+    };
 
-### Data Visualization
+    var layout = {
+        title: 'Relation of piwo to happiness',
+        xaxis: {
+            title: 'Piwo',
+        },
+        yaxis: {
+            title: 'Happiness'
+        }
+    };
 
-(Details about the data visualization or embed interactive elements)
+    Plotly.newPlot('myPlot', [trace1], layout);
+</script>
+
 
 ...
 
