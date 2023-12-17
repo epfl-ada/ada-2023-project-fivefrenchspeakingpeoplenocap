@@ -2,14 +2,16 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     background: #f4f4f4;
     color: #333;
+    text-align: center; /* Center align text */
 }
 
 .container {
     background: #fff;
     padding: 2em;
     margin: 2em auto;
-    max-width: 800px;
+    max-width: 800px; /* Keeps content centered */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left; /* Align text to left within the container */
 }
 
 h1, h2, h3 {
@@ -35,6 +37,21 @@ table {
     }
 }
 
+.story-header {
+    background: url('path_to_your_header_image.jpg') no-repeat center center; /* Update with your image path */
+    background-size: cover;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+
+    h1 {
+        margin: 0; 
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.6); 
+    }
+}
+
 footer {
     text-align: center;
     padding: 1em;
@@ -46,5 +63,9 @@ footer {
     .container {
         margin: 1em;
         padding: 1em;
+    }
+
+    .story-header {
+        height: 200px; /* Adjust header size for mobile */
     }
 }
