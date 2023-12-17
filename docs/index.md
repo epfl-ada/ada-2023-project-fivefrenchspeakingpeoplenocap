@@ -34,7 +34,7 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 
 [Interactive Revenue Plot Here]
 
-After adjusting for inflation, it's like watching a plot twist in the box office saga. Some classics are giving modern blockbusters a run for their money! For instance, when we adjust for inflation, "Titanic" sails past "Avatar" in terms of revenue. Check out this table:
+After adjusting for inflation, it's like watching a plot twist, pun intended. Some classics are giving modern blockbusters a run for their money! For instance, when we adjust for inflation, "Titanic" sails past "Avatar" in terms of revenue. Check out this table:
 
 | Title                           | Year | Revenue       | Revenue Adjusted |
 |---------------------------------|------|---------------|------------------|
