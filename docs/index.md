@@ -2,7 +2,9 @@
 layout: default
 title: "I love Bojan"
 ---
-<head><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 # Money Mov(i)es
 
@@ -31,10 +33,15 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 - **Current Value:** The original revenue or budget of the movie.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
+- 
+On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
 
-[Interactive Revenue Plot Here]
+<div id="revenueChart"></div>
 
-After adjusting for inflation, it's like watching a plot twist, pun intended. Some classics are giving modern blockbusters a run for their money! For instance, when we adjust for inflation, "Titanic" sails past "Avatar" in terms of revenue. Check out this table:
+<iframe src="{{ '/assets/revenue_over_time.html' | relative_url }}" width="100%" height="600" frameborder="0"></iframe>
+
+
+After adjusting for inflation, it's like watching a plot twist, pun intended. Some classics are giving modern blockbusters a run for their money! Check out this table:
 
 | Title                           | Year | Revenue       | Revenue Adjusted |
 |---------------------------------|------|---------------|------------------|
