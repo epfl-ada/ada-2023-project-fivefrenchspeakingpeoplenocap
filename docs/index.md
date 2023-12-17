@@ -3,9 +3,6 @@ layout: default
 title: "I love Bojan"
 ---
 
-<head><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</head>
-
 # Money Mov(i)es
 
 ## Introduction
@@ -38,7 +35,6 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 [Interactive Revenue Plot Here]
 
 After adjusting for inflation, it's like watching a plot twist in the box office saga. Some classics are giving modern blockbusters a run for their money! For instance, when we adjust for inflation, "Titanic" sails past "Avatar" in terms of revenue. Check out this table:
-<table class="styled-table">
 
 | Title                           | Year | Revenue       | Revenue Adjusted |
 |---------------------------------|------|---------------|------------------|
@@ -48,7 +44,6 @@ After adjusting for inflation, it's like watching a plot twist in the box office
 | Star Wars Episode IV: A New Hope| 1977 | $775.4 million | $2.937 billion   |
 | The Exorcist                    | 1973 | $441.1 million | $2.281 billion   |
 
-</table>
 
 Now, let's settle the debate: Are 'older' movies more successful than 'newer' ones? We're defining 'older' as pre-2000 and 'newer' as post-2000. Spoiler alert: The plot thickens as we look at the data!
 
