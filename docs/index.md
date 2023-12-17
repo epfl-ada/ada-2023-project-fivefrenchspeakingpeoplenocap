@@ -1,3 +1,4 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ---
 layout: default
 title: "I love Bojan"
@@ -25,23 +26,27 @@ As we journey through the glitz and glamour of the movie industry, let's take a 
 ### Understanding Inflation
 Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices. That's where the Consumer Price Index (CPI) comes into play. It's our financial time machine:
 
-  $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} $$
+$$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} $$
 
 - **Current Value:** The original revenue or budget of the movie.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
+
 [Interactive Revenue Plot Here]
 
 After adjusting for inflation, it's like watching a plot twist in the box office saga. Some classics are giving modern blockbusters a run for their money! For instance, when we adjust for inflation, "Titanic" sails past "Avatar" in terms of revenue. Check out this table:
+<table class="styled-table">
 
-| ID   | Title                           | Year | Revenue       | Revenue Adjusted |
-|------|---------------------------------|------|---------------|------------------|
-| 1990 | Titanic                         | 1997 | $2.185 billion | $3.126 billion   |
-| 637  | Love with the Proper Stranger   | 1963 | $415 million   | $3.111 billion   |
-| 2132 | Avatar                          | 2009 | $2.782 billion | $2.978 billion   |
-| 7103 | Star Wars Episode IV: A New Hope| 1977 | $775.4 million | $2.937 billion   |
-| 2122 | The Exorcist                    | 1973 | $441.1 million | $2.281 billion   |
+| Title                           | Year | Revenue       | Revenue Adjusted |
+|---------------------------------|------|---------------|------------------|
+| Titanic                         | 1997 | $2.185 billion | $3.126 billion   |
+| Love with the Proper Stranger   | 1963 | $415 million   | $3.111 billion   |
+| Avatar                          | 2009 | $2.782 billion | $2.978 billion   |
+| Star Wars Episode IV: A New Hope| 1977 | $775.4 million | $2.937 billion   |
+| The Exorcist                    | 1973 | $441.1 million | $2.281 billion   |
+
+</table>
 
 Now, let's settle the debate: Are 'older' movies more successful than 'newer' ones? We're defining 'older' as pre-2000 and 'newer' as post-2000. Spoiler alert: The plot thickens as we look at the data!
 
