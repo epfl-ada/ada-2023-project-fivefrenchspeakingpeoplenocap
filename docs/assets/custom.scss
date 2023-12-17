@@ -1,44 +1,26 @@
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     background: #f4f4f4;
     color: #333;
-    text-align: center; /* Center align text */
 }
 
 .container {
     background: #fff;
     padding: 2em;
     margin: 2em auto;
-    max-width: 800px; /* Keeps content centered */
+    max-width: 800px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: left; /* Align text to left within the container */
 }
 
-h1, h2, h3 {
-    font-family: 'Merriweather', serif;
-    color: #0077cc; /* Example primary color */
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-
-    th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
-    }
-
-    tr:hover {
-        background-color: #ddd;
-    }
+footer {
+    text-align: center;
+    padding: 1em;
 }
 
 .story-header {
-    background: url('path_to_your_header_image.jpg') no-repeat center center; /* Update with your image path */
+    background: url('images/bober.png') no-repeat center center;
     background-size: cover;
     height: 300px; 
     display: flex;
@@ -52,20 +34,7 @@ table {
     }
 }
 
-footer {
-    text-align: center;
-    padding: 1em;
-    background: #0077cc;
-    color: white;
-}
-
-@media screen and (max-width: 600px) {
-    .container {
-        margin: 1em;
-        padding: 1em;
-    }
-
-    .story-header {
-        height: 200px; /* Adjust header size for mobile */
-    }
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #0077cc; /* Example primary color */
 }
