@@ -32,7 +32,6 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
-
 [Interactive Revenue Plot Here]
 
 After adjusting for inflation, it's like watching a plot twist in the box office saga. Some classics are giving modern blockbusters a run for their money! For instance, when we adjust for inflation, "Titanic" sails past "Avatar" in terms of revenue. Check out this table:
@@ -47,4 +46,16 @@ After adjusting for inflation, it's like watching a plot twist in the box office
 
 
 ## Global Economic Growth and its Influence on the Movie Industry
+[Content for this section]
+
+## Determinants of a Movie's Financial Success
+[Content for this section]
+
+## Influence of Global Events on the Movie Industry
+[Content for this section]
+
+## Correlation Between Movie Content and Financial Success
+[Content for this section]
+
+## Predictive Analysis of Movie Revenue
 [Content for this section]
