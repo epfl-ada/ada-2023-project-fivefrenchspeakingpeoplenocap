@@ -45,19 +45,5 @@ After adjusting for inflation, it's like watching a plot twist in the box office
 | The Exorcist                    | 1973 | $441.1 million | $2.281 billion   |
 
 
-Now, let's settle the debate: Are 'older' movies more successful than 'newer' ones? We're defining 'older' as pre-2000 and 'newer' as post-2000. Spoiler alert: The plot thickens as we look at the data!
-
-[Histogram or Q-Q Plot Here]
-
-Our trusty Mann-Whitney U test will help us crack this case. If the p-value is less than 0.05, it's time for a plot twist: there's a significant difference between the old and new movies.
-
-### Mann-Whitney U Test Results
-- **Statistic:** 7,220,205.0
-- **P-Value:** 9.23e-18
-- **Median Revenue for Older Movies:** $28,111,512.43
-- **Median Revenue for Newer Movies:** $19,323,866.66
-
-With a p-value way less than our 0.05 threshold, the verdict is clear: _Older movies have a significantly higher median revenue than newer movies_ when adjusted for inflation. It seems like the classics aren't just golden in our hearts but also in the box office!
-
 ## Global Economic Growth and its Influence on the Movie Industry
 [Content for this section]
