@@ -95,7 +95,3 @@ Below is an example of a word map plot using Plotly:
         console.error('Error loading or parsing data', error);
     });
 </script>
-
-
-
-
