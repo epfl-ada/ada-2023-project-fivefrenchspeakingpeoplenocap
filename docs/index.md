@@ -77,13 +77,15 @@ In 2007 and 2008, the world faced a big financial crisis, shaking economies ever
 ### Did the 2007-2008 Global Financial Crisis influence movies' revenues?
 To uncover how the 2007-2008 Global Financial Crisis might have affected movie revenues, we'll look at the movies in three parts: movies released before, during, and after the crisis. Think of it as a three-act story in the world of movies.
 
-By plotting the average movie revenues for each period, our initial findings show a drop in revenues during the crisis. To dig deeper, we used an ANOVA test, showing us that these changes are significant - the revenues really did vary across these periods.
-
-If we take a closer look with a post-hoc analysis, we can reveal that the most noticeable change happened between the movies released before and during the crisis. This suggests that the financial crisis did have a notable impact on movie revenues. But, it's important to remember that this doesn't prove the crisis was the only reason for the change. Other factors could also have played a part. Just like in a movie, there's often more to the story than meets the eye.
+By plotting the average movie revenues for each period, our initial findings show a drop in revenues during the crisis. To dig deeper, we used an ANOVA test, showing us that these changes are significant - the revenues really did vary across these periods. If we take a closer look with a post-hoc analysis, we can reveal that the most noticeable change happened between the movies released before and during the crisis. This suggests that the financial crisis did have a notable impact on movie revenues. But, it's important to remember that this doesn't prove the crisis was the only reason for the change. Other factors could also have played a part. Just like in a movie, there's often more to the story than meets the eye.
 
 <iframe src="{{ '/assets/average_revenue_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 ### Was the budget of the movies affected by the 2007-2008 Gorldwide Financial Crisis?
+Next, we turn our focus to the budgets of movies in the same three periods: before, during, and after the 2007-2008 Global Financial Crisis. This time, we're curious to see if the crisis had any impact on how much was spent on making movies.
+
+Our initial plot shows something interesting: movie budgets seem to be slightly higher after the crisis. However, the overlapping confidence intervals suggest that these changes might not be significant, so we run an ANOVA test, just like we did for the revenues.
+The results showed no significant difference in movie budgets across these periods. Despite the slight ups and downs we see in the plot, statistically speaking the crisis didn't bring major changes in how much movies cost to make.
 <iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 ## Correlation Between Movie Content and Financial Success
