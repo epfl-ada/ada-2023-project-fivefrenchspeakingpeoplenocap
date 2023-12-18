@@ -45,15 +45,7 @@ Fun Fact: On average, a movie ticket in 1960 cost around $0.69, while the averag
 
 <iframe src="{{ '/assets/revenue_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-After adjusting for inflation, it's like watching a plot twist, pun intended. Some classics are giving modern blockbusters a run for their money! Check out this table:
-
-| Title                           | Year | Revenue       | Revenue Adjusted |
-|---------------------------------|------|---------------|------------------|
-| Titanic                         | 1997 | $2.185 billion | $3.126 billion   |
-| Love with the Proper Stranger   | 1963 | $415 million   | $3.111 billion   |
-| Avatar                          | 2009 | $2.782 billion | $2.978 billion   |
-| Star Wars Episode IV: A New Hope| 1977 | $775.4 million | $2.937 billion   |
-| The Exorcist                    | 1973 | $441.1 million | $2.281 billion   |
+After adjusting for inflation, it's like watching a plot twist (pun intended). Some classics are giving modern blockbusters a run for their money! Check out this table:
 
 <table>
   <tr><th>Title</th><th>Year</th><th>Revenue</th><th>Revenue Adjusted</th></tr>
@@ -83,6 +75,12 @@ As we trace the lines of both nominal and inflation-adjusted budgets, an intrigu
 In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earning. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
 
 ### Did the 2007-2008 Global Financial Crisis influence movies' revenues?
+To uncover how the 2007-2008 Global Financial Crisis might have affected movie revenues, we'll look at the movies in three parts: movies released before, during, and after the crisis. Think of it as a three-act story in the world of movies.
+
+By plotting the average movie revenues for each period, our initial findings show a drop in revenues during the crisis. To dig deeper, we used an ANOVA test, showing us that these changes are significant - the revenues really did vary across these periods.
+
+If we take a closer look with a post-hoc analysis, we can reveal that the most noticeable change happened between the movies released before and during the crisis. This suggests that the financial crisis did have a notable impact on movie revenues. But, it's important to remember that this doesn't prove the crisis was the only reason for the change. Other factors could also have played a part. Just like in a movie, there's often more to the story than meets the eye.
+
 <iframe src="{{ '/assets/average_revenue_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 ### Was the budget of the movies affected by the 2007-2008 Gorldwide Financial Crisis?
