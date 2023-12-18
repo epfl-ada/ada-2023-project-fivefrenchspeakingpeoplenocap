@@ -3,3 +3,6 @@ data/
 __pycache__
 .ipynb_checkpoints/
 temp/
+*.html
+*.png
+*.csv
