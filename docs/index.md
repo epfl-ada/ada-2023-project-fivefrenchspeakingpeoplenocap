@@ -38,8 +38,9 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
-Fun(not) Fact: On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
+Fun Fact: On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
 
+### When adjusted for inflation, how does the revenue of older movies compare to recent modern movies?
 <div id="revenueChart"></div>
 
 <iframe src="{{ '/assets/revenue_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
@@ -54,9 +55,18 @@ After adjusting for inflation, it's like watching a plot twist, pun intended. So
 | Star Wars Episode IV: A New Hope| 1977 | $775.4 million | $2.937 billion   |
 | The Exorcist                    | 1973 | $441.1 million | $2.281 billion   |
 
+<table>
+  <tr><th>Title</th><th>Year</th><th>Revenue</th><th>Revenue Adjusted</th></tr>
+  <tr><td>Titanic</td><td>1997</td><td>$2.185 billion</td><td>$3.126 billion</td></tr>
+  <tr><td>Love with the Proper Stranger</td><td>1963</td><td>$415 million</td><td>$3.111 billion</td></tr>
+  <tr><td>Avatar</td><td>2009</td><td>$2.782 billion</td><td>$2.978 billion</td></tr>
+  <tr><td>Star Wars Episode IV: A New Hope</td><td>1977</td><td>$775.4 million</td><td>$2.937 billion</td></tr>
+  <tr><td>The Exorcist</td><td>1973</td><td>$441.1 million</td><td>$2.281 billion</td></tr>
+</table>
+
 Ever heard of 'Love with the Proper Stranger'? Yeah, we haven't heard either, yet it beats movies like Avatar and Star Wars in revenue when adjusted for inflation. Quite the unexpected twist...
 
-## Is there a notable trend in the budget of movies over the years when considering inflation?
+### Is there a notable trend in the budget of movies over the years when considering inflation?
 As we've delved into the world of box office revenues, we've witnessed some surprising twists. But what about the money poured into making these cinematic masterpieces? Let's turn our spotlight to the budgets of these films. When we adjust for inflation, the plot thickens: the inflation-adjusted budgets consistently outpace the nominal budgets. This isn't just a trivial detail; it's a clear indicator of how inflation has been playing a significant role in the movie-making business over time.
 
 <iframe src="{{ '/assets/budget_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
@@ -69,8 +79,14 @@ As we trace the lines of both nominal and inflation-adjusted budgets, an intrigu
 ## Determinants of a Movie's Financial Success
 [Content for this section]
 
-## Influence of Global Events on the Movie Industry
-[Content for this section]
+## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
+In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earning. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
+
+### Did the 2007-2008 Global Financial Crisis influence movies' revenues?
+<iframe src="{{ '/assets/average_revenue_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+### Was the budget of the movies affected by the 2007-2008 Gorldwide Financial Crisis?
+<iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 ## Correlation Between Movie Content and Financial Success
 [Content for this section]
