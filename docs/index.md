@@ -98,7 +98,10 @@ Intriguing question right? We performed document retrieval using the universal s
 Okay, so now that we have successfully found the movies that are money related, we need to group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-<iframe src="{{ '/assets/money_movies_over_time_proportion.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+Next, we will compare the frequency of money-related movies to the overall number of movies produced each year. This will allow us to determine whether there is a significant increase in the proportion of money-related movies, rather than just an increase in absolute numbers, which could be due to an overall increase in movie production. The reason we chose this time frame is because we want to see the 
+effect of the 2008 financial crisis on the proportion of money related movies. If we look at a larger period there is the risk of other financial crises affecting the proportion of money related movies.
+
+<iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 From the graphs we can see that money-related movies tend to increase over the years. We can also see a spike in the number of money-related movies around 2008, which is the year of the Global Financial Crisis. This is expected since the crisis was a major event that affected the whole world and it is natural that it would be reflected in the movie industry as well. However notice that there is a lag from 1-2 years for the production of money-related movies to spike. This might be due to the fact that movies take 1-2 years from production to deployment. See [How Long Does It Take to Film a Movie?](https://www.backstage.com/magazine/article/how-long-does-it-take-to-film-a-movie-76171/). This is an interesting finding, since it shows that the financial crisis had an impact on the movie industry.
 
