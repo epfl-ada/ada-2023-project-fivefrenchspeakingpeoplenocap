@@ -66,7 +66,7 @@ As we've delved into the world of box office revenues, we've witnessed some surp
 As we trace the lines of both nominal and inflation-adjusted budgets, an intriguing pattern emerges. There's a discernible upward trajectory, revealing that the investments in high-budget movies have been steadily climbing over the decades. This trend raises some questions: What drives this continuous increase in movie budgets? Is it the pursuit of more "flashy" special effects, the cost of A-list stars, or the overall growth of the industry? 
 
 ## Global Economic Growth and its Influence on the Movie Industry
-<iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="300" frameborder="0"></iframe>
+<iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 ## Determinants of a Movie's Financial Success
 [Content for this section]
