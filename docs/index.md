@@ -3,8 +3,9 @@ layout: default
 title: "Money Mov(i)es"
 ---
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 </head>
 <div class="story-header">
     <h1>Money Mov(i)es</h1>
