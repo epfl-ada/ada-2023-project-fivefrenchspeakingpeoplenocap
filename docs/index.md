@@ -91,13 +91,16 @@ The results showed no significant difference in movie budgets across these perio
 ## Correlation Between Movie Content and Financial Success
 [Content for this section]
 ### Are money-related movies more frequent after the Global Financial Crisis?
-Intriguing question right? We performed document retrieval using the universal sentence encoder to embed the movie plots a query. We ended up extracting 1000 money-related movies. Below is the wordcloud for the money-related movies. This wordcloud shows the most frequent words in the plots of the movies that are related to money. We can see that words like 
-money, wealthy, life, financial, crime, business, are contained in the wordcloud.
+Intriguing question right? We performed document retrieval using the universal sentence encoder to embed the movie plots a query. We ended up extracting 1000 money-related movies. Below is the wordcloud for the money-related movies. This wordcloud shows the most frequent words in the plots of the movies that are related to money. We can see that words like money, wealthy, life, financial, crime, business.
 
 <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/98a3088a-c079-4fe3-b3cd-a7b5d855a081" width="100%">
 
 Okay, so now that we have successfully found the movies that are money related, we need to group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+<iframe src="{{ '/assets/money_movies_over_time_proportion.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+From the graphs we can see that money-related movies tend to increase over the years. We can also see a spike in the number of money-related movies around 2008, which is the year of the Global Financial Crisis. This is expected since the crisis was a major event that affected the whole world and it is natural that it would be reflected in the movie industry as well. However notice that there is a lag from 1-2 years for the production of money-related movies to spike. This might be due to the fact that movies take 1-2 years from production to deployment. See [How Long Does It Take to Film a Movie?](https://www.backstage.com/magazine/article/how-long-does-it-take-to-film-a-movie-76171/). This is an interesting finding, since it shows that the financial crisis had a significant impact on the movie industry.
 
 ## Predictive Analysis of Movie Revenue
 
