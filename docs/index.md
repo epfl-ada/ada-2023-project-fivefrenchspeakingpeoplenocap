@@ -102,8 +102,7 @@ We can see a clear spike after the year of 2008. Next, we will compare the frequ
 
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-From the graphs we can see that money-related movies tend to increase over the years. We can also see a spike in the number of money-related movies around 2008, which is the year of the Global Financial Crisis. This is expected since the crisis was a major event that affected the whole world and it is natural that it would be reflected in the movie industry as well. However notice that there is a lag from 1-2 years for the production of money-related movies to spike. This might be due to the fact that movies take 1-2 years from production to deployment. See [How Long Does It Take to Film a Movie?](https://www.backstage.com/magazine/article/how-long-does-it-take-to-film-a-movie-76171/). This is an interesting finding, since it shows that the financial crisis had an impact on the movie industry.
-
+Such a huge event shook the whole world, so it's no surprise it popped up in movies too. But here's something interesting – there's a bit of a delay, like 1-2 years, before we see a real jump in these money-themed movies. This delay might be because it takes a movie about 1-2 years from start to finish. It's like the financial crisis left its mark on the movie world, but it took a little while to show up on the big screen.
 ## Predictive Analysis of Movie Revenue
 
 [Content for this section]
