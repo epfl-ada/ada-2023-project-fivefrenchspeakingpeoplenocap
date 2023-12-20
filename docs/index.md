@@ -66,13 +66,31 @@ As we've delved into the world of box office revenues, we've witnessed some surp
 As we trace the lines of both nominal and inflation-adjusted budgets, an intriguing pattern emerges. There's a discernible upward trajectory, revealing that the investments in high-budget movies have been steadily climbing over the decades. This trend raises some questions: What drives this continuous increase in movie budgets? Is it the pursuit of more "flashy" special effects, the cost of A-list stars, or the overall growth of the industry? 
 
 ## Global Economic Growth and its Influence on the Movie Industry
+Gross Domestic Product (GDP) is the total cash value of everything produced within the nation - a true heartbeat of the country's economy. It's a great economic growth indicator because it tells us how healthy the economy is. When it comes to movies making bucks, GDP is a big deal. A high GDP means people have more money to spend on tickets and popcorn. This way we can see the impact that economic growth has on movie revenue, by comparing how well the two move together.
+
+We kick off, with a simple graph with relative yearly values of the world's GDP and mean movie revenue, spanning from 1960 to 2012. Our eyes are the primary sense that allows us to delve into the cinematic experience - and they can also help us quickly assess the relation between the two.
+
+<iframe src="{{ '/assets/world_gdp_vs_mean_movie_revenue.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+At first glance, this may look like a catastrophic flop. Something that would make a movie studio completely abandon the idea... But wait! Look at the correlations! Both Spearman and Pearson coefficients indicate a high level of correlation between the two time series and are backed, by p-values way smaller than 0.05. We can confidently say that even if the two are not moving tightly together, they still show similar behavior and like to either grow or shrink at the same time.
+
+Some John Doe can now wonder: "Hmm, okay... But nothing in life is this simple. There have to be some deviations from this relation. I can't believe that some random third-world country's GDP correlates with movie revenue the same as the cradle of the movie industry that the USA is". And it is a completely logical argument. We would expect that the correlation between GDP and movie revenue of rich countries will be bigger than countries that are still in the early development phase - they just have more money to spend on the entertainment industry.
+
+To try and unravel whether this common sense logic is true, we can move from the whole screen to separate pixels - zoom in to how the GDP of each of the countries correlates with movie revenue. 
+
 <iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. Whats even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly (*Star Wars* made it to Hungarian cinemas almost two years after it's official release). Let's take a closer look.
+
+<iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+After separating the correlations of the USSR, its satellite and aligned countries, and the rest of the world, we can see that the distributions are different. We also confirmed it, by the p-value of (oh, the irony) Kolmogorov-Smirnov test smaller than 0.05. It really looks like there are regional differences in how the GDP and movie revenue are related, and we have strong reasons to believe that it is a consequence of the soviet rule - thankfully, one of the most harmless ones.
 
 ## Determinants of a Movie's Financial Success
 [Content for this section]
 
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
-In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earning. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
+In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
 
 ### Did the 2007-2008 Global Financial Crisis influence movies' revenues?
 To uncover how the 2007-2008 Global Financial Crisis might have affected movie revenues, we'll look at the movies in three parts: movies released before, during, and after the crisis. Think of it as a three-act story in the world of movies.
