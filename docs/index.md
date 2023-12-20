@@ -90,6 +90,35 @@ After separating the correlations of the USSR, its satellite and aligned countri
 
 For some, movies are simply a gateway to entertainment, a captivating escape into different worlds and stories. Yet, for others, they're not just about the thrill of storytelling; they're a strategic avenue to make money, navigating the intricate balance between creativity and commerce. Can moviemakers, directors or investors shape the movie's financial destiny by tweaking certain factors? Let's find out!
 
+### Budget and Revenue
+While it's a piece of cake to separate low and high budget movies, don't let the numbers fool you into thinking financial success is a done deal. Movie magic is not just about fat wallets - it is about the right mix of many ingridients. In this section, we will specifically take a closer look at the relationship between budget and revenue. 
+
+First, let's take a look at the distribution of the budget and revenue and see how money moves at a high level.
+
+[ADD PLOT HERE]
+
+Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plots, it is clear that throwing in some extra bucks can make a big difference in rising the revenue. However, money is not infinite, and scoring a high revenue comes at scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
+
+[MAYBE ADD AMBER HEARD MEME]
+
+In order to measure the real financial success of a movie, we will introduce two additional metrics given the budget and revenue: Profit and Return of Investment. 
+
+### Profit
+
+[TODO]
+
+### ROI
+
+[TODO]
+
+### Runtime
+
+[TODO]
+
+### Ratings
+
+[TODO]
+
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
 In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
 
