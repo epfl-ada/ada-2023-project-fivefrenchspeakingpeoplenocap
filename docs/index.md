@@ -87,7 +87,8 @@ Now that is a very interesting picture. We see that there certainly are divergen
 After separating the correlations of the USSR, its satellite and aligned countries, and the rest of the world, we can see that the distributions are different. We also confirmed it, by the p-value of (oh, the irony) Kolmogorov-Smirnov test smaller than 0.05. It really looks like there are regional differences in how the GDP and movie revenue are related, and we have strong reasons to believe that it is a consequence of the soviet rule - thankfully, one of the most harmless ones.
 
 ## Determinants of a Movie's Financial Success
-[Content for this section]
+
+For some, movies are simply a gateway to entertainment, a captivating escape into different worlds and stories. Yet, for others, they're not just about the thrill of storytelling; they're a strategic avenue to make money, navigating the intricate balance between creativity and commerce. Can moviemakers, directors or investors shape the movie's financial destiny by tweaking certain factors? Let's find out!
 
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
 In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
