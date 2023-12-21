@@ -59,3 +59,45 @@ function toggleTables2() {
 // Create new dollar every 300 milliseconds
 setInterval(createDollar, 3000);
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Load the JSON file
+    fetch('/assets/queries.json')
+        .then(response => response.json())
+        .then(data => {
+            initializeDropdown(data);
+        });
+});
+
+function initializeDropdown(data) {
+    const selectElement = document.getElementById('querySelect');
+    for (const query in data) {
+        const option = document.createElement('option');
+        option.value = query;
+        option.textContent = query;
+        selectElement.appendChild(option);
+    }
+}
+
+function updateTable() {
+    const selectedQuery = document.getElementById('querySelect').value;
+    if (!selectedQuery) return;
+
+    fetch('/assets/queries.json')
+        .then(response => response.json())
+        .then(data => {
+            const tableData = data[selectedQuery];
+            const tbody = document.getElementById('resultsTable').getElementsByTagName('tbody')[0];
+            tbody.innerHTML = ''; // Clear existing rows
+
+            // Populate the table with new data
+            tableData.forEach(movie => {
+                const row = tbody.insertRow();
+                const titleCell = row.insertCell(0);
+                const scoreCell = row.insertCell(1);
+                titleCell.textContent = movie.title;
+                scoreCell.textContent = movie.similarity_score.toFixed(4); // Formatting the score
+            });
+        });
+}
+
