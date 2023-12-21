@@ -115,9 +115,9 @@ The aim is to maximize the profit, but if the movie is a flop and generates less
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
-<button onclick="toggleTables()">Toggle Tables</button>
+<button id="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
 <table id="table1">
-  <caption>Movies with Profit</caption>
+  <caption>Highest Profit</caption>
   <tr>
     <th>Title</th>
     <th>Year</th>
@@ -127,37 +127,37 @@ Let's discover some movies that have made it to the top and bottom of the profit
   <tr>
     <td>Titanic</td>
     <td>1997</td>
-    <td>2.839764e+09</td>
+    <td>2.83B</td>
     <td>7.9</td>
   </tr>
   <tr>
     <td>The Sound of Music</td>
     <td>1965</td>
-    <td>2.025826e+09</td>
+    <td>2.02B</td>
     <td>8.1</td>
   </tr>
   <tr>
     <td>Jurassic Park</td>
     <td>1993</td>
-    <td>1.353630e+09</td>
+    <td>1.35B</td>
     <td>8.2</td>
   </tr>
   <tr>
-    <td>The Lord of the Rings: The Two Towers</td>
+    <td>Lord of the Rings: The Two Towers</td>
     <td>2002</td>
-    <td>1.081178e+09</td>
+    <td>1.08B</td>
     <td>8.8</td>
   </tr>
   <tr>
     <td>Finding Nemo</td>
     <td>2003</td>
-    <td>1.032297e+09</td>
+    <td>1.03B</td>
     <td>8.2</td>
   </tr>
 </table>
 
 <table id="table2" style="display: none;">
-  <caption>Movies with Loss</caption>
+  <caption>Highest Loss</caption>
   <tr>
     <th>Title</th>
     <th>Year</th>
@@ -167,31 +167,31 @@ Let's discover some movies that have made it to the top and bottom of the profit
   <tr>
     <td>The Alamo</td>
     <td>2004</td>
-    <td>-1.448673e+08</td>
+    <td>-1.44M</td>
     <td>6.0</td>
   </tr>
   <tr>
     <td>The 13th Warrior</td>
     <td>1999</td>
-    <td>-1.354905e+08</td>
+    <td>-1.35M</td>
     <td>6.6</td>
   </tr>
   <tr>
     <td>The Adventures of Pluto Nash</td>
     <td>2002</td>
-    <td>-1.185783e+08</td>
+    <td>-1.18M</td>
     <td>3.9</td>
   </tr>
   <tr>
     <td>Mars Needs Moms</td>
     <td>2011</td>
-    <td>-1.133044e+08</td>
+    <td>-1.13M</td>
     <td>5.4</td>
   </tr>
   <tr>
     <td>Town & Country</td>
     <td>2001</td>
-    <td>-1.032495e+08</td>
+    <td>-1.03M</td>
     <td>4.5</td>
   </tr>
 </table>

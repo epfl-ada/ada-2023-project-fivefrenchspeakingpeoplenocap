@@ -149,3 +149,19 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\\201C""\\201D""\\2018""\\2019";
 }
+
+#tablebutton {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+#tablebutton:hover {
+      background-color: #45a049;
+    }
