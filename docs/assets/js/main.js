@@ -61,12 +61,19 @@ function initializeDropdown(data) {
 
 function updateTable() {
     const selectedQuery = document.getElementById('querySelect').value;
-    if (!selectedQuery) return;
+    console.log('Selected Query:', selectedQuery); // Debug log
 
-    fetch('/assets/queries.json')
+    if (!selectedQuery) {
+        console.log('No query selected');
+        return;
+    }
+
+    fetch('/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/queries.json')
         .then(response => response.json())
         .then(data => {
             const tableData = data[selectedQuery];
+            console.log('Table data:', tableData); // Debug log
+
             const tbody = document.getElementById('resultsTable').getElementsByTagName('tbody')[0];
             tbody.innerHTML = ''; // Clear existing rows
 
@@ -78,7 +85,9 @@ function updateTable() {
                 titleCell.textContent = movie.title;
                 scoreCell.textContent = movie.similarity_score.toFixed(4); // Formatting the score
             });
-            console.log('Table updated for query:', selectedQuery); // Debug log
+        })
+        .catch(error => {
+            console.error('Error updating table:', error);
         });
 }
 
