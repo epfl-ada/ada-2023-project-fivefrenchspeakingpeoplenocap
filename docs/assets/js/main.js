@@ -83,7 +83,7 @@ function updateTable() {
     const selectedQuery = document.getElementById('querySelect').value;
     if (!selectedQuery) return;
 
-    fetch('/assets/queries.json')
+    fetch('../assets/queries.json')
         .then(response => response.json())
         .then(data => {
             const tableData = data[selectedQuery];
