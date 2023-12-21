@@ -1,6 +1,11 @@
 ---
 ---
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Lora', sans-serif; 
     margin: 0;
@@ -59,6 +64,8 @@ tr:hover {background-color: #ddd;}
     justify-content: center;
     align-items: center;
     color: white;
+    margin-left: -250px;
+    margin-right: -250px;
 
     h1 {
         margin: 0; 
