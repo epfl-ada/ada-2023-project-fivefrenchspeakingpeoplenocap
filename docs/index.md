@@ -160,9 +160,8 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
   <!-- Display result -->
   <p id="result"></p>
 </form>
-
 ?
-<script src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/docs/assets/js/check_form.js"></script>
+<script src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/tree/f441079c797d4ab1ca36577910974614a77c22f3/docs/assets/js/check_form.js"></script>
 
 ### ROI
 
