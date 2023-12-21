@@ -5,8 +5,9 @@ title: "Money Mov(i)es"
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/blob/page/docs/assets/js/main.js"></script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 </head>
 <div class="story-header">
     <h1>Money Mov(i)es</h1>
