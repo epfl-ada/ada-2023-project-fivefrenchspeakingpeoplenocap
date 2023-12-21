@@ -88,13 +88,10 @@ tr:hover {background-color: #ddd;}
 
 
 .dollar {
-    width: 90px; 
+    width: 80px; 
     height: 30px;  
-    background-image: url('path-to-your-dollar-image.png');
     background-size: cover;
-    position: absolute;
-    animation: fall linear infinite;
-    
+    position: flex;
     background-image: url('images/dolar.png'); 
     background-size: cover;
     animation: fall linear infinite;
