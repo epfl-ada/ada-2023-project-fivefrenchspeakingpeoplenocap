@@ -73,9 +73,12 @@ tr:hover {background-color: #ddd;} /* Hover effect for rows */
 }
 
 .dollar {
+    width: 100px;  /* Adjust size as needed */
+    height: 40px;  /* Adjust size as needed */
+    background-image: url('path-to-your-dollar-image.png');
+    background-size: cover;
     position: absolute;
-    width: 50px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
+    animation: fall linear infinite;
     
     background-image: url('images/dolar.png'); /* Path to your dollar bill image */
     background-size: cover;
