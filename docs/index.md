@@ -115,7 +115,86 @@ The aim is to maximize the profit, but if the movie is a flop and generates less
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
-[ADD 2 TABLES HERE]
+<button onclick="toggleTables()">Toggle Tables</button>
+<table id="table1">
+  <caption>Movies with Profit</caption>
+  <tr>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Profit</th>
+    <th>IMDb Rating</th>
+  </tr>
+  <tr>
+    <td>Titanic</td>
+    <td>1997</td>
+    <td>2.839764e+09</td>
+    <td>7.9</td>
+  </tr>
+  <tr>
+    <td>The Sound of Music</td>
+    <td>1965</td>
+    <td>2.025826e+09</td>
+    <td>8.1</td>
+  </tr>
+  <tr>
+    <td>Jurassic Park</td>
+    <td>1993</td>
+    <td>1.353630e+09</td>
+    <td>8.2</td>
+  </tr>
+  <tr>
+    <td>The Lord of the Rings: The Two Towers</td>
+    <td>2002</td>
+    <td>1.081178e+09</td>
+    <td>8.8</td>
+  </tr>
+  <tr>
+    <td>Finding Nemo</td>
+    <td>2003</td>
+    <td>1.032297e+09</td>
+    <td>8.2</td>
+  </tr>
+</table>
+
+<table id="table2" style="display: none;">
+  <caption>Movies with Loss</caption>
+  <tr>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Profit</th>
+    <th>IMDb Rating</th>
+  </tr>
+  <tr>
+    <td>The Alamo</td>
+    <td>2004</td>
+    <td>-1.448673e+08</td>
+    <td>6.0</td>
+  </tr>
+  <tr>
+    <td>The 13th Warrior</td>
+    <td>1999</td>
+    <td>-1.354905e+08</td>
+    <td>6.6</td>
+  </tr>
+  <tr>
+    <td>The Adventures of Pluto Nash</td>
+    <td>2002</td>
+    <td>-1.185783e+08</td>
+    <td>3.9</td>
+  </tr>
+  <tr>
+    <td>Mars Needs Moms</td>
+    <td>2011</td>
+    <td>-1.133044e+08</td>
+    <td>5.4</td>
+  </tr>
+  <tr>
+    <td>Town & Country</td>
+    <td>2001</td>
+    <td>-1.032495e+08</td>
+    <td>4.5</td>
+  </tr>
+</table>
 
 You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
