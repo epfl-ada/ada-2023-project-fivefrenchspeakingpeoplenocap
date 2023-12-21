@@ -143,3 +143,9 @@ tr:hover {background-color: #ddd;}
   color: #333;
 }
 
+blockquote {
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 0.5em 10px;
+  quotes: "\\201C""\\201D""\\2018""\\2019";
+}
