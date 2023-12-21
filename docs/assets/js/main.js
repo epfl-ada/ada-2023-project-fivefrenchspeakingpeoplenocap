@@ -21,7 +21,7 @@ function createDollar() {
     const windowThird = window.innerWidth / 3;
     const randomPosition = Math.random() * window.innerWidth;
     dollar.style.left = (randomPosition < windowThird || randomPosition > 2 * windowThird) ? randomPosition + 'px' : (2 * windowThird) + 'px';
-
+    dollar.style.setProperty('--rotate-duration', Math.random() * 2 + 1 + 's'); // Randomize rotate speed
     dollar.style.animationDuration = Math.random() * 3 + 2 + 's'; // Randomize fall speed
     document.getElementById('fallingDollars').appendChild(dollar);
 
