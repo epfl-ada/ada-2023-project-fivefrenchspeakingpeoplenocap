@@ -62,7 +62,7 @@ setInterval(createDollar, 3000);
 
 document.addEventListener('DOMContentLoaded', function() {
     // Load the JSON file
-    fetch('/assets/queries.json')
+    fetch('../queries.json')
         .then(response => response.json())
         .then(data => {
             initializeDropdown(data);
