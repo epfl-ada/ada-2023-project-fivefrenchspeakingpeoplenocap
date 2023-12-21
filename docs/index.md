@@ -104,6 +104,42 @@ Even though the budget is not the only deciding factor, it is one of the key ing
 In order to measure the real financial success of a movie, we will introduce two additional metrics given the budget and revenue: Profit and Return of Investment. 
 
 ### Profit
+In this analysis, we define profit as the difference between the revenue and the budget. We are aware that other factors influence the profit of a movie, such as overpriced merch or streaming rights (unless you enjoy living on the edge and torrenting movies). However, we will not take these factors into account, as they are not available in our dataset.
+
+[ADD PROFIT FORMULA]
+
+The aim is to maximize the profit, but if the movie is a flop and generates less revenue than the budget, the moviemakers can go home and cry in the corner with their empty pockets. Though, some get lucky and manage to obtain high numbers in profit and then go cool off on Bora Bora.
+
+Let's discover some movies that have made it to the top and bottom of the profit charts.
+
+[ADD 2 TABLES HERE]
+
+You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
+
+Now, check this out! The top dogs have an impressive average rating on IMDB, a cool 8.36. People love them. But those struggling movies down below? Not so much. Their average rating is a meh 5.28. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
+
+#### A paradox?
+Maybe by now you have noticed the contradiction: we claimed that budget and revenue have a love story going on and are positively correlated, but yet some movies make a negative profit. How could this be possible? In the beginning we had also mentioned that budget is not the only factor in determening the revenue. In fact, this is a love triangle (or maybe even octagon) where other factors, such as the movie genre or the cast, play a role in determining the profit as well. Therefore, do not jump straight into conclusion that you can become a moviemaker if you are rich - the risk is still very high to go bankrupt!
+
+[ADD BOX OFFICE BOMBS FUN FACT]
+
+#### Profit Trend Over Time
+
+Now that we have a better understanding of the profit, let's take a look at how it has evolved over time. We will plot the average profit of movies released in each year. Should we expect to see more movies with higher profit in the future?
+
+[ADD PLOT HERE]
+
+Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
+
+[ADD NUMBERS HERE]
+
+The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as they year with the highest average profit. Just 4 years before, we have the lowest average, declaring 1961 as the sad year for the movie industry.
+
+But, does the year of release for a movie statistically and significantly influence the profit? We perform a one-way ANOVA test and impose the null hypothesis as following:
+
+$H_0$: *The average profit is the same for all years.*
+
+What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now.
 
 [TODO]
 
