@@ -425,12 +425,15 @@ The results showed no significant difference in movie budgets across these perio
 
 ## Correlation Between Movie Content and Financial Success
 ### Are money-related movies more frequent after the Global Financial Crisis?
-Intriguing question right? We performed document retrieval using the universal sentence encoder to embed the movie plots a query. That led us to find 1000 movies related to money. Select a query and get the top 5 most similar movies displayed.
+Intriguing question right? We performed document retrieval using the Universal Sentence Encoder to embed the movie plots a query. Our journey through cinematic narratives led us to discover 1000 money-related movies. Now, it's your turn to explore:
+
 <!-- Dropdown for selecting a query -->
 <select id="querySelect" onchange="updateTable()">
     <option value="">Select a Query</option>
     <!-- JavaScript will populate this -->
 </select>
+
+Whether it’s the dramatic shifts in economic fortunes or the ethical dilemmas of financial decisions, each selected theme offers a unique window into how money shapes stories on the silver screen.
 
 <!-- Table to display results -->
 <table id="resultsTable">
@@ -450,8 +453,8 @@ Here's a word cloud showing the most common words in these money-themed movie pl
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f93018ee-1c12-4ce4-9140-b965a3bf1c4d" width="70%"> </center>
 
-
 Okay, so now that we have successfully found the movies that are money related, we need to group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
+
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 We can see a clear spike after the year of 2008. Next, we will compare the frequency of money-related movies to the overall number of movies produced each year.This way, we can figure out if there's really an uptick in the share of these money movies, or if it's just a side effect of more movies being made in general.  We're focusing on the post-2008 era because we're super curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period other financial ups and downs might muddle the picture we're trying to get.
