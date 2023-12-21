@@ -32,7 +32,7 @@ As we journey through the glitz and glamour of the movie industry, let's take a 
 ### Understanding Inflation
 Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices. That's where the Consumer Price Index (CPI) comes into play. It's our financial time machine:
 
-<center> <p>\( \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} \)</p> </center>
+<p>\( \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} \)</p>
 
 - **Current Value:** The original revenue or budget of the movie.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
@@ -115,11 +115,7 @@ The aim is to maximize the profit, but if the movie is a flop and generates less
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
-<<<<<<< HEAD
-<button class="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
-=======
-<center> <button id="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button> </center>
->>>>>>> b6238bf38cf19817248907f958977ebfa624e9a4
+<button id="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
 <table id="table1">
   <caption>Highest Profit</caption>
   <tr>
