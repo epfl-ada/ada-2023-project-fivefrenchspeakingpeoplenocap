@@ -17,15 +17,12 @@ function createDollar() {
     const dollar = document.createElement('div');
     dollar.classList.add('dollar');
 
-    // Set random position, rotation, and scale
+    // Divide the window into three sections and place dollars in the left and right sections
+    const windowThird = window.innerWidth / 3;
     const randomPosition = Math.random() * window.innerWidth;
-    const randomRotation = Math.random() * 360; // Rotation in degrees
-    const randomScale = 0.5 + Math.random(); // Scale, between 0.5 and 1.5
+    dollar.style.left = (randomPosition < windowThird || randomPosition > 2 * windowThird) ? randomPosition + 'px' : (2 * windowThird) + 'px';
 
-    dollar.style.left = randomPosition + 'px';
-    dollar.style.transform = `rotate(${randomRotation}deg) scale(${randomScale})`;
     dollar.style.animationDuration = Math.random() * 3 + 2 + 's'; // Randomize fall speed
-
     document.getElementById('fallingDollars').appendChild(dollar);
 
     // Remove dollar after it falls out of view
@@ -36,3 +33,4 @@ function createDollar() {
 
 // Create new dollar every 300 milliseconds
 setInterval(createDollar, 1000);
+
