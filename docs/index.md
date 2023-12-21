@@ -208,30 +208,3 @@ Such a huge event shook the whole world, so it's no surprise it popped up in mov
 ## Predictive Analysis of Movie Revenue
 
 [Content for this section]
-<div id="continentMap" style="width:100%;height:500px;"></div>
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script>
-    // Example data - replace this with your actual data source
-    var data = [{
-        type: 'choropleth',
-        locationmode: 'continent names', // Use continent names as locations
-        locations: ['Asia', 'Europe', 'Africa', 'North America', 'South America', 'Oceania', 'Antarctica'],
-        z: [4.6, 0.74, 1.3, 0.59, 0.43, 0.04, 0.001], // Sample data
-        text: ['Asia', 'Europe', 'Africa', 'North America', 'South America', 'Oceania', 'Antarctica'],
-        colorscale: 'Viridis',
-        autocolorscale: false
-    }];
-
-    var layout = {
-        title: 'Sample Data by Continent',
-        geo: {
-            showframe: false,
-            showcoastlines: false,
-            projection: {
-                type: 'equirectangular'
-            }
-        }
-    };
-
-    Plotly.newPlot('continentMap', data, layout);
-</script>
