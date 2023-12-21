@@ -94,4 +94,53 @@ tr:hover {background-color: #ddd;}
     100% { top: 100vh; }
 }
 
+/* General form styling */
+#inputForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Label styling */
+#inputForm label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Text input styling */
+#inputForm input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+/* Button styling */
+#inputForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#inputForm button:hover {
+  background-color: #45a049;
+}
+
+/* Result paragraph styling */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
 
