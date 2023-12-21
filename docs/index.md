@@ -424,9 +424,28 @@ The results showed no significant difference in movie budgets across these perio
 <iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 ## Correlation Between Movie Content and Financial Success
-[Content for this section]
 ### Are money-related movies more frequent after the Global Financial Crisis?
-Intriguing question right? We performed document retrieval using the universal sentence encoder to embed the movie plots a query. That led us to find 1000 movies related to money. Here's a word cloud showing the most common words in these money-themed movie plots. You'll notice that words like 'money', 'wealthy', 'life', 'financial', 'crime', and 'business' pop up a lot.
+Intriguing question right? We performed document retrieval using the universal sentence encoder to embed the movie plots a query. That led us to find 1000 movies related to money. Select a query and get the top 5 most similar movies displayed.
+<!-- Dropdown for selecting a query -->
+<select id="querySelect" onchange="updateTable()">
+    <option value="">Select a Query</option>
+    <!-- JavaScript will populate this -->
+</select>
+
+<!-- Table to display results -->
+<table id="resultsTable">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Similarity Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- JavaScript will populate this -->
+    </tbody>
+</table>
+
+Here's a word cloud showing the most common words in these money-themed movie plots. You'll notice that words like 'money', 'wealthy', 'life', 'financial', 'crime', and 'business' pop up a lot.
 
 <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/c9475360-fdac-404f-ac2d-3e2324c1968a" width="100%">
 
