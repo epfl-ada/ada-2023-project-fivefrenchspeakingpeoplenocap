@@ -31,41 +31,21 @@ function createDollar() {
     }, 5000);
 }
 
-function toggleTables() {
-    const table1 = document.getElementById('table1');
-    const table2 = document.getElementById('table2');
-
-    if (table1.style.display === 'none') {
-      table1.style.display = 'table';
-      table2.style.display = 'none';
-    } else {
-      table1.style.display = 'none';
-      table2.style.display = 'table';
-    }
-  }
-function toggleTables2() {
-    const table1 = document.getElementById('table11');
-    const table2 = document.getElementById('table22');
-
-    if (table1.style.display === 'none') {
-      table1.style.display = 'table';
-      table2.style.display = 'none';
-    } else {
-      table1.style.display = 'none';
-      table2.style.display = 'table';
-    }
-  }
-
-// Create new dollar every 300 milliseconds
-setInterval(createDollar, 3000);
-
-
 document.addEventListener('DOMContentLoaded', function() {
     // Load the JSON file
-    fetch('../queries.json')
-        .then(response => response.json())
+    fetch('/assets/queries.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log('Data loaded:', data); // Debug log
             initializeDropdown(data);
+        })
+        .catch(error => {
+            console.error('Fetch error:', error); // Error log
         });
 });
 
@@ -77,13 +57,14 @@ function initializeDropdown(data) {
         option.textContent = query;
         selectElement.appendChild(option);
     }
+    console.log('Dropdown initialized'); // Debug log
 }
 
 function updateTable() {
     const selectedQuery = document.getElementById('querySelect').value;
     if (!selectedQuery) return;
 
-    fetch('../queries.json')
+    fetch('/assets/queries.json')
         .then(response => response.json())
         .then(data => {
             const tableData = data[selectedQuery];
@@ -98,6 +79,7 @@ function updateTable() {
                 titleCell.textContent = movie.title;
                 scoreCell.textContent = movie.similarity_score.toFixed(4); // Formatting the score
             });
+            console.log('Table updated for query:', selectedQuery); // Debug log
         });
 }
 
