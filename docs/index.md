@@ -195,7 +195,8 @@ The results showed no significant difference in movie budgets across these perio
 ### Are money-related movies more frequent after the Global Financial Crisis?
 Intriguing question right? We performed document retrieval using the universal sentence encoder to embed the movie plots a query. That led us to find 1000 movies related to money. Here's a word cloud showing the most common words in these money-themed movie plots. You'll notice that words like 'money', 'wealthy', 'life', 'financial', 'crime', and 'business' pop up a lot.
 
-<img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/tree/page/docs/assets/js/check_form.js" width="100%">
+![wordcloud](https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/c9475360-fdac-404f-ac2d-3e2324c1968a)
+
 
 Okay, so now that we have successfully found the movies that are money related, we need to group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
