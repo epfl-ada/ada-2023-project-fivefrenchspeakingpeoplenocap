@@ -162,8 +162,6 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
   <p id="result"></p>
 </form>
 
-<script> test() </script>
-
 ### ROI
 
 [TODO]
