@@ -51,8 +51,8 @@ tr:nth-child(even) {background-color: #f9f9f9;} /* Zebra striping for rows */
 tr:hover {background-color: #ddd;} /* Hover effect for rows */
 
 .story-header {
-    background: url('images/background.png') no-repeat center center;
-    background-size: cover;
+    background: url('images/background.png') no-repeat center center fixed; /* Adjusted */
+    background-size: 100% 300px; /* Stretches background across the width */
     height: 300px; 
     display: flex;
     justify-content: center;
