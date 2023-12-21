@@ -115,7 +115,7 @@ The aim is to maximize the profit, but if the movie is a flop and generates less
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
-<button id="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
+<center> <button id="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button> </center>
 <table id="table1">
   <caption>Highest Profit</caption>
   <tr>
