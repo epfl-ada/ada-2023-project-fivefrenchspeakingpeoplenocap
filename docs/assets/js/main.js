@@ -32,8 +32,7 @@ function createDollar() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Load the JSON file
-    fetch('/assets/queries.json')
+    fetch('/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/queries.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
