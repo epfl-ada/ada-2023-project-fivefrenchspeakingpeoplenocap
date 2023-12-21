@@ -2,10 +2,10 @@
 ---
 
 body {
-    font-family: 'Lora', sans-serif; // Using Roboto font
+    font-family: 'Lora', sans-serif; 
     margin: 0;
     padding: 0;
-    background: #fff; // Uniform background color
+    background: #fff; 
     color: #333;
     text-align: justify;
     text-justify: inter-word;
@@ -19,40 +19,40 @@ body {
     padding-top: 0;
     margin-top: 0;
     max-width: 800px;
-    background: #fff; // Making the container background transparent
+    background: #fff;
 }
 
 footer {
     text-align: center;
     padding: 1em;
-    background: #f4f4f4; // Matching the background with the body
+    background: #f4f4f4;
 }
 
 table {
-  width: 100%; /* Adjust the width as needed */
-  margin: auto; /* This centers the table */
-  border-collapse: collapse; /* Optional: removes gaps between cells */
-  font-family: Arial, sans-serif; /* Change font as needed */
+  width: 100%; 
+  margin: auto; 
+  border-collapse: collapse; 
+  font-family: Arial, sans-serif;
 }
 
 th, td {
-  border: 1px solid #ddd; /* Adds border to cells */
-  padding: 8px; /* Adjust padding inside cells */
-  text-align: left; /* Centers text in cells */
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: left; 
 }
 
 th {
-  background-color: #f2f2f2; /* Background color for headers */
-  color: black; /* Text color for headers */
+  background-color: #f2f2f2; 
+  color: black; 
 }
 
-tr:nth-child(even) {background-color: #f9f9f9;} /* Zebra striping for rows */
+tr:nth-child(even) {background-color: #f9f9f9;} 
 
-tr:hover {background-color: #ddd;} /* Hover effect for rows */
+tr:hover {background-color: #ddd;} 
 
 .story-header {
-    background: url('images/background.png') no-repeat center center fixed; /* Adjusted */
-    background-size: 100% 300px; /* Stretches background across the width */
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: 100% 300px; 
     height: 300px; 
     display: flex;
     justify-content: center;
@@ -72,20 +72,19 @@ tr:hover {background-color: #ddd;} /* Hover effect for rows */
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1; /* Keep it behind other content */
-    /* ... other styles ... */
+    z-index: -1; 
 }
 
 
 .dollar {
-    width: 90px;  /* Adjust size as needed */
-    height: 30px;  /* Adjust size as needed */
+    width: 90px; 
+    height: 30px;  
     background-image: url('path-to-your-dollar-image.png');
     background-size: cover;
     position: absolute;
     animation: fall linear infinite;
     
-    background-image: url('images/dolar.png'); /* Path to your dollar bill image */
+    background-image: url('images/dolar.png'); 
     background-size: cover;
     animation: fall linear infinite;
 }
