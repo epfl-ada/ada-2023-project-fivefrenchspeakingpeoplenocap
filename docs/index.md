@@ -38,7 +38,7 @@ Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
-<ins> Fun Fact </ins>: On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
+<q> Fun Fact: On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53. </ins>
 
 ### When adjusted for inflation, how does the revenue of older movies compare to recent modern movies?
 <div id="revenueChart"></div>
@@ -81,7 +81,9 @@ To try and unravel whether this common sense logic is true, we can move from the
 
 <iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. Whats even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly (*Star Wars* made it to Hungarian cinemas almost two years after it's official release). Let's take a closer look.
+Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. Whats even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly. Let's take a closer look.
+
+<q> Fun Fact Again: *Star Wars* made it to Hungarian cinemas almost two years after it's official release. </q> 
 
 <iframe src="{{ '/assets/gdp_revenue_correlation_ussr.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
