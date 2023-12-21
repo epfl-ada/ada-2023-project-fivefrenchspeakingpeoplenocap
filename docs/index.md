@@ -115,7 +115,7 @@ The aim is to maximize the profit, but if the movie is a flop and generates less
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
-<button id="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
+<button class="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
 <table id="table1">
   <caption>Highest Profit</caption>
   <tr>
@@ -251,7 +251,48 @@ We can claim that ROI is a more representative metric of the success as it is a 
 
 Let's take a look at the movies with higest ROI. Will they be the same movies as the ones with highest profit?
 
-[ADD TABLE HERE]
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Year</th>
+      <th>ROI</th>
+      <th>IMDb Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Night of the Living Dead</td>
+      <td>1968</td>
+      <td>36742.10</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <td>Mad Max</td>
+      <td>1979</td>
+      <td>24900.00</td>
+      <td>6.8</td>
+    </tr>
+    <tr>
+      <td>Halloween</td>
+      <td>1978</td>
+      <td>23233.33</td>
+      <td>7.7</td>
+    </tr>
+    <tr>
+      <td>Rocky</td>
+      <td>1976</td>
+      <td>22400.00</td>
+      <td>8.1</td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td>1970</td>
+      <td>18125.71</td>
+      <td>6.8</td>
+    </tr>
+  </tbody>
+</table>
 
 The first observation is that these movies do not match with the highest-profit ones. These movies did more with less. Despite having possibly smaller budgets, they rocked a way higher ROI than the big-budget blockbusters. This is due to the fact that ROI is relative measure of success or failure in terms of percentage of the original investment, rather than an absolute one. It goes to show, it's not just about the money you throw in – smart moves and clever choices play a killer role in a movie's financial success.
 
@@ -282,8 +323,84 @@ While the average rating across the years consistently swings between a respecta
 
 As a final exploration, we try to group the best and worst rated movies for each year and compare their profit gaps. How much financially better are the best rated movies compared to the worst rated movies?
 
-[ADD TABLES HERE]
+<button class="tablebutton" onclick="toggleTables2()">Toggle Profit/Loss</button>
+<table id="table11">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title (Best)</th>
+      <th>Title (Worst)</th>
+      <th>IMDb Rating (Best)</th>
+      <th>IMDb Rating (Worst)</th>
+      <th>Profit Gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1973</td>
+      <td>The Sting</td>
+      <td>The Crazies</td>
+      <td>8.3</td>
+      <td>6.1</td>
+      <td>1174.523892</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>Gladiator</td>
+      <td>Dungeons & Dragons</td>
+      <td>8.5</td>
+      <td>3.6</td>
+      <td>297.369699</td>
+    </tr>
+    <tr>
+      <td>1985</td>
+      <td>Back to the Future</td>
+      <td>Gymkata</td>
+      <td>8.5</td>
+      <td>4.3</td>
+      <td>131.752125</td>
+    </tr>
+  </tbody>
+</table>
 
+<table id="table22" style="display: none">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title (Best)</th>
+      <th>Title (Worst)</th>
+      <th>IMDb Rating (Best)</th>
+      <th>IMDb Rating (Worst)</th>
+      <th>Profit Gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2005</td>
+      <td>Serenity</td>
+      <td>BloodRayne</td>
+      <td>7.8</td>
+      <td>3.0</td>
+      <td>0.006114</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Warrior</td>
+      <td>Justin Bieber: Never Say Never</td>
+      <td>8.1</td>
+      <td>1.7</td>
+      <td>0.022739</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>The Shawshank Redemption</td>
+      <td>Street Fighter</td>
+      <td>9.3</td>
+      <td>4.0</td>
+      <td>0.051867</td>
+    </tr>
+  </tbody>
+</table>
 The gap in profits between the best and worst-rated movies is, on average, quite big – around 49 times. This means the top-rated movies make about 44 times more money than the lowest-rated ones. For example, in 1973, "The Sting" made a whopping 1174 times more profit than "The Crazies."
 
 Interestingly, there are times when low-rated movies make more money than high-rated ones. This might be because of other factors, like the popularity of the actors. In 2011, "Warrior" had a much higher rating than "Justin Bieber: Never Say Never," but it made way less money. That's because Justin Bieber's huge fanbase turned up to watch his movie, despite it not getting great reviews. It goes to show that sometimes, what critics say doesn't always match up with what audiences want to see. Never say never to earning some cash despite a low rating!
