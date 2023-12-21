@@ -75,7 +75,7 @@ tr:hover {background-color: #ddd;}
         margin: 0; 
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.6); 
     }
-}
+
 #fallingDollars {
     position: fixed;
     top: 0;
@@ -93,7 +93,7 @@ tr:hover {background-color: #ddd;}
     position: absolute;
     background-image: url('images/dolar.png'); 
     background-size: cover;
-    animation: fall linear infinite, rotateDollar;
+    animation: fall linear infinite;
 }
 
 @keyframes fall {
