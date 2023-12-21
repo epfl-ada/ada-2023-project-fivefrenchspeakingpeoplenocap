@@ -31,6 +31,7 @@ function createDollar() {
     }, 5000);
 }
 
+
 function toggleTables() {
     const table1 = document.getElementById('table1');
     const table2 = document.getElementById('table2');
@@ -56,8 +57,7 @@ function toggleTables2() {
     }
   }
 
-// Create new dollar every 300 milliseconds
-setInterval(createDollar, 3000);
+
 
 document.addEventListener('DOMContentLoaded', function() {
     fetch('/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/queries.json')
@@ -119,3 +119,5 @@ function updateTable() {
         });
 }
 
+// Create new dollar every 300 milliseconds
+setInterval(createDollar, 3000);
