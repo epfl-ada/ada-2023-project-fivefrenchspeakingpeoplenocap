@@ -1,6 +1,6 @@
 # Money Mov(i)es
 ## Data Story
-Visit our amazin website [here](https://epfl-ada.github.io/ada-2023-project-fivefrenchspeakingpeoplenocap/).
+Visit our website [here](https://epfl-ada.github.io/ada-2023-project-fivefrenchspeakingpeoplenocap/).
 
 
 ## 💰Abstract
