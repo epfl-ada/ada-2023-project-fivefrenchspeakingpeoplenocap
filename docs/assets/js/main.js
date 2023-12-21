@@ -31,6 +31,34 @@ function createDollar() {
     }, 5000);
 }
 
+function toggleTables() {
+    const table1 = document.getElementById('table1');
+    const table2 = document.getElementById('table2');
+
+    if (table1.style.display === 'none') {
+      table1.style.display = 'table';
+      table2.style.display = 'none';
+    } else {
+      table1.style.display = 'none';
+      table2.style.display = 'table';
+    }
+  }
+function toggleTables2() {
+    const table1 = document.getElementById('table11');
+    const table2 = document.getElementById('table22');
+
+    if (table1.style.display === 'none') {
+      table1.style.display = 'table';
+      table2.style.display = 'none';
+    } else {
+      table1.style.display = 'none';
+      table2.style.display = 'table';
+    }
+  }
+
+// Create new dollar every 300 milliseconds
+setInterval(createDollar, 3000);
+
 document.addEventListener('DOMContentLoaded', function() {
     fetch('/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/queries.json')
         .then(response => {
