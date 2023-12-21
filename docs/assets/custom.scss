@@ -66,11 +66,16 @@ tr:hover {background-color: #ddd;} /* Hover effect for rows */
 }
 
 #fallingDollars {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
+    z-index: -1; /* Keep it behind other content */
+    /* ... other styles ... */
 }
+
 
 .dollar {
     width: 100px;  /* Adjust size as needed */
