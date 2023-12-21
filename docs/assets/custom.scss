@@ -64,12 +64,8 @@ tr:hover {background-color: #ddd;}
     justify-content: center;
     align-items: center;
     color: white;
-    width: 100vw;
-    position: relative; 
-    left: 50%;         
-    transform: translateX(-50%); 
-    margin-left: calc(-50vw + 50%); 
-    margin-right: calc(-50vw + 50%);
+    margin-left: -250px;
+    margin-right: -250px;
 }
     h1 {
         margin: 0; 
