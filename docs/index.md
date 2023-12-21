@@ -321,7 +321,6 @@ In this part, we try to capture the relationship between the release year and th
 
 While the average rating across the years consistently swings between a respectable 6 and 7, a visible trend is emerging – a subtle decline in this cinematic metric over time. The reasons behind this intriguing shift remain a mystery, suggesting further analysis to explore the correlations at play.
 
-
 As a final exploration, we try to group the best and worst rated movies for each year and compare their profit gaps. How much financially better are the best rated movies compared to the worst rated movies?
 
 <button class="tablebutton" onclick="toggleTables2()">Toggle Profit/Loss</button>
@@ -423,7 +422,7 @@ Our initial plot shows something interesting: movie budgets seem to be slightly 
 The results showed no significant difference in movie budgets across these periods. Despite the slight ups and downs we see in the plot, statistically speaking the crisis didn't bring major changes in how much movies cost to make.
 <iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-## Correlation Between Movie Content and Financial Success
+## Correlation Between Movie Content and the Global Financial Crisis
 ### Are money-related movies more frequent after the Global Financial Crisis?
 Intriguing question right? We performed document retrieval using the Universal Sentence Encoder to embed the movie plots a query. Our journey through cinematic narratives led us to discover 1000 money-related movies. Now, it's your turn to explore:
 <br> 
