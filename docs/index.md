@@ -426,6 +426,7 @@ The results showed no significant difference in movie budgets across these perio
 ## Correlation Between Movie Content and Financial Success
 ### Are money-related movies more frequent after the Global Financial Crisis?
 Intriguing question right? We performed document retrieval using the Universal Sentence Encoder to embed the movie plots a query. Our journey through cinematic narratives led us to discover 1000 money-related movies. Now, it's your turn to explore:
+<br> 
 <br>
 <!-- Dropdown for selecting a query -->
 <select id="querySelect" onchange="updateTable()">
