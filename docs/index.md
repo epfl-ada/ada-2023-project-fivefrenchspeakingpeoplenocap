@@ -448,12 +448,12 @@ Whether it’s the dramatic shifts in economic fortunes or the ethical dilemmas 
     </tbody>
 </table>
 
-
-Here's a word cloud showing the most common words in these money-themed movie plots. You'll notice that words like 'money', 'wealthy', 'life', 'financial', 'crime', and 'business' pop up a lot.
+By merging these queries into a unified one, we created a rich collection of financial themes. This enabled us to capture a broader spectrum of money-related narratives, ensuring that every relevant angle is represented.
+Here, you'll see the most notable themes that emerged from our analysis. You'll notice that words like 'money', 'wealthy', 'life', 'financial', 'crime', and 'business' pop up a lot.
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f93018ee-1c12-4ce4-9140-b965a3bf1c4d" width="70%"> </center>
 
-Okay, so now that we have successfully found the movies that are money related, we need to group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
+Now that we have successfully found the movies that are money related, we group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
 
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
