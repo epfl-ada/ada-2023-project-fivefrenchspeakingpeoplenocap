@@ -115,9 +115,10 @@ The aim is to maximize the profit, but if the movie is a flop and generates less
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
-<button class="tablebutton" onclick="toggleTables()">Toggle Profit/Loss</button>
+<button class="tablebutton" onclick="toggleTables()" style="text-align:center">Toggle Profit/Loss</button>
+<br>
 <table id="table1">
-  <caption>Highest Profit</caption>
+  <caption>Movies with the Highest Profit</caption>
   <tr>
     <th>Title</th>
     <th>Year</th>
@@ -157,7 +158,7 @@ Let's discover some movies that have made it to the top and bottom of the profit
 </table>
 
 <table id="table2" style="display: none;">
-  <caption>Highest Loss</caption>
+  <caption>Movies with the Highest Loss</caption>
   <tr>
     <th>Title</th>
     <th>Year</th>
@@ -246,7 +247,7 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
 ### Return of Investment (ROI)
 In addition to profit, we will also take a look at another metric - return of investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
 
-$$ ROI := \left( \frac{revenue - budget}{budget} \right) \times 100 $$
+$$ ROI = \left( \frac{revenue - budget}{budget} \right) \times 100 $$
 
 We can claim that ROI is a more representative metric of the success as it is a relative measure of financial success or failure in terms of percentage of the original investment. Wouldn't it be nice to earn a lot of money despite being tight on cash and quadriple your initial investment?
 
