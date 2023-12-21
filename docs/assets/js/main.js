@@ -120,4 +120,4 @@ function updateTable() {
 }
 
 // Create new dollar every 300 milliseconds
-setInterval(createDollar, 3000);
+setInterval(createDollar, 10000);
