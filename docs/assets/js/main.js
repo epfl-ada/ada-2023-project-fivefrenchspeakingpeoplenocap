@@ -12,3 +12,19 @@ function checkInput() {
     document.getElementById("result").innerHTML = "Incorrect";
   }
 }
+
+function createDollar() {
+    const dollar = document.createElement('div');
+    dollar.classList.add('dollar');
+    dollar.style.left = Math.random() * window.innerWidth + 'px';
+    dollar.style.animationDuration = Math.random() * 3 + 2 + 's'; // Randomize fall speed
+    document.getElementById('fallingDollars').appendChild(dollar);
+
+    // Remove dollar after it falls out of view
+    setTimeout(() => {
+        dollar.remove();
+    }, 5000);
+}
+
+// Create new dollar every 300 milliseconds
+setInterval(createDollar, 300);
