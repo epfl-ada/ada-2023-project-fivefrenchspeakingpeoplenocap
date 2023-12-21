@@ -32,5 +32,5 @@ function createDollar() {
 }
 
 // Create new dollar every 300 milliseconds
-setInterval(createDollar, 1000);
+setInterval(createDollar, 3000);
 
