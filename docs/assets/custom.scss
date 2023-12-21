@@ -173,3 +173,26 @@ blockquote {
 .tablebutton:hover {
       background-color: #45a049;
     }
+
+
+#querySelect {
+        font-size: 16px;         /* Change font size */
+        color: #333;            /* Text color */
+        background-color: #fff; /* Background color */
+        border: 1px solid #ddd; /* Border color and width */
+        padding: 5px 10px;      /* Padding inside the dropdown */
+        border-radius: 5px;     /* Rounded corners */
+        cursor: pointer;        /* Cursor type */
+        outline: none;          /* Outline style */
+    }
+
+    /* Style for the options */
+    #querySelect option {
+        padding: 5px;          /* Padding for options */
+        background-color: #f9f9f9; /* Background color for options */
+    }
+
+    /* Hover effect for options */
+    #querySelect option:hover {
+        background-color: #eaeaea;
+    }
