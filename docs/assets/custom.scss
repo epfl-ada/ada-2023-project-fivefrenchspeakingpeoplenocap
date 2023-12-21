@@ -9,7 +9,7 @@ body {
     color: #333;
     text-align: justify;
     text-justify: inter-word;
-    line-height: 0.7cm;
+    line-height: 0.8cm;
     font-size: 20px;
 }
 
@@ -36,7 +36,7 @@ table {
 th, td {
   border: 1px solid #ddd; /* Adds border to cells */
   padding: 8px; /* Adjust padding inside cells */
-  text-align: center; /* Centers text in cells */
+  text-align: left; /* Centers text in cells */
 }
 
 th {
