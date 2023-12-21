@@ -26,6 +26,28 @@ footer {
     background: #f4f4f4; // Matching the background with the body
 }
 
+table {
+  width: 60%; /* Adjust the width as needed */
+  margin: auto; /* This centers the table */
+  border-collapse: collapse; /* Optional: removes gaps between cells */
+  font-family: Arial, sans-serif; /* Change font as needed */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Adds border to cells */
+  padding: 8px; /* Adjust padding inside cells */
+  text-align: center; /* Centers text in cells */
+}
+
+th {
+  background-color: #f2f2f2; /* Background color for headers */
+  color: black; /* Text color for headers */
+}
+
+tr:nth-child(even) {background-color: #f9f9f9;} /* Zebra striping for rows */
+
+tr:hover {background-color: #ddd;} /* Hover effect for rows */
+
 .story-header {
     background: url('images/background.png') no-repeat center center;
     background-size: cover;
