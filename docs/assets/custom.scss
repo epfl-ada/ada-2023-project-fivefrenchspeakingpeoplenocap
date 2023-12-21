@@ -16,6 +16,8 @@ body {
 .container {
     padding: 2em;
     margin: 2em auto;
+    padding-top: 0;
+    margin-top: 0;
     max-width: 800px;
     background: #fff; // Making the container background transparent
 }
