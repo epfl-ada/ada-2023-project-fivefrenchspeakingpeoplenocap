@@ -445,9 +445,10 @@ Intriguing question right? We performed document retrieval using the universal s
     </tbody>
 </table>
 
+
 Here's a word cloud showing the most common words in these money-themed movie plots. You'll notice that words like 'money', 'wealthy', 'life', 'financial', 'crime', and 'business' pop up a lot.
 
-<img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/c9475360-fdac-404f-ac2d-3e2324c1968a" width="100%">
+<img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f93018ee-1c12-4ce4-9140-b965a3bf1c4d" width="100%">
 
 
 Okay, so now that we have successfully found the movies that are money related, we need to group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
