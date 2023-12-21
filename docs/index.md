@@ -144,7 +144,8 @@ But, does the year of release for a movie statistically and significantly influe
 
 $H_0$: *The average profit is the same for all years.*
 
-What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now.
+What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend. Another assumption is the increased production costs, especially for visual effects. Nowadays the visual effects are much more complex and might cost more, so this would increase the budget, and potentially decrease the profit.
+
 
 #### Profit Outliers
 What were the chances that a movie made an outstanding profit in the past? We will do a box-plot and try to characterize the outliers.
