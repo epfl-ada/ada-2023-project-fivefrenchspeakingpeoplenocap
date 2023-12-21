@@ -150,6 +150,19 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
 
 [TODO]
 
+<form id="inputForm">
+  <label for="textInput">Enter Text:</label>
+  <input type="text" id="textInput" name="textInput">
+
+  <!-- Submit button -->
+  <button type="button" onclick="checkInput()">Submit</button>
+
+  <!-- Display result -->
+  <p id="result"></p>
+</form>
+
+<script src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/js/check_form.js"></script>
+
 ### ROI
 
 [TODO]
