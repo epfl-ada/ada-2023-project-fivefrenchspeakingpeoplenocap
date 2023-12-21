@@ -119,7 +119,9 @@ Let's discover some movies that have made it to the top and bottom of the profit
 
 You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
-Now, check this out! The top dogs have an impressive average rating on IMDB, a cool 8.36. People love them. But those struggling movies down below? Not so much. Their average rating is a meh 5.28. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
+<em>**Fun fact AGAIN:**The movies that were unprofitable and lost money are called <u>box office bombs</u>!</em> 
+
+Now, check this out! Can you notice anything else? Look at their ratings - the top dogs have an impressive average rating on IMDB, a cool **8.36**. People love them. But those struggling movies down below? Not so much. Their average rating is a meh **5.28**. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
 
 #### A paradox?
 Maybe by now you have noticed the contradiction: we claimed that budget and revenue have a love story going on and are positively correlated, but yet some movies make a negative profit. How could this be possible? In the beginning we had also mentioned that budget is not the only factor in determening the revenue. In fact, this is a love triangle (or maybe even octagon) where other factors, such as the movie genre or the cast, play a role in determining the profit as well. Therefore, do not jump straight into conclusion that you can become a moviemaker if you are rich - the risk is still very high to go bankrupt!
