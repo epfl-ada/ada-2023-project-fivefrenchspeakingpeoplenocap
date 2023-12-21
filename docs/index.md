@@ -244,6 +244,6 @@ We can see a clear spike after the year of 2008. Next, we will compare the frequ
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Such a huge event shook the whole world, so it's no surprise it popped up in movies too. But here's something interesting – there's a bit of a delay, like 1-2 years, before we see a real jump in these money-themed movies. This delay might be because it takes a movie about 1-2 years from start to finish. It's like the financial crisis left its mark on the movie world, but it took a little while to show up on the big screen.
-## Predictive Analysis of Movie Revenue
+## Conclusion
 
 [Content for this section]
