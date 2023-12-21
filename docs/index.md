@@ -109,7 +109,7 @@ In order to measure the real financial success of a movie, we will introduce two
 ### Profit
 In this analysis, we define profit as the difference between the revenue and the budget. We are aware that other factors influence the profit of a movie, such as overpriced merch or streaming rights (unless you enjoy living on the edge and torrenting movies). However, we will not take these factors into account, as they are not available in our dataset.
 
-[ADD PROFIT FORMULA]
+$$ \text{profit = revenue - budget} $$
 
 The aim is to maximize the profit, but if the movie is a flop and generates less revenue than the budget, the moviemakers can go home and cry in the corner with their empty pockets. Though, some get lucky and manage to obtain high numbers in profit and then go cool off on Bora Bora.
 
@@ -119,20 +119,17 @@ Let's discover some movies that have made it to the top and bottom of the profit
 
 You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
-> **Fun fact AGAIN:** The movies that were unprofitable and lost money are called <u>box office bombs</u>!
+> **Fun fact AGAIN:**  The movies that were unprofitable and lost money are called <u>box office bombs</u>!
 
 Now, check this out! Can you notice anything else? Look at their ratings - the top dogs have an impressive average rating on IMDB, a cool **8.36**. People love them. But those struggling movies down below? Not so much. Their average rating is a meh **5.28**. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
 
 #### A paradox?
 Maybe by now you have noticed the contradiction: we claimed that budget and revenue have a love story going on and are positively correlated, but yet some movies make a negative profit. How could this be possible? In the beginning we had also mentioned that budget is not the only factor in determening the revenue. In fact, this is a love triangle (or maybe even octagon) where other factors, such as the movie genre or the cast, play a role in determining the profit as well. Therefore, do not jump straight into conclusion that you can become a moviemaker if you are rich - the risk is still very high to go bankrupt!
 
-[ADD BOX OFFICE BOMBS FUN FACT]
-
 #### Profit Trend Over Time
 
 Now that we have a better understanding of the profit, let's take a look at how it has evolved over time. We will plot the average profit of movies released in each year. Should we expect to see more movies with higher profit in the future?
 
-[ADD PLOT HERE]
 <iframe src="{{ '/assets/q3_profit_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
@@ -169,7 +166,7 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
 ### Return of Investment (ROI)
 In addition to profit, we will also take a look at another metric - return of investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
 
-[ADD FORMULA]
+$$ ROI := \left( \frac{revenue - budget}{budget} \right) \times 100 $$
 
 We can claim that ROI is a more representative metric of the success as it is a relative measure of financial success or failure in terms of percentage of the original investment. Wouldn't it be nice to earn a lot of money despite being tight on cash and quadriple your initial investment?
 
@@ -180,7 +177,6 @@ Let's take a look at the movies with higest ROI. Will they be the same movies as
 The first observation is that these movies do not match with the highest-profit ones. These movies did more with less. Despite having possibly smaller budgets, they rocked a way higher ROI than the big-budget blockbusters. This is due to the fact that ROI is relative measure of success or failure in terms of percentage of the original investment, rather than an absolute one. It goes to show, it's not just about the money you throw in – smart moves and clever choices play a killer role in a movie's financial success.
 
 ### Ratings
-
 
 Let's briefly dive into movie ratings and how they tie into a film's financial success. We're opting for IMDb ratings as a source for a movie's quality and popularity. While we won't focus too heavily on this part and pretend we are Sherlock Holmes, we will still aim to unveil some intriguing observations through our exploratory data analysis. Moreover, movie ratings are given after the movie is released, so they can't be used to predict the movie's financial success. It would be completely biased!
 
