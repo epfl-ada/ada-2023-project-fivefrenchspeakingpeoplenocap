@@ -200,6 +200,15 @@ In this part, we try to capture the relationship between the release year and th
 
 While the average rating across the years consistently swings between a respectable 6 and 7, a visible trend is emerging – a subtle decline in this cinematic metric over time. The reasons behind this intriguing shift remain a mystery, suggesting further analysis to explore the correlations at play.
 
+
+As a final exploration, we try to group the best and worst rated movies for each year and compare their profit gaps. How much financially better are the best rated movies compared to the worst rated movies?
+
+[ADD PLOT HERE]
+
+The gap in profits between the best and worst-rated movies is, on average, quite big – around 49 times. This means the top-rated movies make about 44 times more money than the lowest-rated ones. For example, in 1973, "The Sting" made a whopping 1174 times more profit than "The Crazies."
+
+Interestingly, there are times when low-rated movies make more money than high-rated ones. This might be because of other factors, like the popularity of the actors. In 2011, "Warrior" had a much higher rating than "Justin Bieber: Never Say Never," but it made way less money. That's because Justin Bieber's huge fanbase turned up to watch his movie, despite it not getting great reviews. It goes to show that sometimes, what critics say doesn't always match up with what audiences want to see. Never say never to earning some cash despite a low rating!
+
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
 In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
 
