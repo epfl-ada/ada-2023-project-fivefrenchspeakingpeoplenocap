@@ -38,7 +38,7 @@ Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
-<em> **Fun Fact:** On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53. </em>
+> **Fun Fact:** On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
 
 ### When adjusted for inflation, how does the revenue of older movies compare to recent modern movies?
 <div id="revenueChart"></div>
@@ -83,7 +83,7 @@ To try and unravel whether this common sense logic is true, we can move from the
 
 Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. Whats even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly. Let's take a closer look.
 
-<em>**Fun Fact Again:** *Star Wars* made it to Hungarian cinemas almost two years after it's official release.</em> 
+> **Fun Fact Again:** *Star Wars* made it to Hungarian cinemas almost two years after it's official release.
 
 <iframe src="{{ '/assets/gdp_revenue_correlation_ussr.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -119,7 +119,7 @@ Let's discover some movies that have made it to the top and bottom of the profit
 
 You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
-<em>**Fun fact AGAIN:**The movies that were unprofitable and lost money are called <u>box office bombs</u>!</em> 
+> **Fun fact AGAIN:** The movies that were unprofitable and lost money are called <u>box office bombs</u>!
 
 Now, check this out! Can you notice anything else? Look at their ratings - the top dogs have an impressive average rating on IMDB, a cool **8.36**. People love them. But those struggling movies down below? Not so much. Their average rating is a meh **5.28**. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
 
@@ -167,7 +167,7 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
 </form>
 
 ### Return of Investment (ROI)
-In addition to profit, we will also take a look at another metric - return of investment. ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
+In addition to profit, we will also take a look at another metric - return of investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
 
 [ADD FORMULA]
 
