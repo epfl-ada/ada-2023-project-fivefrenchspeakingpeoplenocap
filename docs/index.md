@@ -141,6 +141,13 @@ $H_0$: *The average profit is the same for all years.*
 
 What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now.
 
+#### Profit Outliers
+What were the chances that a movie made an outstanding profit in the past? We will do a box-plot and try to characterize the outliers.
+
+[ADD PLOT HERE]
+
+There are in total 171 movies (red dots) that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only **2.38%** of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time.
+
 [TODO]
 
 ### ROI
