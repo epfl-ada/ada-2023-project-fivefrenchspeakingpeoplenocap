@@ -2,23 +2,24 @@
 ---
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif; // Using Roboto font
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #f4f4f4; // Uniform background color
     color: #333;
 }
 
 .container {
-    background: #fff;
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
+    background: transparent; // Making the container background transparent
 }
 
 footer {
     text-align: center;
     padding: 1em;
+    background: #f4f4f4; // Matching the background with the body
 }
 
 .story-header {
@@ -28,10 +29,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white; 
+    color: white;
 
     h1 {
         margin: 0; 
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.6); 
     }
 }
+
