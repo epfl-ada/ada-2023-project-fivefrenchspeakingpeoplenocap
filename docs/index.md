@@ -4,7 +4,22 @@ title: "Money Mov(i)es"
 ---
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script src="{{'/assets/js/check_form.html' | relative_url}}"></script>
+<script>
+function checkInput() {
+    // Get the input value
+    const userInput = document.getElementById("textInput").value;
+
+    // Compare with the expected value (change "YourExpectedValue" to the correct value)
+    const expectedValue = "2";
+
+    // Check if the input is correct
+    if (userInput === expectedValue) {
+      document.getElementById("result").innerHTML = "Correct";
+    } else {
+      document.getElementById("result").innerHTML = "Incorrect";
+    }
+  }
+</script>
 </head>
 <div class="story-header">
     <h1>Money Mov(i)es</h1>
