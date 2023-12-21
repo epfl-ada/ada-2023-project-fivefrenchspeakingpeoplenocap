@@ -51,8 +51,8 @@ tr:nth-child(even) {background-color: #f9f9f9;}
 tr:hover {background-color: #ddd;} 
 
 .story-header {
-    background: url('images/background.png') no-repeat center center fixed;
-    background-size: 100% 300px; 
+    background: url('images/background.png') no-repeat center center;
+    background-size: cover;
     height: 300px; 
     display: flex;
     justify-content: center;
