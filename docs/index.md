@@ -4,7 +4,7 @@ title: "Money Mov(i)es"
 ---
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/tree/page/docs/assets/js/check_form.js"></script>
+<script src="{{'/assets/js/check_form.html' | relative_url}}"></script>
 </head>
 <div class="story-header">
     <h1>Money Mov(i)es</h1>
