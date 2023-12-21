@@ -11,7 +11,6 @@ title: "Money Mov(i)es"
 
 Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its films will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <div class="elfsight-app-e405de8e-e0dc-4680-a320-38e64a6d668b" data-elfsight-app-lazy></div>
@@ -39,14 +38,15 @@ Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
-Fun Fact: On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
+<ins> Fun Fact </ins>: On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
 
 ### When adjusted for inflation, how does the revenue of older movies compare to recent modern movies?
 <div id="revenueChart"></div>
 
 <iframe src="{{ '/assets/revenue_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-After adjusting for inflation, it's like watching a plot twist (pun intended). Some classics are giving modern blockbusters a run for their money! Check out this table:
+The plot above shows the movies with highest revenues for each year. As we can see, the maximum revenue per year is increasing over time. So, to accurately compare movie revenues over time, we need to account for inflation. Without this adjustment, comparing movies from different eras becomes misleading. Older movies, which might have been very successful, will seem less profitable due to the lower ticket prices at their time. 
+After adjusting the revenue for inflation, the peaks in the revenue trends become more pronounced. We can see that some older movies actually have higher inflation-adjusted revenues than newer ones, which wouldn't be apparent if we only looked at nominal revenues. It's like watching a plot twist (pun intended). Some classics are giving modern blockbusters a run for their money! Now, let's look at the top 5 movies with highest revenues.
 
 <table>
   <tr><th>Title</th><th>Year</th><th>Revenue</th><th>Revenue Adjusted</th></tr>
@@ -57,14 +57,14 @@ After adjusting for inflation, it's like watching a plot twist (pun intended). S
   <tr><td>The Exorcist</td><td>1973</td><td>$441.1 million</td><td>$2.281 billion</td></tr>
 </table>
 
-Ever heard of 'Love with the Proper Stranger'? Yeah, we haven't heard either, yet it beats movies like Avatar and Star Wars in revenue when adjusted for inflation. Quite the unexpected twist...
+Ever heard of 'Love with the Proper Stranger'? Yeah, we haven't heard either, yet it beats movies like Avatar and Star Wars in revenue when adjusted for inflation. Quite an unexpected twist...
 
 ### Is there a notable trend in the budget of movies over the years when considering inflation?
 As we've delved into the world of box office revenues, we've witnessed some surprising twists. But what about the money poured into making these cinematic masterpieces? Let's turn our spotlight to the budgets of these films. When we adjust for inflation, the plot thickens: the inflation-adjusted budgets consistently outpace the nominal budgets. This isn't just a trivial detail; it's a clear indicator of how inflation has been playing a significant role in the movie-making business over time.
 
 <iframe src="{{ '/assets/budget_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-As we trace the lines of both nominal and inflation-adjusted budgets, an intriguing pattern emerges. There's a discernible upward trajectory, revealing that the investments in high-budget movies have been steadily climbing over the decades. This trend raises some questions: What drives this continuous increase in movie budgets? Is it the pursuit of more "flashy" special effects, the cost of A-list stars, or the overall growth of the industry? 
+As we trace the lines of both nominal and inflation-adjusted budgets, an intriguing pattern emerges. There's a discernible upward trajectory, revealing that the investments in high-budget movies have been steadily climbing over the decades. This trend raises some questions: What drives this continuous increase in movie budgets? Is it the pursuit of more "flashy" special effects or the cost of A-list stars? Maybe it's the overall growth of the industry? As the economy grows, the movie industry seems to grow with it. We will explore this in the following section.
 
 ## Global Economic Growth and its Influence on the Movie Industry
 Gross Domestic Product (GDP) is the total cash value of everything produced within the nation - a true heartbeat of the country's economy. It's a great economic growth indicator because it tells us how healthy the economy is. When it comes to movies making bucks, GDP is a big deal. A high GDP means people have more money to spend on tickets and popcorn. This way we can see the impact that economic growth has on movie revenue, by comparing how well the two move together.
