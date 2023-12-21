@@ -162,17 +162,43 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
   <p id="result"></p>
 </form>
 
-### ROI
+### Return of Investment (ROI)
+In addition to profit, we will also take a look at another metric - return of investment. ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
 
-[TODO]
+[ADD FORMULA]
 
-### Runtime
+We can claim that ROI is a more representative metric of the success as it is a relative measure of financial success or failure in terms of percentage of the original investment. Wouldn't it be nice to earn a lot of money despite being tight on cash and quadriple your initial investment?
 
-[TODO]
+Let's take a look at the movies with higest ROI. Will they be the same movies as the ones with highest profit?
+
+[ADD TABLE HERE]
+
+The first observation is that these movies do not match with the highest-profit ones. These movies did more with less. Despite having possibly smaller budgets, they rocked a way higher ROI than the big-budget blockbusters. This is due to the fact that ROI is relative measure of success or failure in terms of percentage of the original investment, rather than an absolute one. It goes to show, it's not just about the money you throw in – smart moves and clever choices play a killer role in a movie's financial success.
 
 ### Ratings
 
-[TODO]
+
+Let's briefly dive into movie ratings and how they tie into a film's financial success. We're opting for IMDb ratings as a source for a movie's quality and popularity. While we won't focus too heavily on this part and pretend we are Sherlock Holmes, we will still aim to unveil some intriguing observations through our exploratory data analysis. Moreover, movie ratings are given after the movie is released, so they can't be used to predict the movie's financial success. It would be completely biased!
+
+Here is a quick overview of the ratings distribution on the plot below.
+
+[ADD PLOT HERE]
+
+Movies can get around with ratings ranging from 1 to 10, but the party seems to happen mostly between 6 and 7. We're however going along with the assumption that once a squad of viewers has watched the movie, the rating converges into a real ground value. Even though people may see the same number differently (a 7 for you might be a hit but a miss for someone else), we're running with it for our analysis as these numbers don't tell the full story – no neat labels to put on a movie based on a number rating alone. 
+
+Can we somehow connect the inital budget to the rating? Should I expect to get a 10 if I put in a budget more than any other movie?
+
+[ADD PLOT HERE]
+
+Unfortunately, the answer might disappoint you. The horizontal regression line is as flat as it can get. Even if you borrow the entire net worth of Elon Musk, getting out of a 6 is a nearly impossible job, you are still going to be an average moviemaker.
+
+#### Ratings Over Time
+
+In this part, we try to capture the relationship between the release year and the rating. How does the rating trend change over time?
+
+[ADD PLOT HERE]
+
+While the average rating across the years consistently swings between a respectable 6 and 7, a visible trend is emerging – a subtle decline in this cinematic metric over time. The reasons behind this intriguing shift remain a mystery, suggesting further analysis to explore the correlations at play.
 
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
 In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
