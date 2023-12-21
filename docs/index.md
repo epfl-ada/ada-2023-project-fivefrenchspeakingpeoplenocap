@@ -98,7 +98,7 @@ While it's a piece of cake to separate low and high budget movies, don't let the
 
 First, let's take a look at the distribution of the budget and revenue and see how money moves at a high level.
 
-[ADD PLOT HERE]
+<iframe src="{{ '/assets/q3_budget_vs_revenue.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plots, it is clear that throwing in some extra bucks can make a big difference in rising the revenue. However, money is not infinite, and scoring a high revenue comes at scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
 
@@ -133,6 +133,7 @@ Maybe by now you have noticed the contradiction: we claimed that budget and reve
 Now that we have a better understanding of the profit, let's take a look at how it has evolved over time. We will plot the average profit of movies released in each year. Should we expect to see more movies with higher profit in the future?
 
 [ADD PLOT HERE]
+<iframe src="{{ '/assets/q3_profit_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
 
@@ -142,15 +143,13 @@ The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as they 
 
 But, does the year of release for a movie statistically and significantly influence the profit? We perform a one-way ANOVA test and impose the null hypothesis as following:
 
-$H_0$: *The average profit is the same for all years.*
+$$H_0$$: *The average profit is the same for all years.*
 
 What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend. Another assumption is the increased production costs, especially for visual effects. Nowadays the visual effects are much more complex and might cost more, so this would increase the budget, and potentially decrease the profit.
 
 
 #### Profit Outliers
 What were the chances that a movie made an outstanding profit in the past? We will do a box-plot and try to characterize the outliers.
-
-[ADD PLOT HERE]
 
 There are in total 171 movies (red dots) that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only **2.38%** of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time.
 
@@ -187,13 +186,13 @@ Let's briefly dive into movie ratings and how they tie into a film's financial s
 
 Here is a quick overview of the ratings distribution on the plot below.
 
-[ADD PLOT HERE]
+<iframe src="{{ '/assets/q3_imdb_rating_distribution.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Movies can get around with ratings ranging from 1 to 10, but the party seems to happen mostly between 6 and 7. We're however going along with the assumption that once a squad of viewers has watched the movie, the rating converges into a real ground value. Even though people may see the same number differently (a 7 for you might be a hit but a miss for someone else), we're running with it for our analysis as these numbers don't tell the full story – no neat labels to put on a movie based on a number rating alone. 
 
 Can we somehow connect the inital budget to the rating? Should I expect to get a 10 if I put in a budget more than any other movie?
 
-[ADD PLOT HERE]
+<iframe src="{{ '/assets/q3_budget_vs_rating.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Unfortunately, the answer might disappoint you. The horizontal regression line is as flat as it can get. Even if you borrow the entire net worth of Elon Musk, getting out of a 6 is a nearly impossible job, you are still going to be an average moviemaker.
 
@@ -201,14 +200,14 @@ Unfortunately, the answer might disappoint you. The horizontal regression line i
 
 In this part, we try to capture the relationship between the release year and the rating. How does the rating trend change over time?
 
-[ADD PLOT HERE]
+<iframe src="{{ '/assets/q3_avg_rating_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 While the average rating across the years consistently swings between a respectable 6 and 7, a visible trend is emerging – a subtle decline in this cinematic metric over time. The reasons behind this intriguing shift remain a mystery, suggesting further analysis to explore the correlations at play.
 
 
 As a final exploration, we try to group the best and worst rated movies for each year and compare their profit gaps. How much financially better are the best rated movies compared to the worst rated movies?
 
-[ADD PLOT HERE]
+[ADD TABLES HERE]
 
 The gap in profits between the best and worst-rated movies is, on average, quite big – around 49 times. This means the top-rated movies make about 44 times more money than the lowest-rated ones. For example, in 1973, "The Sting" made a whopping 1174 times more profit than "The Crazies."
 
