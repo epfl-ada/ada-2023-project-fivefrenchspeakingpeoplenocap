@@ -461,12 +461,12 @@ Now that we have successfully found the movies that are money related, we group 
 
 TODO: Change this paragraph!
 
-We can see a clear spike after the year of 2008. Next, we will compare the frequency of money-related movies to the overall number of movies produced each year. This way, we can figure out if there's really an uptick in the share of these money movies, or if it's just a side effect of more movies being made in general.  We're focusing on the post-2008 era because we're super curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period other financial ups and downs might muddle the picture we're trying to get.
+The data reveals a significant increase in the production of finance-themed films after 2008. To understand this trend, we will examine how the proportion of money-related movies changed each year. This analysis aims to determine whether the increase is due to a genuine interest in financial narratives or simply a reflection of an overall rise in movie production. We're focusing on the post-2008 era because we're curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period other financial ups and downs might muddle the picture we're trying to get.
 
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Such a huge event shook the whole world, so it's no surprise it popped up in movies too. But here's something interesting – there's a bit of a delay, like 1-2 years, before we see a real jump in these money-themed movies. This delay might be because it takes a movie about 1-2 years from start to finish. It's like the financial crisis left its mark on the movie world, but it took a little while to show up on the big screen.
-## The End
+Envision the 2008 financial crisis like the nuke explosion in Oppenheimer. It starts with a slow-building tension, like the calm before a storm. You witness a fiery cloud rising, a spectacle, eerily silent. Everything seems still, almost surreal. Then, suddenly, the moment of impact - BOOM! The shockwave hits with full force. This delay can be explained by the fact that on average movies take 1 to 2 years from idea to production.
+
 Aaaaand - CUT! That's a wrap! Roll the credits.
 <div class="tenor-gif-embed" data-postid="17542149" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/clapper-board-joypixels-lights-camera-action-cut-action-gif-17542149">Clapper Board Joypixels Sticker</a>from <a href="https://tenor.com/search/clapper+board-stickers">Clapper Board Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
