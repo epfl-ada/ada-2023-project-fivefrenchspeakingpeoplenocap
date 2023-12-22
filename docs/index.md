@@ -415,7 +415,7 @@ By plotting the average movie revenues for each period, our initial findings sho
 
 <iframe src="{{ '/assets/average_revenue_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-### Was the budget of the movies affected by the 2007-2008 Gorldwide Financial Crisis?
+### Was the budget of the movies affected by the 2007-2008 Worldwide Financial Crisis?
 Next, we turn our focus to the budgets of movies in the same three periods: before, during, and after the 2007-2008 Global Financial Crisis. This time, we're curious to see if the crisis had any impact on how much was spent on making movies.
 
 Our initial plot shows something interesting: movie budgets seem to be slightly higher after the crisis. However, the overlapping confidence intervals suggest that these changes might not be significant, so we run an ANOVA test, just like we did for the revenues.
@@ -433,7 +433,7 @@ Intriguing question right? We performed document retrieval using the Universal S
     <!-- JavaScript will populate this -->
 </select>
 
-Whether it’s the dramatic shifts in economic fortunes or the ethical dilemmas of financial decisions, each selected theme offers a unique window into how money shapes stories on the silver screen.
+Whether it’s the dramatic shifts in economic fortunes or financial crime and scandals, each selected theme offers a unique window into how money shapes stories on the silver screen.
 
 <!-- Table to display results -->
 <table id="resultsTable">
@@ -448,7 +448,7 @@ Whether it’s the dramatic shifts in economic fortunes or the ethical dilemmas 
     </tbody>
 </table>
 These are some of the queries that we used in order to create a rich collection of financial themes, by merging them and representing them as one. This enabled us to capture a broader spectrum of money-related narratives, ensuring that every relevant angle is represented.
-Here, you'll see the most notable themes that emerged from our analysis. You'll notice that words like 'money', 'wealthy', 'life', 'pay', and 'crime' pop up a lot.
+Here, you'll see the most notable themes that emerged from our analysis. You'll notice that words like 'money', 'wealthy', 'poor', 'pay', and 'gold' pop up a lot.
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f93018ee-1c12-4ce4-9140-b965a3bf1c4d" width="70%"> </center>
 
