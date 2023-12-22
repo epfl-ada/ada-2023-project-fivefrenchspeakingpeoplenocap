@@ -466,6 +466,8 @@ The data reveals a significant increase in the production of finance-themed film
 
 Envision the 2008 financial crisis like the nuke explosion in Oppenheimer. It starts with a slow-building tension, like the calm before a storm. You witness a fiery cloud rising, a spectacle, eerily silent. Everything seems still, almost surreal. Then, suddenly, the moment of impact - BOOM! The shockwave hits with full force. This delay can be explained by the fact that on average movies take 1 to 2 years from idea to production [3].
 
+## The End
+
 Aaaaand - CUT! That's a wrap! Roll the credits.
 <div class="tenor-gif-embed" data-postid="17542149" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/clapper-board-joypixels-lights-camera-action-cut-action-gif-17542149">Clapper Board Joypixels Sticker</a>from <a href="https://tenor.com/search/clapper+board-stickers">Clapper Board Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
