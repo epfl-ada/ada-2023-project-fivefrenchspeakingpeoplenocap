@@ -215,7 +215,8 @@ Now that we have a better understanding of the profit, let's take a look at how 
 
 Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
 
-[ADD NUMBERS HERE]
+Year with the highest profit: 1965</br>
+Year with the lowest profit: 1961
 
 The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as they year with the highest average profit. Just 4 years before, we have the lowest average, declaring 1961 as the sad year for the movie industry.
 
