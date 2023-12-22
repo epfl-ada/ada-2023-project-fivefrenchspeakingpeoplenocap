@@ -482,5 +482,7 @@ So, what are you waiting for? Roll up your sleves, withdraw your savings and get
 
 ## References
 [1] Nash Information Services, LLC. (2023). Movie market summary 1995 to 2023. The Numbers. Retrieved from https://www.the-numbers.com/market/
+
 [2] Chhabria, A. (2017, March 23). The rise of Netflix and the fall of Blockbuster. Medium. Retrieved from https://scashwin.medium.com/the-rise-of-netflix-and-the-fall-of-blockbuster-29e5457339b7
+
 [3] Doe, J. (2023, March 5). How long does it take to film a movie? Backstage. Retrieved from https://www.backstage.com/magazine/article/how-long-does-it-take-to-film-a-movie-76171/
