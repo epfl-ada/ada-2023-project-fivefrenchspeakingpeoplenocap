@@ -96,7 +96,7 @@ We use regression-based machine learning models like linear regression and rando
   </tr>
   <tr>
     <td class="tg-0lax">Mikolaj </td>
-    <td class="tg-0lax"> Loading and cleaning the dataset <br> Code and text revision <br> Q2 </td>
+    <td class="tg-0lax"> Loading and cleaning the dataset <br> Code and text revision <br> Q2 <br> Suffered by getting the page to work </td>
   </tr>
   <tr>
     <td class="tg-0lax">Wiam </td>
