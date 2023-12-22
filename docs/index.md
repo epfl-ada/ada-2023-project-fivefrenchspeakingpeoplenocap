@@ -343,7 +343,7 @@ As a final exploration, we try to group the best and worst rated movies for each
       <td>The Crazies</td>
       <td>8.3</td>
       <td>6.1</td>
-      <td>1174.523892</td>
+      <td>1174</td>
     </tr>
     <tr>
       <td>2000</td>
@@ -351,7 +351,7 @@ As a final exploration, we try to group the best and worst rated movies for each
       <td>Dungeons & Dragons</td>
       <td>8.5</td>
       <td>3.6</td>
-      <td>297.369699</td>
+      <td>297</td>
     </tr>
     <tr>
       <td>1985</td>
@@ -359,7 +359,7 @@ As a final exploration, we try to group the best and worst rated movies for each
       <td>Gymkata</td>
       <td>8.5</td>
       <td>4.3</td>
-      <td>131.752125</td>
+      <td>131</td>
     </tr>
   </tbody>
 </table>
@@ -382,7 +382,7 @@ As a final exploration, we try to group the best and worst rated movies for each
       <td>BloodRayne</td>
       <td>7.8</td>
       <td>3.0</td>
-      <td>0.006114</td>
+      <td>0.006</td>
     </tr>
     <tr>
       <td>2011</td>
@@ -390,7 +390,7 @@ As a final exploration, we try to group the best and worst rated movies for each
       <td>Justin Bieber: Never Say Never</td>
       <td>8.1</td>
       <td>1.7</td>
-      <td>0.022739</td>
+      <td>0.022</td>
     </tr>
     <tr>
       <td>1994</td>
@@ -398,11 +398,11 @@ As a final exploration, we try to group the best and worst rated movies for each
       <td>Street Fighter</td>
       <td>9.3</td>
       <td>4.0</td>
-      <td>0.051867</td>
+      <td>0.051</td>
     </tr>
   </tbody>
 </table>
-The gap in profits between the best and worst-rated movies is, on average, quite big – around 49 times. This means the top-rated movies make about 44 times more money than the lowest-rated ones. For example, in 1973, "The Sting" made a whopping 1174 times more profit than "The Crazies."
+The gap in profits between the best and worst-rated movies is, on average, quite big – around 49 times. This means the top-rated movies make about 49 times more money than the lowest-rated ones. For example, in 1973, "The Sting" made a whopping 1174 times more profit than "The Crazies."
 
 Interestingly, there are times when low-rated movies make more money than high-rated ones. This might be because of other factors, like the popularity of the actors. In 2011, "Warrior" had a much higher rating than "Justin Bieber: Never Say Never," but it made way less money. That's because Justin Bieber's huge fanbase turned up to watch his movie, despite it not getting great reviews. It goes to show that sometimes, what critics say doesn't always match up with what audiences want to see. Never say never to earning some cash despite a low rating!
 
