@@ -124,3 +124,10 @@ def remove_unwanted_dtypes(df, keep_types):
     df = df[columns_to_keep].copy()
 
     return df
+
+# one-hot encode the top genres in the DataFrame, unlike the panda dummies this personalized function can include multiple genres
+def one_hot_encode_top_genres(df, top_genres):
+    for genre in top_genres:
+        df['genre_' + genre] = df['filtered_genre_names'].apply(lambda genres: int(genre in genres))
+    
+    return df
