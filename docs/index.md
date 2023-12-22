@@ -9,6 +9,8 @@ title: "Money Mov(i)es"
     <h1>Money Mov(i)es</h1>
 </div> -->
 
+<hr>
+
 Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its films will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -24,7 +26,6 @@ Here's the blockbuster lineup of questions we're tackling:
 3. **Determinants of a Movie's Financial Success**: How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
 4. **Influence of the Global Financial Crisis on the Movie Industry**: Did the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
 5. **Correlation Between Money Related Movies and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
-6. **Predictive Analysis of Movie Revenue**: Can a regression model effectively predict a movie's revenue? 
 
 ## Inflation and Trends in the Movie Industry
 As we journey through the glitz and glamour of the movie industry, let's take a moment to adjust our lenses for inflation. It's like time-traveling with numbers! Did you know that without this adjustment, comparing the box office success of "Gone with the Wind" to "Avengers: Endgame" is like comparing apples to space shuttles? Let's dive into the real score of movie revenues when we level the playing field with inflation.
