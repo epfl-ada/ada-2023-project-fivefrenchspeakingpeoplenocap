@@ -22,10 +22,10 @@ Ever wondered what's really going on behind those glitzy movie premieres and blo
 
 Here's the blockbuster lineup of questions we're tackling:
 1. **Inflation and Trends in the Movie Industry**: When adjusted for inflation, how does the revenue of older movies compare to recent modern movies? Is there a notable trend in the budget of movies over the years when considering inflation?
-2. **Global Economic Growth and its Influence on the Movie Industry**: What is the relationship between global economic indicators (like GDP) and movie's gross revenue? Are there regional differences?
+2. **Global Economic Growth and its Influence on the Movie Industry**: What is the relationship between global economic indicators (like GDP) and a movie's gross revenue? Are there regional differences?
 3. **Determinants of a Movie's Financial Success**: How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
 4. **Influence of the Global Financial Crisis on the Movie Industry**: Did the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
-5. **Correlation Between Money Related Movies and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
+5. **Correlation Between Money-Related Movies and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
 
 So, what are you waiting for? Grab your popcorn, and let's dive into the world of movie economics!
 
@@ -82,15 +82,15 @@ We kick off, with a simple graph with relative yearly values of the world's GDP 
 
 At first glance, this may look like a catastrophic flop. Something that would make a movie studio completely abandon the idea... But wait! Look at the correlations! Both Spearman and Pearson coefficients indicate a high level of correlation between the two time series and are backed, by p-values way smaller than 0.05. We can confidently say that even if the two are not moving tightly together, they still show similar behavior and like to either grow or shrink at the same time.
 
-Some John Doe can now wonder: "Hmm, okay... But nothing in life is this simple. There have to be some deviations from this relation. I can't believe that some random third-world country's GDP correlates with movie revenue the same as the cradle of the movie industry that the USA is". And it is a completely logical argument. We would expect that the correlation between GDP and movie revenue of rich countries will be bigger than countries that are still in the early development phase - they just have more money to spend on the entertainment industry.
+Some John Doe can now wonder: "Hmm, okay... But nothing in life is this simple. There have to be some deviations from this relation. I can't believe that some third-world country's GDP correlates with movie revenue the same as the cradle of the movie industry that the USA is". And it is a completely logical argument. We would expect that the correlation between GDP and movie revenue of rich countries will be bigger than countries that are still in the early development phase - they just have more money to spend on the entertainment industry.
 
 To try and unravel whether this common sense logic is true, we can move from the whole screen to separate pixels - zoom in to how the GDP of each of the countries correlates with movie revenue. 
 
 <iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. What's even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly. Let's take a closer look.
+Now that is a very interesting picture. We see that there certainly are divergences from how the world's GDP correlates with movie revenue. What's even more interesting - the correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a Cold War stigma? Between 1960 and 1989, when the Iron Curtain was still casting the shadow, most of the Western movies were either completely unavailable in this part of the world or their screenings were delayed significantly. Let's take a closer look.
 
-> **Fun Fact:** *Star Wars* made it to Hungarian cinemas almost two years after it's official release.
+> **Fun Fact:** *Star Wars* made it to Hungarian cinemas almost two years after its official release.
 
 <iframe src="{{ '/assets/gdp_revenue_correlation_ussr.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -100,27 +100,27 @@ After separating the correlations of the USSR, its satellite and aligned countri
 
 ## Determinants of a Movie's Financial Success
 
-For some, movies are simply a gateway to entertainment, a captivating escape into different worlds and stories. Yet, for others, they're not just about the thrill of storytelling; they're a strategic avenue to make money, navigating the intricate balance between creativity and commerce. Can moviemakers, directors or investors shape the movie's financial destiny by tweaking certain factors? Let's find out!
+For some, movies are simply a gateway to entertainment, a captivating escape into different worlds and stories. Yet, for others, they're not just about the thrill of storytelling; they're a strategic avenue to make money, navigating the intricate balance between creativity and commerce. Can moviemakers, directors, or investors shape the movie's financial destiny by tweaking certain factors? Let's find out!
 
 ### Budget and Revenue
-While it's a piece of cake to separate low and high budget movies, don't let the numbers fool you into thinking financial success is a done deal. Movie magic is not just about fat wallets - it is about the right mix of many ingridients. In this section, we will specifically take a closer look at the relationship between budget and revenue. 
+While it's a piece of cake to separate low and high-budget movies, don't let the numbers fool you into thinking financial success is a done deal. Movie magic is not just about fat wallets - it is about the right mix of many ingredients. In this section, we will specifically take a closer look at the relationship between budget and revenue. 
 
 First, let's take a look at the distribution of the budget and revenue and see how money moves at a high level.
 
 <iframe src="{{ '/assets/q3_budget_vs_revenue.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plot, it is clear that throwing in some extra bucks can make a big difference in rising the revenue. However, money is not infinite, and scoring a high revenue comes at scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
+Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plot, it is clear that throwing in some extra bucks can make a big difference in raising the revenue. However, money is not infinite, and scoring a high revenue comes at a scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/90f160cf-4a03-4ae9-aa03-ebb278856086" width="50%"> </center>
 
-In order to measure the real financial success of a movie, we will introduce two additional metrics given the budget and revenue: Profit and Return of Investment. 
+In order to measure the real financial success of a movie, we will introduce two additional metrics given the budget and revenue: Profit and Return on Investment. 
 
 ### Profit
 In this analysis, we define profit as the difference between the revenue and the budget. We are aware that other factors influence the profit of a movie, such as overpriced merch or streaming rights (unless you enjoy living on the edge and torrenting movies). However, we will not take these factors into account, as they are not available in our dataset.
 
 $$ \text{profit = revenue - budget} $$
 
-The aim is to maximize the profit, but if the movie is a flop and generates less revenue than the budget, the moviemakers can go home and cry in the corner with their empty pockets. Though, some get lucky and manage to obtain high numbers in profit and then go cool off on Bora Bora.
+The aim is to maximize the profit, but if the movie is a flop and generates less revenue than the budget, the moviemakers can go home and cry in the corner with their empty pockets. However, some get lucky and manage to obtain high numbers in profit and then go cool off on Bora Bora.
 
 Let's discover some movies that have made it to the top and bottom of the profit charts.
 
@@ -207,39 +207,39 @@ Let's discover some movies that have made it to the top and bottom of the profit
 </table>
 <br>
 
-You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of, and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
+You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forgetting everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest-grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of, and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
 > **Fun fact:**  The movies that were unprofitable and lost money are called <u>box office bombs</u>!
 
-Now, check this out! Can you notice anything else? Look at their ratings - the top dogs have an impressive average rating on IMDB, a cool **8.36**. People love them. But those struggling movies down below? Not so much. Their average rating is a meh **5.28**. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
+Now, check this out! Can you notice anything else? Look at their ratings - the top dogs have an impressive average rating on IMDB, a cool **8.36**. People love them. But those struggling movies down below? Not so much. Their average rating is a meh **5.28**. Ouch! We will take a greater look into movie ratings a little later on in this datastory, stay tuned!
 
 #### A paradox?
-Maybe by now you have noticed the contradiction: we claimed that budget and revenue have a love story going on and are positively correlated, but yet some movies make a negative profit. How could this be possible? In the beginning we had also mentioned that budget is not the only factor in determening the revenue. In fact, this is a love triangle (or maybe even octagon) where other factors, such as the movie genre or the cast, play a role in determining the profit as well. Therefore, do not jump straight into conclusion that you can become a moviemaker if you are rich - the risk is still very high to go bankrupt!
+Maybe by now, you have noticed the contradiction: we claimed that budget and revenue have a love story going on and are positively correlated, but some movies make a negative profit. How could this be possible? In the beginning, we also mentioned that budget is not the only factor in determining the revenue. In fact, this is a love triangle (or maybe even an octagon) where other factors, such as the movie genre or the cast, play a role in determining the profit as well. Therefore, do not jump straight to the conclusion that you can become a moviemaker if you are rich - the risk is still very high to go bankrupt!
 
 #### Profit Trend Over Time
 
-Now that we have a better understanding of the profit, let's take a look at how it has evolved over time. We will plot the average profit of movies released in each year. Should we expect to see more movies with higher profit in the future?
+Now that we have a better understanding of the profit, let's take a look at how it has evolved over time. We will plot the average profit of movies released each year. Should we expect to see more movies with higher profits in the future?
 
 <iframe src="{{ '/assets/q3_profit_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
+Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decided to show you the years with the highest and lowest average profits.
 
 - Year with the highest profit: 1965
 - Year with the lowest profit: 1961
 
-The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as they year with the highest average profit. Just 4 years before, we have the lowest average, declaring 1961 as the sad year for the movie industry.
+The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as the year with the highest average profit. Just 4 years before, we had the lowest average, declaring 1961 as the sad year for the movie industry.
 
-But, does the year of release for a movie statistically and significantly influence the profit? We perform a one-way ANOVA test and impose the null hypothesis as following:
+But, does the year of release for a movie statistically and significantly influence the profit? We perform a one-way ANOVA test and impose the null hypothesis as follows:
 
 $$H_0$$: *The average profit is the same for all years.*
 
-What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend [2]. Another assumption is the increased production costs, especially for visual effects. Nowadays, the visual effects are much fancier and might cost more, so this would increase the budget, and potentially decrease the profit.
+What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correlation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance is partly due to the rise of streaming platforms like Netflix, and this is contributing to a bearish trend [2]. Another assumption is the increased production costs, especially for visual effects. Nowadays, the visual effects are much fancier and might cost more, so this would increase the budget, and potentially decrease the profit.
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/2f3c6633-7707-4799-982d-0487ea334d46" width="70%"> </center>
 
 #### Profit Outliers
 What were the chances that a movie made an outstanding profit in the past?
-> Hint: In a galaxy far, far away, the dark side of the Force follows a strict principle, guiding the fate of the Sith. This rule, as ancient as the stars themselves, dictates the number of masters and apprentices in the shadows. They call it the rule of ?
+> Hint: In a galaxy far, far away, the dark side of the Force follows a strict principle, guiding the fate of the Sith. This rule, as ancient as the stars themselves, dictates the number of masters and apprentices in the shadows. They call it the rule of?
 <form id="inputForm">
   <label for="textInput">Give it a try (enter a number): </label>
   <input type="text" id="textInput" name="textInput">
@@ -252,16 +252,16 @@ What were the chances that a movie made an outstanding profit in the past?
 </form>
 
 <p id="shown_p">Please click the button even if you do not wish to guess the chance, in order to read a small section about the profit outliers.</p>
-<p id="hidden_p" style="display: none"> There are in total 171 movies that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only <b>2.38%</b> of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time. </p>
+<p id="hidden_p" style="display: none"> There are in total 171 movies that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only <b>2.38%</b> of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivalently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time. </p>
 
 ### Return of Investment (ROI)
-In addition to profit, we will also take a look at another metric - return of investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
+In addition to profit, we will also take a look at another metric - return on investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
 
 $$ ROI = \left( \frac{revenue - budget}{budget} \right) \times 100 $$
 
-We can claim that ROI is a more representative metric of the success as it is a relative measure of financial success or failure in terms of percentage of the original investment. Wouldn't it be nice to earn a lot of money despite being tight on cash and quadriple your initial investment?
+We can claim that ROI is a more representative metric of success as it is a relative measure of financial success or failure in terms of the percentage of the original investment. Wouldn't it be nice to earn a lot of money despite being tight on cash and quadruple your initial investment?
 
-Let's take a look at the movies with higest ROI. Will they be the same movies as the ones with the highest profit?
+Let's take a look at the movies with the highest ROI. Will they be the same movies as the ones with the highest profit?
 
 <table>
   <thead>
@@ -306,19 +306,19 @@ Let's take a look at the movies with higest ROI. Will they be the same movies as
   </tbody>
 </table>
 
-The first observation is that these movies do not match with the highest-profit ones. These movies did more with less. Despite having possibly smaller budgets, they rocked a way higher ROI than the big-budget blockbusters. This is due to the fact that ROI is relative measure of success or failure in terms of percentage of the original investment, rather than an absolute one. It goes to show, it's not just about the money you throw in – smart moves and clever choices play a killer role in a movie's financial success.
+The first observation is that these movies do not match with the highest-profit ones. These movies did more with less. Despite having possibly smaller budgets, they rocked a way higher ROI than the big-budget blockbusters. This is due to the fact that ROI is a relative measure of success or failure in terms of the percentage of the original investment, rather than an absolute one. It goes to show, that it's not just about the money you throw in – smart moves and clever choices play a killer role in a movie's financial success.
 
 ### Ratings
 
-Let's briefly dive into movie ratings and how they tie into a movies's financial success. We're opting for IMDb ratings as a source for a movie's quality and popularity. While we won't focus too heavily on this part and pretend we are Sherlock Holmes, we will still aim to unveil some intriguing observations through our exploratory data analysis. Moreover, movie ratings are given after the movie is released, so they can't be used to predict the movie's financial success. It would be completely biased!
+Let's briefly dive into movie ratings and how they tie into a movie's financial success. We're opting for IMDb ratings as a source for a movie's quality and popularity. While we won't focus too heavily on this part and pretend we are Sherlock Holmes, we will still aim to unveil some intriguing observations through our exploratory data analysis. Moreover, movie ratings are given after the movie is released, so they can't be used to predict the movie's financial success. It would be completely biased!
 
-Here is a quick overview of the ratings distribution on the plot below.
+Here is a quick overview of the rating distribution on the plot below.
 
 <iframe src="{{ '/assets/q3_imdb_rating_distribution.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Movies can get around with ratings ranging from 1 to 10, but the party seems to happen mostly between 6 and 7. We're however going along with the assumption that once a squad of viewers has watched the movie, the rating converges into a real ground value. Even though people may see the same number differently (a 7 for you might be a hit but a miss for someone else), we're running with it for our analysis as these numbers don't tell the full story – no neat labels to put on a movie based on a number rating alone. 
 
-Can we somehow connect the inital budget to the rating? Should I expect to get a 10 if I put in a budget more than any other movie?
+Can we somehow connect the initial budget to the rating? Should I expect to get a 10 if I put in a budget more than any other movie?
 
 <iframe src="{{ '/assets/q3_budget_vs_rating.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -332,7 +332,7 @@ In this part, we try to capture the relationship between the release year and th
 
 While the average rating across the years consistently swings between a respectable 6 and 7, a visible trend is emerging – a subtle decline in this cinematic metric over time. The reasons behind this intriguing shift remain a mystery, suggesting further analysis to explore the correlations at play.
 
-As a final exploration, we try to group the best and worst rated movies for each year and compare their profit gaps. How much financially better are the best rated movies compared to the worst rated movies?
+As a final exploration, we try to group the best and worst-rated movies for each year and compare their profit gaps. How much financially better are the best-rated movies compared to the worst-rated movies?
 
 <button class="tablebutton" onclick="toggleTables2()">Toggle Profit/Loss</button>
 <table id="table11">
@@ -431,16 +431,16 @@ By plotting the average movie revenues for each period, our initial findings sho
 ### Was the budget of the movies affected by the 2007-2008 Worldwide Financial Crisis?
 Next, we turn our focus to the budgets of movies in the same three periods: before, during, and after the 2007-2008 Global Financial Crisis. This time, we're curious to see if the crisis had any impact on how much was spent on making movies.
 
-Our initial plot shows something interesting: movie budgets seem to be slightly higher after the crisis. However, the overlapping confidence intervals suggest that these changes might not be significant, so we run an ANOVA test, just like we did for the revenues.
+Our initial plot shows something interesting: movie budgets seem to be slightly higher after the crisis. However, the overlapping confidence intervals suggest that these changes might not be significant, so we ran an ANOVA test, just like we did for the revenues.
 The results showed no significant difference in movie budgets across these periods. Despite the slight ups and downs we see in the plot, statistically speaking the crisis didn't bring major changes in how much movies cost to make.
 <iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 <hr>
 
-## Correlation Between Money Related Movies and the Global Financial Crisis
+## Correlation Between Money-Related Movies and the Global Financial Crisis
 ### Are money-related movies more frequent after the Global Financial Crisis? How has the frequency of money-related movies evolved over time?
 
-Intriguing question right? We performed document retrieval using the Universal Sentence Encoder to embed the movie plots a query. Our journey through cinematic narratives led us to discover 1000 money-related movies. Now, it's your turn to explore:
+Intriguing question right? We performed document retrieval using the Universal Sentence Encoder to embed the movie plots in a query. Our journey through cinematic narratives led us to discover 1000 money-related movies. Now, it's your turn to explore:
 <br> 
 <br>
 <!-- Dropdown for selecting a query -->
@@ -465,11 +465,11 @@ Intriguing question right? We performed document retrieval using the Universal S
 Whether it’s the dramatic shifts in economic fortunes or financial crime and scandals, each selected theme offers a unique window into how money shapes stories on the silver screen.
 
 These are some of the queries that we used in order to create a rich collection of financial themes, by merging them and representing them as one. This enabled us to capture a broader spectrum of money-related narratives, ensuring that every relevant angle is represented.
-Here, you'll see the most notable themes that emerged from our analysis. You'll notice that money related words pop up a lot, which is a good sign that the model is working as expected and that we successfully retrieved movies that are related to money!
+Here, you'll see the most notable themes that emerged from our analysis. You'll notice that money-related words pop up a lot, which is a good sign that the model is working as expected and that we successfully retrieved movies that are related to money!
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f93018ee-1c12-4ce4-9140-b965a3bf1c4d" width="70%"> </center>
 
-Now that we have successfully found the movies that are money related, we group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
+Now that we have successfully found the movies that are money-related, we group and count them by year, so we can visualize to determine whether there is a trend between the Global Financial Crisis and money-related movies.
 
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -489,13 +489,13 @@ Aaaaand - CUT! That's a wrap! Roll the credits.
 By now you should have memorized all money moves and understood how money moves in the movie industry. Save up some money and get into action - do not let inflation eat them up and end up with a box office bomb! At least now you know the mysterious secrets and the perfect balance between finance and moviemaking.
 
 In case you quickly glanced over the story and would rather prefer to just watch the trailer for a fast summary, here you go:
--   Inflation is a killer! When making comparissons in different time periods, it is always necessary to adjust the values and take inflation into account. Indeed, average revenue rises each year, but so does inflation! Keep that in mind.
+-   Inflation is a killer! When making comparisons in different time periods, it is always necessary to adjust the values and take inflation into account. Indeed, average revenue rises each year, but so does inflation! Keep that in mind.
 -   You better pray that your movie is successful in a country with a strong economy and high GDP! People there have more money to spend on pleasure - going to the movies costs them nothing, but puts a roof over your head. The broader audience you achieve, especially in well-developed countries, the more money you earn. Simple as that!
 -   Do not let a small budget discourage you from making a movie! Budget is not the only factor in determining the success of a movie. Cook a perfect recipe and you might just end up with high profit and ROI and compete with the biggest blockbusters worldwide. Do not let a low rating discourage you as well - sometimes luck can be on your side and you can still earn a lot of money. Just be creative!
 -   The 2007-2008 Global Financial Crisis left a notable mark on the movie industry, affecting revenues and budgets in different ways.  During this period, we witnessed a noticeable dip in movie revenues, which mirrors the hardships of that time. Interestingly, despite the financial turmoil, the budgets showed a remarkable steadiness. This persistence in investment amidst economic struggles highlights the entertainment industry's resilience and commitment to storytelling, regardless of the financial climate. 
--   In the wake of this big crisis, moviemakers shifted their focus to money-centric dreams, giving birth to a new era of finance-inspired movies. In the current events of a new financial crisis, perhaps it's an opportune moment to consider crafting a movie centered around finance. Open up the dictionary and search some financally charged words! You might just end up with a box office hit! 
+-   In the wake of this big crisis, moviemakers shifted their focus to money-centric dreams, giving birth to a new era of finance-inspired movies. In the current events of a new financial crisis, perhaps it's an opportune moment to consider crafting a movie centered around finance. Open up the dictionary and search for some financially charged words! You might just end up with a box office hit! 
 
-So, what are you waiting for? Roll up your sleves, withdraw your savings and get into action! It's always the right time to take the camera and start taping. And remember where you learned the tips and tricks from when you are on the top! We will expect an invitation to an apero in Hollywood after your sucessful premiere!
+So, what are you waiting for? Roll up your sleeves, withdraw your savings, and get into action! It's always the right time to take the camera and start taping. And remember where you learned the tips and tricks from when you are on the top! We will expect an invitation to an apero in Hollywood after your successful premiere!
 
 ## References
 [1] Nash Information Services, LLC. (2023). Movie market summary 1995 to 2023. The Numbers. Retrieved from https://www.the-numbers.com/market/
