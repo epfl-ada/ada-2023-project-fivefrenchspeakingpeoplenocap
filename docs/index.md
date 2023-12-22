@@ -15,7 +15,7 @@ Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-e405de8e-e0dc-4680-a320-38e64a6d668b" data-elfsight-app-lazy></div>
+<div class="elfsight-app-b383e599-76dc-46a2-b076-7229d19dd0f7" data-elfsight-app-lazy></div>
 
 ## Goals and Objectives
 Ever wondered what's really going on behind those glitzy movie premieres and blockbuster earnings? Well, we're pulling back the curtain to reveal the economic drama behind the silver screen!
