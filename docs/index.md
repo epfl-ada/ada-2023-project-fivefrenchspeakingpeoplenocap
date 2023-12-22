@@ -32,7 +32,7 @@ As we journey through the glitz and glamour of the movie industry, let's take a 
 ### Understanding Inflation
 Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices. That's where the Consumer Price Index (CPI) comes into play. It's our financial time machine:
 
-<p>\( \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} \)</p>
+$$\( \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} \)$$
 
 - **Current Value:** The original revenue or budget of the movie.
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
