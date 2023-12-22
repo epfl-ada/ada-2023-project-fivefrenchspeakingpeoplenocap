@@ -9,7 +9,7 @@ title: "Money Mov(i)es"
     <h1>Money Mov(i)es</h1>
 </div> -->
 
-<hr>
+<br>
 
 Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its films will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
 
@@ -18,7 +18,7 @@ Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the
 <div class="elfsight-app-e405de8e-e0dc-4680-a320-38e64a6d668b" data-elfsight-app-lazy></div>
 
 ## Goals and Objectives
-Ever wondered what's really going on behind those glitzy movie premieres and blockbuster earnings? Well, we're pulling back the curtain to reveal the economic drama behind the silver screen! So, grab your popcorn, and let's dive into the world of movie economics.
+Ever wondered what's really going on behind those glitzy movie premieres and blockbuster earnings? Well, we're pulling back the curtain to reveal the economic drama behind the silver screen!
 
 Here's the blockbuster lineup of questions we're tackling:
 1. **Inflation and Trends in the Movie Industry**: When adjusted for inflation, how does the revenue of older movies compare to recent modern movies? Is there a notable trend in the budget of movies over the years when considering inflation?
@@ -26,6 +26,10 @@ Here's the blockbuster lineup of questions we're tackling:
 3. **Determinants of a Movie's Financial Success**: How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
 4. **Influence of the Global Financial Crisis on the Movie Industry**: Did the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
 5. **Correlation Between Money Related Movies and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
+
+So, what are you waiting for? Grab your popcorn, and let's dive into the world of movie economics!
+
+<hr>
 
 ## Inflation and Trends in the Movie Industry
 As we journey through the glitz and glamour of the movie industry, let's take a moment to adjust our lenses for inflation. It's like time-traveling with numbers! Did you know that without this adjustment, comparing the box office success of "Gone with the Wind" to "Avengers: Endgame" is like comparing apples to space shuttles? Let's dive into the real score of movie revenues when we level the playing field with inflation.
@@ -67,6 +71,8 @@ As we've delved into the world of box office revenues, we've witnessed some surp
 
 As we trace the lines of both nominal and inflation-adjusted budgets, an intriguing pattern emerges. There's a discernible upward trajectory, revealing that the investments in high-budget movies have been steadily climbing over the decades. This trend raises some questions: What drives this continuous increase in movie budgets? Is it the pursuit of more "flashy" special effects or the cost of A-list stars? Maybe it's the overall growth of the industry? As the economy grows, the movie industry seems to grow with it. We will explore this in the following section.
 
+<hr>
+
 ## Global Economic Growth and its Influence on the Movie Industry
 Gross Domestic Product (GDP) is the total cash value of everything produced within the nation - a true heartbeat of the country's economy. It's a great economic growth indicator because it tells us how healthy the economy is. When it comes to movies making bucks, GDP is a big deal. A high GDP means people have more money to spend on tickets and popcorn. This way we can see the impact that economic growth has on movie revenue, by comparing how well the two move together.
 
@@ -89,6 +95,8 @@ Now that is a very interesting picture. We see that there certainly are divergen
 <iframe src="{{ '/assets/gdp_revenue_correlation_ussr.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 After separating the correlations of the USSR, its satellite and aligned countries, and the rest of the world, we can see that the distributions are different. We also confirmed it, by the p-value of (oh, the irony) Kolmogorov-Smirnov test smaller than 0.05. It really looks like there are regional differences in how the GDP and movie revenue are related, and we have strong reasons to believe that it is a consequence of the soviet rule - thankfully, one of the most harmless ones.
+
+<hr>
 
 ## Determinants of a Movie's Financial Success
 
@@ -409,6 +417,8 @@ The gap in profits between the best and worst-rated movies is, on average, quite
 
 Interestingly, there are times when low-rated movies make more money than high-rated ones. This might be because of other factors, like the popularity of the actors. In 2011, "Warrior" had a much higher rating than "Justin Bieber: Never Say Never," but it made way less money. That's because Justin Bieber's huge fanbase turned up to watch his movie, despite it not getting great reviews. It goes to show that sometimes, what critics say doesn't always match up with what audiences want to see. Never say never to earning some cash despite a low rating!
 
+<hr>
+
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
 In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did moviemakers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
 
@@ -425,6 +435,8 @@ Next, we turn our focus to the budgets of movies in the same three periods: befo
 Our initial plot shows something interesting: movie budgets seem to be slightly higher after the crisis. However, the overlapping confidence intervals suggest that these changes might not be significant, so we run an ANOVA test, just like we did for the revenues.
 The results showed no significant difference in movie budgets across these periods. Despite the slight ups and downs we see in the plot, statistically speaking the crisis didn't bring major changes in how much movies cost to make.
 <iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
+
+<hr>
 
 ## Correlation Between Money Related Movies and the Global Financial Crisis
 ### Are money-related movies more frequent after the Global Financial Crisis? How has the frequency of money-related movies evolved over time?
@@ -466,6 +478,8 @@ The data reveals a significant increase in the production of finance-themed film
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
 Envision the 2008 financial crisis like the nuke explosion in Oppenheimer. It starts with a slow-building tension, like the calm before a storm. You witness a fiery cloud rising, a spectacle, eerily silent. Everything seems still, almost surreal. Then, suddenly, the moment of impact - BOOM! The shockwave hits with full force. This delay can be explained by the fact that on average movies take 1 to 2 years from idea to production [3].
+
+<hr>
 
 ## The End
 
