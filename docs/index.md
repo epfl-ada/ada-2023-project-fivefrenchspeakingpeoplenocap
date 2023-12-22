@@ -466,5 +466,14 @@ Such a huge event shook the whole world, so it's no surprise it popped up in mov
 Aaaaand - CUT! That's a wrap! Roll the credits.
 <div class="tenor-gif-embed" data-postid="17542149" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/clapper-board-joypixels-lights-camera-action-cut-action-gif-17542149">Clapper Board Joypixels Sticker</a>from <a href="https://tenor.com/search/clapper+board-stickers">Clapper Board Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
+By now you should have memorized all money moves and understood how money moves in the movie industry. Save up some money and get into action - do not let inflation eat them up and end up with a box office bomb! At least now you know the mysterious secrets and the perfect balance between finance and moviemaking.
 
-[Content for this section]
+In case you quickly glanced over the story and would rather prefer to just watch the trailer for a fast summary, here you go:
+-   Inflation is a killer! When making comparissons in different time periods, it is always necessary to adjust the values and take inflation into account. Indeed, average revenue rises each year, but so does inflation! Keep that in mind.
+-   You better pray that your movie is successful in a country with a strong economy and high GDP! People there have more money to spend on pleasure - going to the movies costs them nothing, but puts a roof over your head. The broader audience you achieve, especially in well-developed countries, the more money you earn. Simple as that!
+-   Do not let a small budget discourage you from making a movie! Budget is not the only factor in determining the success of a movie. Cook a perfect recipe and you might just end up with high profit and ROI and compete with the biggest blockbusters worldwide. Do not let a low rating discourage you as well - sometimes luck can be on your side and you can still earn a lot of money. Just be creative!
+-   [TODO]
+-   [TODO]
+
+So, what are you waiting for? Roll up your sleves, withdraw your savings and get into action! It's always the right time to take the camera and start taping. And remember where you learned the tips and tricks from when you are on the top! We will expect an invitation to an apero in Hollywood after your sucessful premiere!
+
