@@ -22,7 +22,7 @@ def custom_to_datetime(date_str):
             # if the date is still not parseable, return NaT
             return pd.NaT
 
-def process_release_date(df, date_column):
+def preprocess_release_date(df, date_column):
     
     # apply the custom function to the 'release_date' column
     df['release_date'] = df[date_column].apply(custom_to_datetime)
@@ -32,17 +32,9 @@ def process_release_date(df, date_column):
     df['release_month'] = df['release_date'].dt.month
     df['release_day'] = df['release_date'].dt.day
 
-    # calculate the number of days since release
-    current_date = datetime.now()
-    df['days_since_release'] = df['release_date'].apply(lambda x: (current_date - x).days if not pd.isna(x) else None)
-
     return df
 
-#_____________________________________________
-
-
-# functions to process 'languages' and 'countries' Json columns
-
+# functions to process 'languages' 
 def safe_eval(d):
     try:
         return ast.literal_eval(d)
@@ -56,11 +48,11 @@ def remove_surrogates(d):
             value.encode('utf-8')
             cleaned[key] = value
         except UnicodeEncodeError:
-            pass  # Skip any values that cause encoding errors
-    return cleaned
+            pass 
+    return cleaned    
 
-def process_column(df, column_name):
-    
+
+def preprocess_json(df, column_name):
     # apply the safe_eval function to parse the strings as dictionaries
     df[column_name + '_dict'] = df[column_name].apply(safe_eval)
 
@@ -80,17 +72,6 @@ def process_column(df, column_name):
     df.drop([column_name, column_name + '_dict', column_name + '_list'], axis=1, inplace=True)
 
     return df
-
-def preprocess_movie_data(df, column_name):
-    return process_column(df, column_name)
-
-#_____________________________________________
-
-#functions to process the genre column
-
-
-#_____________________________________________
-
 
 
 # functions to remove un wanted types and have clean data frame to train the regression model on
