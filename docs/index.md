@@ -11,7 +11,7 @@ title: "Money Mov(i)es"
 
 <br>
 
-Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its films will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
+Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its movies will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
@@ -65,7 +65,7 @@ After adjusting the revenue for inflation, the peaks in the revenue trends becom
 Ever heard of 'Love with the Proper Stranger'? Yeah, we haven't heard either, yet it beats movies like Avatar and Star Wars in revenue when adjusted for inflation. Quite an unexpected twist...
 
 ### Is there a notable trend in the budget of movies over the years when considering inflation?
-As we've delved into the world of box office revenues, we've witnessed some surprising twists. But what about the money poured into making these cinematic masterpieces? Let's turn our spotlight to the budgets of these films. When we adjust for inflation, the plot thickens: the inflation-adjusted budgets consistently outpace the nominal budgets. This isn't just a trivial detail; it's a clear indicator of how inflation has been playing a significant role in the movie-making business over time.
+As we've delved into the world of box office revenues, we've witnessed some surprising twists. But what about the money poured into making these cinematic masterpieces? Let's turn our spotlight to the budgets of these movies. When we adjust for inflation, the plot thickens: the inflation-adjusted budgets consistently outpace the nominal budgets. This isn't just a trivial detail; it's a clear indicator of how inflation has been playing a significant role in the movie-making business over time.
 
 <iframe src="{{ '/assets/budget_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -109,7 +109,7 @@ First, let's take a look at the distribution of the budget and revenue and see h
 
 <iframe src="{{ '/assets/q3_budget_vs_revenue.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plots, it is clear that throwing in some extra bucks can make a big difference in rising the revenue. However, money is not infinite, and scoring a high revenue comes at scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
+Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plot, it is clear that throwing in some extra bucks can make a big difference in rising the revenue. However, money is not infinite, and scoring a high revenue comes at scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/90f160cf-4a03-4ae9-aa03-ebb278856086" width="50%"> </center>
 
@@ -224,9 +224,8 @@ Now that we have a better understanding of the profit, let's take a look at how 
 
 Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
 
-Year with the highest profit: 1965
-
-Year with the lowest profit: 1961
+- Year with the highest profit: 1965
+- Year with the lowest profit: 1961
 
 The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as they year with the highest average profit. Just 4 years before, we have the lowest average, declaring 1961 as the sad year for the movie industry.
 
@@ -311,7 +310,7 @@ The first observation is that these movies do not match with the highest-profit 
 
 ### Ratings
 
-Let's briefly dive into movie ratings and how they tie into a film's financial success. We're opting for IMDb ratings as a source for a movie's quality and popularity. While we won't focus too heavily on this part and pretend we are Sherlock Holmes, we will still aim to unveil some intriguing observations through our exploratory data analysis. Moreover, movie ratings are given after the movie is released, so they can't be used to predict the movie's financial success. It would be completely biased!
+Let's briefly dive into movie ratings and how they tie into a movies's financial success. We're opting for IMDb ratings as a source for a movie's quality and popularity. While we won't focus too heavily on this part and pretend we are Sherlock Holmes, we will still aim to unveil some intriguing observations through our exploratory data analysis. Moreover, movie ratings are given after the movie is released, so they can't be used to predict the movie's financial success. It would be completely biased!
 
 Here is a quick overview of the ratings distribution on the plot below.
 
@@ -323,7 +322,7 @@ Can we somehow connect the inital budget to the rating? Should I expect to get a
 
 <iframe src="{{ '/assets/q3_budget_vs_rating.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Unfortunately, the answer might disappoint you. The horizontal regression line is as flat as it can get. Even if you borrow the entire net worth of Elon Musk, getting out of a 6 is a nearly impossible job, you are still going to be an average moviemaker.
+Unfortunately, the answer might disappoint you. The horizontal regression line is as flat as it can get. Even if you borrow the entire net worth of Elon Musk, getting out of a 6 is a really hard job, you still might end up being an average moviemaker.
 
 #### Ratings Over Time
 
@@ -450,8 +449,6 @@ Intriguing question right? We performed document retrieval using the Universal S
     <!-- JavaScript will populate this -->
 </select>
 
-Whether it’s the dramatic shifts in economic fortunes or financial crime and scandals, each selected theme offers a unique window into how money shapes stories on the silver screen.
-
 <!-- Table to display results -->
 <table id="resultsTable">
     <thead>
@@ -464,6 +461,9 @@ Whether it’s the dramatic shifts in economic fortunes or financial crime and s
         <!-- JavaScript will populate this -->
     </tbody>
 </table>
+
+Whether it’s the dramatic shifts in economic fortunes or financial crime and scandals, each selected theme offers a unique window into how money shapes stories on the silver screen.
+
 These are some of the queries that we used in order to create a rich collection of financial themes, by merging them and representing them as one. This enabled us to capture a broader spectrum of money-related narratives, ensuring that every relevant angle is represented.
 Here, you'll see the most notable themes that emerged from our analysis. You'll notice that words like 'money', 'wealthy', 'poor', 'pay', and 'gold' pop up a lot.
 
@@ -473,7 +473,7 @@ Now that we have successfully found the movies that are money related, we group 
 
 <iframe src="{{ '/assets/money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-The data reveals a significant increase in the production of finance-themed films after 2008. To understand this trend, we will examine how the proportion of money-related movies changed each year. This analysis aims to determine whether the increase is due to a genuine interest in financial narratives or simply a reflection of an overall rise in movie production. We're focusing on the post-2008 era because we're curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period, other financial ups and downs might muddle the picture we're trying to get.
+The data reveals a significant increase in the production of finance-themed movies after 2008. To understand this trend, we will examine how the proportion of money-related movies changed each year. This analysis aims to determine whether the increase is due to a genuine interest in financial narratives or simply a reflection of an overall rise in movie production. We're focusing on the post-2008 era because we're curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period, other financial ups and downs might muddle the picture we're trying to get.
 
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -493,7 +493,7 @@ In case you quickly glanced over the story and would rather prefer to just watch
 -   You better pray that your movie is successful in a country with a strong economy and high GDP! People there have more money to spend on pleasure - going to the movies costs them nothing, but puts a roof over your head. The broader audience you achieve, especially in well-developed countries, the more money you earn. Simple as that!
 -   Do not let a small budget discourage you from making a movie! Budget is not the only factor in determining the success of a movie. Cook a perfect recipe and you might just end up with high profit and ROI and compete with the biggest blockbusters worldwide. Do not let a low rating discourage you as well - sometimes luck can be on your side and you can still earn a lot of money. Just be creative!
 -   The 2007-2008 Global Financial Crisis left a notable mark on the movie industry, affecting revenues and budgets in different ways.  During this period, we witnessed a noticeable dip in movie revenues, which mirrors the hardships of that time. Interestingly, despite the financial turmoil, the budgets showed a remarkable steadiness. This persistence in investment amidst economic struggles highlights the entertainment industry's resilience and commitment to storytelling, regardless of the financial climate. 
--   In the wake of this big crisis, filmmakers shifted their focus to money-centric dreams, giving birth to a new era of finance-inspired movies. In the current events of a new financial crisis, perhaps it's an opportune moment to consider crafting a movie centered around finance. Open up the dictionary and search some financally charged words! You might just end up with a box office hit! 
+-   In the wake of this big crisis, moviemakers shifted their focus to money-centric dreams, giving birth to a new era of finance-inspired movies. In the current events of a new financial crisis, perhaps it's an opportune moment to consider crafting a movie centered around finance. Open up the dictionary and search some financally charged words! You might just end up with a box office hit! 
 
 So, what are you waiting for? Roll up your sleves, withdraw your savings and get into action! It's always the right time to take the camera and start taping. And remember where you learned the tips and tricks from when you are on the top! We will expect an invitation to an apero in Hollywood after your sucessful premiere!
 
