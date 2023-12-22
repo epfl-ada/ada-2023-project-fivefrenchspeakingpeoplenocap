@@ -464,7 +464,7 @@ We can see a clear spike after the year of 2008. Next, we will compare the frequ
 Such a huge event shook the whole world, so it's no surprise it popped up in movies too. But here's something interesting – there's a bit of a delay, like 1-2 years, before we see a real jump in these money-themed movies. This delay might be because it takes a movie about 1-2 years from start to finish. It's like the financial crisis left its mark on the movie world, but it took a little while to show up on the big screen.
 ## The End
 Aaaaand - CUT! That's a wrap! Roll the credits.
-<div class="tenor-gif-embed" data-postid="17542149" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/clapper-board-joypixels-lights-camera-action-cut-action-gif-17542149">Clapper Board Joypixels Sticker</a>from <a href="https://tenor.com/search/clapper+board-stickers">Clapper Board Stickers</a></div> <script type="text/javascript"></script>
+<div class="tenor-gif-embed" data-postid="17542149" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/clapper-board-joypixels-lights-camera-action-cut-action-gif-17542149">Clapper Board Joypixels Sticker</a>from <a href="https://tenor.com/search/clapper+board-stickers">Clapper Board Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 
 [Content for this section]
