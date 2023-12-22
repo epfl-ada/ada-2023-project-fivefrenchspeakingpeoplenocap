@@ -465,7 +465,7 @@ Intriguing question right? We performed document retrieval using the Universal S
 Whether it’s the dramatic shifts in economic fortunes or financial crime and scandals, each selected theme offers a unique window into how money shapes stories on the silver screen.
 
 These are some of the queries that we used in order to create a rich collection of financial themes, by merging them and representing them as one. This enabled us to capture a broader spectrum of money-related narratives, ensuring that every relevant angle is represented.
-Here, you'll see the most notable themes that emerged from our analysis. You'll notice that words like 'money', 'wealthy', 'poor', 'pay', and 'gold' pop up a lot.
+Here, you'll see the most notable themes that emerged from our analysis. You'll notice that money related words pop up a lot, which is a good sign that the model is working as expected and that we successfully retrieved movies that are related to money!
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f93018ee-1c12-4ce4-9140-b965a3bf1c4d" width="70%"> </center>
 
