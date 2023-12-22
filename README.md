@@ -1,7 +1,6 @@
 # Money Mov(i)es
-## Data Story
-Read our data story [here](https://epfl-ada.github.io/ada-2023-project-fivefrenchspeakingpeoplenocap/).
-
+## 🎬Data Story
+- Check out our [datastory](https://epfl-ada.github.io/ada-2023-project-fivefrenchspeakingpeoplenocap/)!
 
 ## 💰Abstract
 Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the world of movies, where popcorn isn't the only thing popping – so are economic trends! Ever wondered if classic blockbusters like "Gone with the Wind" would give modern marvels a run for their money if we time-travel their earnings to today? Spoiler alert: when you toss inflation into the mix, some oldies might just top the charts. Zooming out, our world's economic rollercoaster seems to have a VIP seat for the movie industry. Does a country's wallet size, measured in GDP, dictate if its films will be box office hits or misses? Interestingly, this cinematic puzzle might have more twists than a thriller movie! Grab your 3D glasses, as we embark on this data-driven adventure, blending the art of cinema with the science of analysis!
@@ -34,17 +33,17 @@ Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the
 First, we use the CPI to adjust movie budget and revenue values for inflation, allowing for a fair comparison across movies from different years. We then create line graphs to visually represent the trend of movie revenues and budgets over time. After splitting the movies into two groups, old and new, we test the normality in order to choose the right test for comparing the two groups. Since they do not follow a normal distribution, we perform a Mann–Whitney U test in order to see if there is a difference between the median values of the two groups.
 
 - **Q2: Global Economic Growth and its Influence on the Movie Industry**
-We analyze the correlation between global economic indicators (GDP) and movie gross revenues by calculating Pearson correlation coefficients. Additionally, we compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
+We analyze the correlation between global economic indicators (GDP) and movie gross revenues by calculating Pearson and Spearman correlation coefficients. Additionally, we compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
 
 - **Q3: Determinants of a Movie's Financial Success**
-Here we explore how different factors impact the movie’s financial success. First, we calculate the movie’s profit and return of investment as metrics of the success of a movie. We perform a Pearson and Spearman statistics test in order to quantify the relationship between budget and revenue. We use ANOVA to see if there are differences in the mean profit for the movies released in different years.
+Here we explore how different factors impact the movie’s financial success. Furthermore, we calculate the movie’s profit and return of investment as additional metrics of the success of a movie. We perform statistical tests in order to quantify the relationship between these factors and the metrics of the financial success of a movie. 
 
 - **Q4: Influence of the Global Financial Crisis on the Movie Industry**
-In order to evaluate the impact of global events (like the 2007-2008 financial crisis) on movie budgets and revenues we will compare data before, during, and after the event.
-We’ll use statistical tests to determine if the differences (if any) pre- and post-event are significant.
+In order to evaluate the impact of the 2007-2008 financial crisis on the movie budgets and revenues we compare data before, during, and after the event.
+We use statistical tests to determine if the differences (if any) pre- and post-event are significant.
 
 - **Q5: Correlation Between Money Related Movies and the Global Financial Crisis**
-We analyze the movie plot summaries for the frequency of money-related vocabulary using natural language processing (NLP) techniques in order to determine if there's a correlation between the frequency of certain words in movie plots and box office success. Additionally, we compare the frequency of such words in movies made before and after the global financial crisis.
+We first clean the movies' plots, load a pretrained embedding model, and transform the processed plots to embeddings. We then retrieve the top-K plots, using queries that captures the "money-related movies" theme, embed the query using the same pretrained model and calculate cosine similarity between the query and all the plots. This way we extract the movies that are money related, and we compare the frequency of such movies released before and after the global financial crisis.
 
 - **Q6: Predictive Analysis of Movie Revenue**
 We use regression-based machine learning models like linear regression and random forest, to predict movie revenues based on the movies’s features. To ensure the model's reliability, we use cross-validation. 
