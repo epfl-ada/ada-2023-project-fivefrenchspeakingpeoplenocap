@@ -30,7 +30,7 @@ Here's the blockbuster lineup of questions we're tackling:
 As we journey through the glitz and glamour of the movie industry, let's take a moment to adjust our lenses for inflation. It's like time-traveling with numbers! Did you know that without this adjustment, comparing the box office success of "Gone with the Wind" to "Avengers: Endgame" is like comparing apples to space shuttles? Let's dive into the real score of movie revenues when we level the playing field with inflation.
 
 ### Understanding Inflation
-Imagine buying a movie ticket in the 1960s. Now, fast forward to today's prices. That's where the Consumer Price Index (CPI) comes into play. It's our financial time machine:
+Imagine buying a movie ticket in the 1960s. Now, fast-forward to today's prices. That's where the Consumer Price Index (CPI) comes into play. It's our financial time machine:
 
 $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Current Year}} \right) \times \text{CPI Base Year} $$
 
@@ -45,8 +45,8 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 
 <iframe src="{{ '/assets/revenue_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-The plot above shows the movies with highest revenues for each year. As we can see, the maximum revenue per year is increasing over time. So, to accurately compare movie revenues over time, we need to account for inflation. Without this adjustment, comparing movies from different eras becomes misleading. Older movies, which might have been very successful, will seem less profitable due to the lower ticket prices at their time. 
-After adjusting the revenue for inflation, the peaks in the revenue trends become more pronounced. We can see that some older movies actually have higher inflation-adjusted revenues than newer ones, which wouldn't be apparent if we only looked at nominal revenues. It's like watching a plot twist (pun intended). Some classics are giving modern blockbusters a run for their money! Now, let's look at the top 5 movies with highest revenues.
+The plot above shows the movies with the highest revenues for each year. As we can see, the maximum revenue per year is increasing over time. So, to accurately compare movie revenues over time, we need to account for inflation. Without this adjustment, comparing movies from different eras becomes misleading. Older movies, which might have been very successful, will seem less profitable due to the lower ticket prices at their time. 
+After adjusting the revenue for inflation, the peaks in the revenue trends become more pronounced. We can see that some older movies actually have higher inflation-adjusted revenues than newer ones, which wouldn't be apparent if we only looked at nominal revenues. It's like watching a plot twist (pun intended). Some classics are giving modern blockbusters a run for their money! Now, let's look at the top 5 movies with the highest revenues.
 
 <table>
   <tr><th>Title</th><th>Year</th><th>Revenue</th><th>Revenue Adjusted</th></tr>
@@ -81,7 +81,7 @@ To try and unravel whether this common sense logic is true, we can move from the
 
 <iframe src="{{ '/assets/gdp_revenue_correlation.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. Whats even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly. Let's take a closer look.
+Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. What's even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly. Let's take a closer look.
 
 > **Fun Fact:** *Star Wars* made it to Hungarian cinemas almost two years after it's official release.
 
@@ -198,7 +198,7 @@ Let's discover some movies that have made it to the top and bottom of the profit
 </table>
 <br>
 
-You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
+You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of, and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
 > **Fun fact:**  The movies that were unprofitable and lost money are called <u>box office bombs</u>!
 
@@ -225,7 +225,7 @@ But, does the year of release for a movie statistically and significantly influe
 
 $$H_0$$: *The average profit is the same for all years.*
 
-What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend [2]. Another assumption is the increased production costs, especially for visual effects. Nowadays the visual effects are much fancier and might cost more, so this would increase the budget, and potentially decrease the profit.
+What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend [2]. Another assumption is the increased production costs, especially for visual effects. Nowadays, the visual effects are much fancier and might cost more, so this would increase the budget, and potentially decrease the profit.
 
 <center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/2f3c6633-7707-4799-982d-0487ea334d46" width="70%"> </center>
 
@@ -253,7 +253,7 @@ $$ ROI = \left( \frac{revenue - budget}{budget} \right) \times 100 $$
 
 We can claim that ROI is a more representative metric of the success as it is a relative measure of financial success or failure in terms of percentage of the original investment. Wouldn't it be nice to earn a lot of money despite being tight on cash and quadriple your initial investment?
 
-Let's take a look at the movies with higest ROI. Will they be the same movies as the ones with highest profit?
+Let's take a look at the movies with higest ROI. Will they be the same movies as the ones with the highest profit?
 
 <table>
   <thead>
@@ -409,7 +409,7 @@ The gap in profits between the best and worst-rated movies is, on average, quite
 Interestingly, there are times when low-rated movies make more money than high-rated ones. This might be because of other factors, like the popularity of the actors. In 2011, "Warrior" had a much higher rating than "Justin Bieber: Never Say Never," but it made way less money. That's because Justin Bieber's huge fanbase turned up to watch his movie, despite it not getting great reviews. It goes to show that sometimes, what critics say doesn't always match up with what audiences want to see. Never say never to earning some cash despite a low rating!
 
 ## Influence of the 2007-2008 Global Financial Crisis on the Movie Industry
-In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did movie makers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
+In 2007 and 2008, the world faced a big financial crisis, shaking economies everywhere. This crisis even reached into the world of movies, an industry known for big spending and earnings. We will now look at how this financial crisis might have changed how much money was spent on making movies and how much they earned. Did moviemakers have to cut down their costs? Did people stop going to the movies as much because they had less money to spend? Let's find out how this big financial event impacted the world of movies, both in making them and in how much they earned.
 
 ### Did the 2007-2008 Global Financial Crisis influence movies' revenues?
 To uncover how the 2007-2008 Global Financial Crisis might have affected movie revenues, we'll look at the movies in three parts: movies released before, during, and after the crisis. Think of it as a three-act story in the world of movies.
