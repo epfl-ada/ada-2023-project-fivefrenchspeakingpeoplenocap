@@ -38,7 +38,7 @@ $$ \text{Adjusted Value} = \left( \frac{\text{Current Value}}{\text{CPI in Curre
 - **CPI in Current Year:** The Consumer Price Index in the year the movie was released.
 - **CPI Base Year:** The Consumer Price Index in the base year (2012).
 
-> **Fun Fact:** On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53.
+> **Fun Fact:** On average, a movie ticket in 1960 cost around $0.69, while the average movie ticket price in 2023 is $10.53 [1].
 
 ### When adjusted for inflation, how does the revenue of older movies compare to recent modern movies?
 <div id="revenueChart"></div>
@@ -225,7 +225,7 @@ But, does the year of release for a movie statistically and significantly influe
 
 $$H_0$$: *The average profit is the same for all years.*
 
-What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend. Another assumption is the increased production costs, especially for visual effects. Nowadays the visual effects are much more complex and might cost more, so this would increase the budget, and potentially decrease the profit.
+What we observed is a p-value smaller than 0.05, so we throw the null hypothesis in the trash and welcome the alternative one with open hands. This means, average profits are statistically different for different years. In addition, we performed a Spearman correlation test which further cleared the doubts and revealed a negative correleation between the year and the profit. Sad news, but profit is decreasing over time. However, we cannot clearly separate the factors that influence the decrease in profit for now. One assumption is that the decline in cinema attendance, is partly due to the rise of streaming platforms like Netflix, and this is contributing to bearish trend [2]. Another assumption is the increased production costs, especially for visual effects. Nowadays the visual effects are much more complex and might cost more, so this would increase the budget, and potentially decrease the profit.
 
 
 #### Profit Outliers
@@ -463,7 +463,7 @@ The data reveals a significant increase in the production of finance-themed film
 
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-Envision the 2008 financial crisis like the nuke explosion in Oppenheimer. It starts with a slow-building tension, like the calm before a storm. You witness a fiery cloud rising, a spectacle, eerily silent. Everything seems still, almost surreal. Then, suddenly, the moment of impact - BOOM! The shockwave hits with full force. This delay can be explained by the fact that on average movies take 1 to 2 years from idea to production.
+Envision the 2008 financial crisis like the nuke explosion in Oppenheimer. It starts with a slow-building tension, like the calm before a storm. You witness a fiery cloud rising, a spectacle, eerily silent. Everything seems still, almost surreal. Then, suddenly, the moment of impact - BOOM! The shockwave hits with full force. This delay can be explained by the fact that on average movies take 1 to 2 years from idea to production [3].
 
 Aaaaand - CUT! That's a wrap! Roll the credits.
 <div class="tenor-gif-embed" data-postid="17542149" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/clapper-board-joypixels-lights-camera-action-cut-action-gif-17542149">Clapper Board Joypixels Sticker</a>from <a href="https://tenor.com/search/clapper+board-stickers">Clapper Board Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
@@ -480,4 +480,6 @@ In case you quickly glanced over the story and would rather prefer to just watch
 So, what are you waiting for? Roll up your sleves, withdraw your savings and get into action! It's always the right time to take the camera and start taping. And remember where you learned the tips and tricks from when you are on the top! We will expect an invitation to an apero in Hollywood after your sucessful premiere!
 
 ## References
-[TODO]
+[1] Nash Information Services, LLC. (2023). Movie market summary 1995 to 2023. The Numbers. Retrieved from https://www.the-numbers.com/market/
+[2] Chhabria, A. (2017, March 23). The rise of Netflix and the fall of Blockbuster. Medium. Retrieved from https://scashwin.medium.com/the-rise-of-netflix-and-the-fall-of-blockbuster-29e5457339b7
+[3] Doe, J. (2023, March 5). How long does it take to film a movie? Backstage. Retrieved from https://www.backstage.com/magazine/article/how-long-does-it-take-to-film-a-movie-76171/
