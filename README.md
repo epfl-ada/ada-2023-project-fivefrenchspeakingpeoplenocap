@@ -1,6 +1,6 @@
 # Money Mov(i)es
 ## Data Story
-Visit our website [here](https://epfl-ada.github.io/ada-2023-project-fivefrenchspeakingpeoplenocap/).
+Read our data story [here](https://epfl-ada.github.io/ada-2023-project-fivefrenchspeakingpeoplenocap/).
 
 
 ## 💰Abstract
@@ -10,9 +10,9 @@ Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the
 1. **Inflation and Trends in the Movie Industry**: When adjusted for inflation, how does the revenue of older movies compare to recent modern movies? Is there a notable trend in the budget of movies over the years when considering inflation?
 2. **Global Economic Growth and its Influence on the Movie Industry**: What is the relationship between global economic indicators (like GDP) and movie's gross revenue? Are there regional differences?
 3. **Determinants of a Movie's Financial Success**: How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
-4. **Influence of Global Events on the Movie Industry**: How have significant global events, such as the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
-5. **Correlation Between Movie Content and the Global Financial Crisis**: Are money-related movies more frequent before or after the Global Financial Crisis?
-6. **Predictive Analysis of Movie Revenue**: Can a regression model using variables like budget, GDP, country, runtime, release year and so on, effectively predict a movie's revenue? 
+4. **Influence of the Global Financial Crisis on the Movie Industry**: Did the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
+5. **Correlation Between Movie Content and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
+6. **Predictive Analysis of Movie Revenue**: Can a regression model effectively predict a movie's revenue? 
 
 ## 📊Proposed additional datasets 
 - [**IMDB Datasets**](https://developer.imdb.com/non-commercial-datasets/): We utilized two specific datasets from IMDB: `title.basics.tsv` and `title.ratings.tsv`, which include data for 10 million movies. These were merged with the CMU Movies dataset, by using the movie title, runtime, and release year as a key. This will enrich our primary dataset with the ratings for the movies, which will later be used for exploring the correlation between movie ratings and revenue. 
@@ -34,7 +34,7 @@ Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the
 First, we use the CPI to adjust movie budget and revenue values for inflation, allowing for a fair comparison across movies from different years. We then create line graphs to visually represent the trend of movie revenues and budgets over time. After splitting the movies into two groups, old and new, we test the normality in order to choose the right test for comparing the two groups. Since they do not follow a normal distribution, we perform a Mann–Whitney U test in order to see if there is a difference between the median values of the two groups.
 
 - **Q2: Global Economic Growth and its Influence on the Movie Industry**
-We’ll analyze the correlation between global economic indicators (GDP) and movie gross revenues by calculating Pearson correlation coefficients. Additionally, we will compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
+We analyze the correlation between global economic indicators (GDP) and movie gross revenues by calculating Pearson correlation coefficients. Additionally, we compare the movie industry's growth in different countries or regions to understand differences in the context of global economic growth.
 
 - **Q3: Determinants of a Movie's Financial Success**
 Here we explore how different factors impact the movie’s financial success. First, we calculate the movie’s profit and return of investment as metrics of the success of a movie. We perform a Pearson and Spearman statistics test in order to quantify the relationship between budget and revenue. We use ANOVA to see if there are differences in the mean profit for the movies released in different years.
@@ -44,12 +44,12 @@ In order to evaluate the impact of global events (like the 2007-2008 financial c
 We’ll use statistical tests to determine if the differences (if any) pre- and post-event are significant.
 
 - **Q5: Correlation Between Movie Content and the Global Financial Crisis**
-We’ll analyze the movie plot summaries for the frequency of money-related vocabulary using natural language processing (NLP) techniques in order to determine if there's a correlation between the frequency of certain words in movie plots and box office success. Additionally, we will compare the frequency of such words in movies made before and after the global financial crisis.
+We analyze the movie plot summaries for the frequency of money-related vocabulary using natural language processing (NLP) techniques in order to determine if there's a correlation between the frequency of certain words in movie plots and box office success. Additionally, we compare the frequency of such words in movies made before and after the global financial crisis.
 
 - **Q6: Predictive Analysis of Movie Revenue**
-We’ll use regression-based machine learning models like linear regression or random forest, to predict movie revenues based on the movies’s features. To ensure the model's reliability, we can use cross-validation. Additionally, we can do feature importance analysis to determine which variables are the most important predictors of revenue.
+We use regression-based machine learning models like linear regression and random forest, to predict movie revenues based on the movies’s features. To ensure the model's reliability, we use cross-validation. 
 
-## 🗓️Proposed timeline
+## 🗓️Executed timeline
 ```
 
 ├── 30.10.23 - 05.11.23 - Decide on idea and research questions
@@ -79,29 +79,29 @@ We’ll use regression-based machine learning models like linear regression or r
 <thead>
   <tr>
     <th class="tg-0lax">Teammate</th>
-    <th class="tg-0lax">Tasks</th>
+    <th class="tg-0lax">Contribution</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0lax">Matea </td>
-    <td class="tg-0lax"> Loading and cleaning the data set <br> Write the README  <br> Q1 and Q5 </td>
+    <td class="tg-0lax"> Loading and cleaning the dataset <br> Develop the datastory webpage <br> Q1 and Q4 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Stefan </td>
-    <td class="tg-0lax"> Loading and cleaning the data set <br> Develop the datastory webpage <br> Q1 and Q6 </td>
+    <td class="tg-0lax"> Loading and cleaning the dataset <br> Develop the datastory webpage <br> Q1 and Q5 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Bojan </td>
-    <td class="tg-0lax"> Create meaningful visualizations <br> Develop the datastory webpage <br> Q3 and Q4 </td>
+    <td class="tg-0lax"> Create meaningful visualizations <br> Develop the datastory webpage <br> Q3 and Q5 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Mikolaj </td>
-    <td class="tg-0lax"> Loading and cleaning the data set <br> Code and text revision <br> Q2 and Q5 </td>
+    <td class="tg-0lax"> Loading and cleaning the dataset <br> Code and text revision <br> Q2 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Wiam </td>
-    <td class="tg-0lax"> Develop the datastory webpage <br> Write the README  <br> Q2 and Q4 </td>
+    <td class="tg-0lax"> Code and text revision <br> Write the README <br> Q6 </td>
   </tr>
 </tbody>
 </table>
