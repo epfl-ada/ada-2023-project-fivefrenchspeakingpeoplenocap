@@ -23,7 +23,7 @@ Here's the blockbuster lineup of questions we're tackling:
 - **Global Economic Growth and its Influence on the Movie Industry:** What is the relationship between global economic indicators (like GDP) and movie's gross revenue? Are there regional differences?
 - **Determinants of a Movie's Financial Success:** How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
 - **Influence of the Global Financial Crisis on the Movie Industry:** How have significant global events, such as the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
-- **Correlation Between Movie Content and Financial Success:** Does the frequency of money-related words in movie plot summaries correlate with box office success? Are they more frequent after the Global Financial Crisis?
+- **Correlation Between Money Related Movies and the Global Financial Crisis:** Does the frequency of money-related words in movie plot summaries correlate with box office success? Are they more frequent after the Global Financial Crisis?
 - **Predictive Analysis of Movie Revenue:** Can a regression model using variables like budget, GDP, country, runtime, and release year effectively predict a movie's revenue?
 
 [TODO] coordinate with readme, and the questions below
@@ -426,7 +426,7 @@ Our initial plot shows something interesting: movie budgets seem to be slightly 
 The results showed no significant difference in movie budgets across these periods. Despite the slight ups and downs we see in the plot, statistically speaking the crisis didn't bring major changes in how much movies cost to make.
 <iframe src="{{ '/assets/average_budget_periods.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
-## Correlation Between Movie Content and the Global Financial Crisis
+## Correlation Between Money Related Movies and the Global Financial Crisis
 ### Are money-related movies more frequent after the Global Financial Crisis?
 Intriguing question right? We performed document retrieval using the Universal Sentence Encoder to embed the movie plots a query. Our journey through cinematic narratives led us to discover 1000 money-related movies. Now, it's your turn to explore:
 <br> 
