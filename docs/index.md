@@ -227,9 +227,9 @@ What we observed is a p-value smaller than 0.05, so we throw the null hypothesis
 
 
 #### Profit Outliers
-What were the chances that a movie made an outstanding profit in the past? Give it a try:
+What were the chances that a movie made an outstanding profit in the past?
 <form id="inputForm">
-  <label for="textInput">Shoot your shot:</label>
+  <label for="textInput">Give it a try:</label>
   <input type="text" id="textInput" name="textInput">
 
   <!-- Submit button -->

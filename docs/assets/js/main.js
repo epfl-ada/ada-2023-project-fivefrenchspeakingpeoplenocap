@@ -11,12 +11,16 @@ function checkInput() {
   // Check if the input is correct
   if (userInput === expectedValue || userInput === expectedValue2) {
     document.getElementById("result").innerHTML = "Wow! You guessed it!";
-    p_hidden.style.display = "block";
-    p_shown.style.display = "none";
+    if (p_hidden.style.display === "none") {
+        p_hidden.style.display = "block";
+        p_shown.style.display = "none";
+    }
   } else {
     document.getElementById("result").innerHTML = "Nope. Check the answer below!";
-    p_hidden.style.display = "none";
-    p_shown.style.display = "block";
+    if (p_hidden.style.display === "none") {
+        p_hidden.style.display = "block";
+        p_shown.style.display = "none";
+    }
   }
 }
 
