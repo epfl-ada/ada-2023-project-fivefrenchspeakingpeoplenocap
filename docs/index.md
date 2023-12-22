@@ -102,7 +102,7 @@ First, let's take a look at the distribution of the budget and revenue and see h
 
 Even though the budget is not the only deciding factor, it is one of the key ingredients in the recipe for financial success. Given the plots, it is clear that throwing in some extra bucks can make a big difference in rising the revenue. However, money is not infinite, and scoring a high revenue comes at scary risk - moviemaker elites do not want to waste money! It is then of huge importance to accordingly spread the budget to optimize the other ingredients. You wouldn't want to spend millions on hiring Amber Heard, when you could cast Johnny Depp instead, right?
 
-<center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/f0f2f9ed-f594-4f15-879a-49af0c123cae" width="50%"> </center>
+<center> <img src="https://github.com/epfl-ada/ada-2023-project-fivefrenchspeakingpeoplenocap/assets/58995762/90f160cf-4a03-4ae9-aa03-ebb278856086" width="50%"> </center>
 
 In order to measure the real financial success of a movie, we will introduce two additional metrics given the budget and revenue: Profit and Return of Investment. 
 
