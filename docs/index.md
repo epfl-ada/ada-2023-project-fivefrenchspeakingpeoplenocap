@@ -461,7 +461,7 @@ Now that we have successfully found the movies that are money related, we group 
 
 TODO: Change this paragraph!
 
-The data reveals a significant increase in the production of finance-themed films after 2008. To understand this trend, we will examine how the proportion of money-related movies changed each year. This analysis aims to determine whether the increase is due to a genuine interest in financial narratives or simply a reflection of an overall rise in movie production. We're focusing on the post-2008 era because we're curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period other financial ups and downs might muddle the picture we're trying to get.
+The data reveals a significant increase in the production of finance-themed films after 2008. To understand this trend, we will examine how the proportion of money-related movies changed each year. This analysis aims to determine whether the increase is due to a genuine interest in financial narratives or simply a reflection of an overall rise in movie production. We're focusing on the post-2008 era because we're curious about how the big financial crash back then might've influenced the kind of money stories hitting the big screen. If we look at a larger period, other financial ups and downs might muddle the picture we're trying to get.
 
 <iframe src="{{ '/assets/proportion_money_movies_over_time.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
