@@ -39,7 +39,7 @@ We analyze the correlation between global economic indicators (GDP) and movie gr
 - **Q3: Determinants of a Movie's Financial Success**
 Here we explore how different factors impact the movie’s financial success. First, we calculate the movie’s profit and return of investment as metrics of the success of a movie. We perform a Pearson and Spearman statistics test in order to quantify the relationship between budget and revenue. We use ANOVA to see if there are differences in the mean profit for the movies released in different years.
 
-- **Q4: Influence of Global Events on the Movie Industry**
+- **Q4: Influence of the Global Financial Crisis on the Movie Industry**
 In order to evaluate the impact of global events (like the 2007-2008 financial crisis) on movie budgets and revenues we will compare data before, during, and after the event.
 We’ll use statistical tests to determine if the differences (if any) pre- and post-event are significant.
 
