@@ -215,7 +215,8 @@ Now that we have a better understanding of the profit, let's take a look at how 
 
 Stepping back and looking at the big picture, it seems as if the average profit is taking a bit of a dip over time. It's not really bumpy, and the numbers are smoothing out. There are some significant outliers, so we decide to show you the years with the highest and lowest average profit.
 
-Year with the highest profit: 1965</br>
+Year with the highest profit: 1965
+
 Year with the lowest profit: 1961
 
 The 90s were tough, but "The Sound of Music" was tougher, boosting 1965 as they year with the highest average profit. Just 4 years before, we have the lowest average, declaring 1961 as the sad year for the movie industry.
@@ -241,7 +242,7 @@ What were the chances that a movie made an outstanding profit in the past?
 </form>
 
 <p id="shown_p">Please click the button even if you do not wish to guess the chance, in order to read a small section about the profit outliers.</p>
-<p id="hidden_p" style="display: none"> There are in total 171 movies (red dots) that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only **2.38%** of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time. </p>
+<p id="hidden_p" style="display: none"> There are in total 171 movies that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only <b>2.38%</b> of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time. </p>
 
 ### Return of Investment (ROI)
 In addition to profit, we will also take a look at another metric - return of investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:
