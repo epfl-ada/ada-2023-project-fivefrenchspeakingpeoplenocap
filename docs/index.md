@@ -227,14 +227,9 @@ What we observed is a p-value smaller than 0.05, so we throw the null hypothesis
 
 
 #### Profit Outliers
-What were the chances that a movie made an outstanding profit in the past? We will do a box-plot and try to characterize the outliers.
-
-There are in total 171 movies (red dots) that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only **2.38%** of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time.
-
-[TODO]
-
+What were the chances that a movie made an outstanding profit in the past? Give it a try:
 <form id="inputForm">
-  <label for="textInput">Enter Text:</label>
+  <label for="textInput">Shoot your shot:</label>
   <input type="text" id="textInput" name="textInput">
 
   <!-- Submit button -->
@@ -243,6 +238,9 @@ There are in total 171 movies (red dots) that are above the 95th percentile in t
   <!-- Display result -->
   <p id="result"></p>
 </form>
+
+<p id="shown_p">Please click the button even if you do not wish to guess the chance, in order to read a small section about the profit outliers.</p>
+<p id="hidden_p" style="display: none"> There are in total 171 movies (red dots) that are above the 95th percentile in terms of profit. These giant movies throw under the bus the other movies when it comes to comparing money. Interestingly enough these movies represent only **2.38%** of the total available movies. The question now is can we translate this chance into the future? It's a hard question to answer, but if we assume that our dataset is equivallently representative of the entire movie collection, we can estimate that the number is in similar proportion, perhaps even less as profit is decreasing over time. </p>
 
 ### Return of Investment (ROI)
 In addition to profit, we will also take a look at another metric - return of investment (ROI). ROI is the percentage of the original investment that was gained or lost. It is calculated as follows:

@@ -1,15 +1,22 @@
 function checkInput() {
   // Get the input value
   const userInput = document.getElementById("textInput").value;
+  const p_hidden = document.getElementById("hidden_p");
+  const p_shown = document.getElementById("shown_p");
 
   // Compare with the expected value (change "YourExpectedValue" to the correct value)
   const expectedValue = "2";
+  const expectedValue2 = "2%";
 
   // Check if the input is correct
-  if (userInput === expectedValue) {
-    document.getElementById("result").innerHTML = "Correct";
+  if (userInput === expectedValue || userInput === expectedValue2) {
+    document.getElementById("result").innerHTML = "Wow! You guessed it!";
+    p_hidden.style.display = "block";
+    p_shown.style.display = "none";
   } else {
-    document.getElementById("result").innerHTML = "Incorrect";
+    document.getElementById("result").innerHTML = "Nope. Check the answer below!";
+    p_hidden.style.display = "none";
+    p_shown.style.display = "block";
   }
 }
 
