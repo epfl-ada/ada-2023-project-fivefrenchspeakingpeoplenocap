@@ -83,7 +83,7 @@ To try and unravel whether this common sense logic is true, we can move from the
 
 Now that is a very interesting picture. We see that there certainly are divergences from how the worlds GDP correlates with movie revenue. Whats even more interesting - correlation is still quite high for developing countries in Africa, but the whole post-soviet region glows green. Is this a cold war stigma? Between 1960 and 1989, when the Iron Curtain was still casting shadow, most of the western movies were either completely unavaible in this part of the world or their screenings were delayed significantly. Let's take a closer look.
 
-> **Fun Fact Again:** *Star Wars* made it to Hungarian cinemas almost two years after it's official release.
+> **Fun Fact:** *Star Wars* made it to Hungarian cinemas almost two years after it's official release.
 
 <iframe src="{{ '/assets/gdp_revenue_correlation_ussr.html' | relative_url }}" width="100%" height="500" frameborder="0"></iframe>
 
@@ -200,7 +200,7 @@ Let's discover some movies that have made it to the top and bottom of the profit
 
 You have probably been crying while watching "Titanic", having nightmares while running away from the dinosaurs from "Jurassic Park", or forget everything you have studied for before an exam like Dory from "Finding Nemo". These movies are in the top-5 list of highest grossing movies which gained an enormous and exceptional revenue compared to their budget and revenue gained by other movies. Contradictingly, the movies in the bottom-5 list are unheard of and we cannot make cool references as before. These movies are less known and are significantly underperforming in terms of profit when compared to the other movies.
 
-> **Fun fact AGAIN:**  The movies that were unprofitable and lost money are called <u>box office bombs</u>!
+> **Fun fact:**  The movies that were unprofitable and lost money are called <u>box office bombs</u>!
 
 Now, check this out! Can you notice anything else? Look at their ratings - the top dogs have an impressive average rating on IMDB, a cool **8.36**. People love them. But those struggling movies down below? Not so much. Their average rating is a meh **5.28**. Ouch! We will take a greater look into movie ratings a litter later on in this datastory, stay tuned!
 
@@ -230,7 +230,7 @@ What we observed is a p-value smaller than 0.05, so we throw the null hypothesis
 
 #### Profit Outliers
 What were the chances that a movie made an outstanding profit in the past?
-Hint: In a galaxy far, far away, the dark side of the Force follows a strict principle, guiding the fate of the Sith. This rule, as ancient as the stars themselves, dictates the number of masters and apprentices in the shadows.
+> Hint: In a galaxy far, far away, the dark side of the Force follows a strict principle, guiding the fate of the Sith. This rule, as ancient as the stars themselves, dictates the number of masters and apprentices in the shadows.
 <form id="inputForm">
   <label for="textInput">Give it a try:</label>
   <input type="text" id="textInput" name="textInput">
