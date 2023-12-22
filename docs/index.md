@@ -22,9 +22,11 @@ Here's the blockbuster lineup of questions we're tackling:
 - **Inflation and Trends in the Movie Industry:** When adjusted for inflation, how does the revenue of older movies compare to recent modern movies? Is there a notable trend in the budget of movies over the years when considering inflation?
 - **Global Economic Growth and its Influence on the Movie Industry:** What is the relationship between global economic indicators (like GDP) and movie's gross revenue? Are there regional differences?
 - **Determinants of a Movie's Financial Success:** How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
-- **Influence of Global Events on the Movie Industry:** How have significant global events, such as the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
+- **Influence of the Global Financial Crisis on the Movie Industry:** How have significant global events, such as the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
 - **Correlation Between Movie Content and Financial Success:** Does the frequency of money-related words in movie plot summaries correlate with box office success? Are they more frequent after the Global Financial Crisis?
 - **Predictive Analysis of Movie Revenue:** Can a regression model using variables like budget, GDP, country, runtime, and release year effectively predict a movie's revenue?
+
+[TODO] coordinate with readme, and the questions below
 
 ## Inflation and Trends in the Movie Industry
 As we journey through the glitz and glamour of the movie industry, let's take a moment to adjust our lenses for inflation. It's like time-traveling with numbers! Did you know that without this adjustment, comparing the box office success of "Gone with the Wind" to "Avengers: Endgame" is like comparing apples to space shuttles? Let's dive into the real score of movie revenues when we level the playing field with inflation.
