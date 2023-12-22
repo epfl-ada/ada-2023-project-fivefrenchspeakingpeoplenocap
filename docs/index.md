@@ -230,7 +230,7 @@ What we observed is a p-value smaller than 0.05, so we throw the null hypothesis
 
 #### Profit Outliers
 What were the chances that a movie made an outstanding profit in the past?
-> Hint: In a galaxy far, far away, the dark side of the Force follows a strict principle, guiding the fate of the Sith. This rule, as ancient as the stars themselves, dictates the number of masters and apprentices in the shadows.
+> Hint: In a galaxy far, far away, the dark side of the Force follows a strict principle, guiding the fate of the Sith. This rule, as ancient as the stars themselves, dictates the number of masters and apprentices in the shadows. They call it the rule of ?
 <form id="inputForm">
   <label for="textInput">Give it a try:</label>
   <input type="text" id="textInput" name="textInput">
