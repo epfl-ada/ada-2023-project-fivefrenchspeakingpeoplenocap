@@ -11,7 +11,7 @@ Lights, Camera, Analysis! Roll out the red carpet, because we're diving into the
 2. **Global Economic Growth and its Influence on the Movie Industry**: What is the relationship between global economic indicators (like GDP) and movie's gross revenue? Are there regional differences?
 3. **Determinants of a Movie's Financial Success**: How do factors like budget, runtime, and movie ratings impact the movie's revenue or profitability?
 4. **Influence of the Global Financial Crisis on the Movie Industry**: Did the Global Financial Crisis in 2007-2008, influenced movie budgets and revenues?
-5. **Correlation Between Movie Content and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
+5. **Correlation Between Money Related Movies and the Global Financial Crisis**: How has the frequency of money-related movies evolved over time? Are they more frequent before or after the Global Financial Crisis?
 6. **Predictive Analysis of Movie Revenue**: Can a regression model effectively predict a movie's revenue? 
 
 ## 📊Proposed additional datasets 
@@ -43,7 +43,7 @@ Here we explore how different factors impact the movie’s financial success. Fi
 In order to evaluate the impact of global events (like the 2007-2008 financial crisis) on movie budgets and revenues we will compare data before, during, and after the event.
 We’ll use statistical tests to determine if the differences (if any) pre- and post-event are significant.
 
-- **Q5: Correlation Between Movie Content and the Global Financial Crisis**
+- **Q5: Correlation Between Money Related Movies and the Global Financial Crisis**
 We analyze the movie plot summaries for the frequency of money-related vocabulary using natural language processing (NLP) techniques in order to determine if there's a correlation between the frequency of certain words in movie plots and box office success. Additionally, we compare the frequency of such words in movies made before and after the global financial crisis.
 
 - **Q6: Predictive Analysis of Movie Revenue**
