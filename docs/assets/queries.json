@@ -1,0 +1,112 @@
+{
+    "Rise and Fall in Finance": [
+        {
+            "title": "The Bank",
+            "similarity_score": 0.2691549062728882
+        },
+        {
+            "title": "Changing the Game",
+            "similarity_score": 0.22785639762878418
+        },
+        {
+            "title": "EMI - Liya Hai Toh Chukana Parega",
+            "similarity_score": 0.22432151436805725
+        },
+        {
+            "title": "The First 9\u00bd Weeks",
+            "similarity_score": 0.22077031433582306
+        },
+        {
+            "title": "Bank Bang",
+            "similarity_score": 0.21826982498168945
+        }
+    ],
+    "Financial Crime and Scandal": [
+        {
+            "title": "Dinner at the Ritz",
+            "similarity_score": 0.40973493456840515
+        },
+        {
+            "title": "Whirlpool",
+            "similarity_score": 0.40710657835006714
+        },
+        {
+            "title": "Money",
+            "similarity_score": 0.388366162776947
+        },
+        {
+            "title": "Busting",
+            "similarity_score": 0.38121113181114197
+        },
+        {
+            "title": "Railroaded!",
+            "similarity_score": 0.37936973571777344
+        }
+    ],
+    "Wealth and Lifestyle Transformation": [
+        {
+            "title": "Where the Penguins Fly",
+            "similarity_score": 0.3162950277328491
+        },
+        {
+            "title": "Paree, Paree",
+            "similarity_score": 0.3089886009693146
+        },
+        {
+            "title": "L'Innocente",
+            "similarity_score": 0.2834830582141876
+        },
+        {
+            "title": "Prince of Bel Air",
+            "similarity_score": 0.2802369296550751
+        },
+        {
+            "title": "Living the Dream",
+            "similarity_score": 0.279100239276886
+        }
+    ],
+    "Rags to Riches Stories": [
+        {
+            "title": "Loyalties",
+            "similarity_score": 0.38373684883117676
+        },
+        {
+            "title": "Paree, Paree",
+            "similarity_score": 0.3740384876728058
+        },
+        {
+            "title": "Love, Life and Laughter",
+            "similarity_score": 0.373494952917099
+        },
+        {
+            "title": "Shakuntala",
+            "similarity_score": 0.35798460245132446
+        },
+        {
+            "title": "Black Gold",
+            "similarity_score": 0.3538591265678406
+        }
+    ],
+    "Impact of Wealth on Society": [
+        {
+            "title": "The End of Poverty?",
+            "similarity_score": 0.3546234965324402
+        },
+        {
+            "title": "Male Companion",
+            "similarity_score": 0.2859562337398529
+        },
+        {
+            "title": "Sakshatkara",
+            "similarity_score": 0.2677149176597595
+        },
+        {
+            "title": "Net Worth",
+            "similarity_score": 0.2615262269973755
+        },
+        {
+            "title": "Paree, Paree",
+            "similarity_score": 0.2585996687412262
+        }
+    ]
+}

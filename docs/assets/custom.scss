@@ -1,38 +1,194 @@
 ---
 ---
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lora', sans-serif; 
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #fff; 
     color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 0.8cm;
+    font-size: 20px;
 }
 
 .container {
-    background: #fff;
     padding: 2em;
     margin: 2em auto;
+    padding-top: 0;
+    margin-top: 0;
     max-width: 800px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fff;
 }
 
 footer {
     text-align: center;
     padding: 1em;
+    background: #f4f4f4;
 }
 
+table {
+  width: 80%; 
+  margin: auto; 
+  border-collapse: collapse; 
+  font-family: 'Lora', sans-serif; 
+}
+
+th, td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: left; 
+  font-size: 18px
+}
+
+th {
+  background-color: #f2f2f2; 
+  color: black; 
+}
+
+tr:nth-child(even) {background-color: #f9f9f9;} 
+
+tr:hover {background-color: #ddd;} 
+
 .story-header {
-    background: url('images/bober.png') no-repeat center center;
+    background: url('images/background.png') no-repeat center center;
     background-size: cover;
-    height: 300px;
+    height: 300px; 
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-
+}
     h1 {
-        margin: 0;
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+        margin: 0; 
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.6); 
     }
+
+#fallingDollars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+.dollar {
+    width: 100px; 
+    height: 40px;  
+    background-size: cover;
+    position: absolute;
+    background-image: url('images/dolar.png'); 
+    background-size: cover;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% { top: -100px; }
+    100% { top: 100vh; }
+}
+
+/* General form styling */
+#inputForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#inputForm label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+#inputForm input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#inputForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#inputForm button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 0.5em 10px;
+  quotes: "\\201C""\\201D""\\2018""\\2019";
+}
+
+.tablebutton {
+      padding: 10px 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin: 0 auto;
+      max-width: 100%;
+      display: block;
+    }
+
+.tablebutton:hover {
+      background-color: #45a049;
+    }
+
+
+#querySelect {
+        font-size: 16px;         
+        color: #333;            
+        background-color: #fff; 
+        border: 1px solid #ddd; 
+        padding: 5px 10px;      
+        border-radius: 5px;    
+        cursor: pointer;        
+        outline: none;         
+    }
+
+
+    #querySelect option {
+        padding: 5px;          
+        background-color: #f9f9f9; 
+    }
+
+    #querySelect option:hover {
+        background-color: #eaeaea;
+    }
+
+.tenor-gif-embed {
+    margin: 0 auto;
+    max-width: 100%;
 }
